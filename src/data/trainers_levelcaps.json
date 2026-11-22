@@ -1,0 +1,2618 @@
+[
+  {
+    "id": "falkner",
+    "rawTitle": "Falkner",
+    "name": "Pegaso (Falkner)",
+    "badge": "Medalla Céfiro",
+    "specialtyType": "Volador",
+    "region": "Johto",
+    "role": "Líder de Gimnasio 1",
+    "levelCap": 15,
+    "team": [
+      {
+        "species": "Doduo",
+        "level": 12,
+        "heldItem": "Ninguno",
+        "attacks": [
+          "Aerial ace",
+          "Roost",
+          "Quick attack",
+          "growl"
+        ],
+        "notes": ""
+      },
+      {
+        "species": "Farfetch’d",
+        "level": 12,
+        "heldItem": "Ninguno",
+        "attacks": [
+          "Aerial ace",
+          "Roost",
+          "Fury attack",
+          "Poison Jab"
+        ],
+        "notes": ""
+      },
+      {
+        "species": "Chatot",
+        "level": 12,
+        "heldItem": "Ninguno",
+        "attacks": [
+          "Uproar",
+          "Chatter",
+          "Agility",
+          "Roost"
+        ],
+        "notes": ""
+      },
+      {
+        "species": "Swablu",
+        "level": 14,
+        "heldItem": "Power Herb",
+        "attacks": [
+          "Aerial ace",
+          "Roost",
+          "Mirror Move",
+          "SolarBeam"
+        ],
+        "notes": ""
+      },
+      {
+        "species": "Murkrow",
+        "level": 14,
+        "heldItem": "Ninguno",
+        "attacks": [
+          "Aerial ace",
+          "Roost",
+          "Haze",
+          "Faint attack"
+        ],
+        "notes": ""
+      },
+      {
+        "species": "Pidgeotto",
+        "level": 15,
+        "heldItem": "Oran Berry",
+        "attacks": [
+          "Aerial ace",
+          "Roost",
+          "Tackle",
+          "Mud-Slap"
+        ],
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "id": "bugsy",
+    "rawTitle": "Bugsy",
+    "name": "Antón (Bugsy)",
+    "badge": "Medalla Colmena",
+    "specialtyType": "Bicho",
+    "region": "Johto",
+    "role": "Líder de Gimnasio 2",
+    "levelCap": 21,
+    "team": [
+      {
+        "species": "Butterfree",
+        "level": 18,
+        "heldItem": "Damp Rock",
+        "attacks": [
+          "U-turn",
+          "Rain dance",
+          "Confusion",
+          "Air Cutter"
+        ],
+        "notes": ""
+      },
+      {
+        "species": "Beedrill",
+        "level": 18,
+        "heldItem": "Ninguno",
+        "attacks": [
+          "U-turn",
+          "Twineedle",
+          "Sludge Bomb",
+          "Cut"
+        ],
+        "notes": ""
+      },
+      {
+        "species": "Pinsir",
+        "level": 19,
+        "heldItem": "Ninguno",
+        "attacks": [
+          "Vital Throw",
+          "Fury Cutter",
+          "Knock Off",
+          "Bind"
+        ],
+        "notes": ""
+      },
+      {
+        "species": "Yanma",
+        "level": 18,
+        "heldItem": "Ninguno",
+        "attacks": [
+          "U-turn",
+          "Detect",
+          "Air Cutter",
+          "AncientPower"
+        ],
+        "notes": ""
+      },
+      {
+        "species": "Heracross",
+        "level": 19,
+        "heldItem": "Damp Rock",
+        "attacks": [
+          "Aerial ace",
+          "Counter",
+          "Bug Bite",
+          "Rain Dance"
+        ],
+        "notes": ""
+      },
+      {
+        "species": "Scyther",
+        "level": 21,
+        "heldItem": "Sitrus Berry",
+        "attacks": [
+          "U-turn",
+          "Wing Attack",
+          "Quick Attack",
+          "Swords Dance"
+        ],
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "id": "whitney",
+    "rawTitle": "Whitney",
+    "name": "Blanca (Whitney)",
+    "badge": "Medalla Planicie",
+    "specialtyType": "Normal",
+    "region": "Johto",
+    "role": "Líder de Gimnasio 3",
+    "levelCap": 24,
+    "team": [
+      {
+        "species": "Lickitung",
+        "level": 21,
+        "heldItem": "Ninguno",
+        "attacks": [
+          "Power Whip",
+          "Disable",
+          "Body Slam",
+          "Attract"
+        ],
+        "notes": ""
+      },
+      {
+        "species": "Lopunny",
+        "level": 21,
+        "heldItem": "Ninguno",
+        "attacks": [
+          "Attract",
+          "Jump Kick",
+          "Agility",
+          "Dizzy Punch"
+        ],
+        "notes": ""
+      },
+      {
+        "species": "Wigglytuff",
+        "level": 22,
+        "heldItem": "Ninguno",
+        "attacks": [
+          "Ice Beam",
+          "Wish",
+          "Psychic",
+          "Attract"
+        ],
+        "notes": ""
+      },
+      {
+        "species": "Stantler",
+        "level": 21,
+        "heldItem": "Ninguno",
+        "attacks": [
+          "Hypnosis",
+          "Stomp",
+          "Zen Headbutt",
+          "Attract"
+        ],
+        "notes": ""
+      },
+      {
+        "species": "Clefable",
+        "level": 22,
+        "heldItem": "Sitrus Berry",
+        "attacks": [
+          "Water Pulse",
+          "Reflect",
+          "Charge Beam",
+          "Attract"
+        ],
+        "notes": ""
+      },
+      {
+        "species": "Miltank",
+        "level": 24,
+        "heldItem": "Lum Berry",
+        "attacks": [
+          "Milk Drink",
+          "Body Slam",
+          "Rollout",
+          "Attract"
+        ],
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "id": "lyra-battle-1",
+    "rawTitle": "Lyra Battle 1",
+    "name": "Lira (Lyra) - Combate 1",
+    "badge": null,
+    "specialtyType": "Variado",
+    "region": "Johto",
+    "role": "Combate de Historia",
+    "levelCap": 23,
+    "team": [
+      {
+        "species": "Nidorina",
+        "level": 21,
+        "heldItem": "Ninguno",
+        "attacks": [
+          "Double kick",
+          "Blizzard",
+          "Aerial Ace",
+          "Thunder"
+        ],
+        "notes": ""
+      },
+      {
+        "species": "Marill",
+        "level": 21,
+        "heldItem": "Ninguno",
+        "attacks": [
+          "BubbleBeam",
+          "Double Team",
+          "Blizzard",
+          "Focus Punch"
+        ],
+        "notes": ""
+      },
+      {
+        "species": "Roselia",
+        "level": 21,
+        "heldItem": "Ninguno",
+        "attacks": [
+          "Magical Leaf",
+          "Leech Seed",
+          "Grass Knot",
+          "Stun Spore"
+        ],
+        "notes": ""
+      },
+      {
+        "species": "Ninetales",
+        "level": 23,
+        "heldItem": "Sitrus Berry",
+        "attacks": [
+          "Flamethrower",
+          "Safequard",
+          "Confuse Ray",
+          "Ominous Wind"
+        ],
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "id": "ethan-battle-1",
+    "rawTitle": "Ethan Battle 1",
+    "name": "Eco (Ethan) - Combate 1",
+    "badge": null,
+    "specialtyType": "Variado",
+    "region": "Johto",
+    "role": "Combate de Historia",
+    "levelCap": 23,
+    "team": [
+      {
+        "species": "Nidorino",
+        "level": 21,
+        "heldItem": "Ninguno",
+        "attacks": [
+          "Double kick",
+          "Blizzard",
+          "Peck",
+          "Thunder"
+        ],
+        "notes": ""
+      },
+      {
+        "species": "Marill",
+        "level": 21,
+        "heldItem": "Ninguno",
+        "attacks": [
+          "BubbleBeam",
+          "Double Team",
+          "Blizzard",
+          "Focus Punch"
+        ],
+        "notes": ""
+      },
+      {
+        "species": "Tangela",
+        "level": 21,
+        "heldItem": "Ninguno",
+        "attacks": [
+          "Sleep Powder",
+          "Growth",
+          "Grass Knot",
+          "SolarBeam"
+        ],
+        "notes": ""
+      },
+      {
+        "species": "Arcanine",
+        "level": 23,
+        "heldItem": "Sitrus Berry",
+        "attacks": [
+          "Heat Wave",
+          "Rock Smash",
+          "Roar",
+          "Iron Head"
+        ],
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "id": "morty",
+    "rawTitle": "Morty",
+    "name": "Morti (Morty)",
+    "badge": "Medalla Niebla",
+    "specialtyType": "Fantasma",
+    "region": "Johto",
+    "role": "Líder de Gimnasio 4",
+    "levelCap": 29,
+    "team": [
+      {
+        "species": "Duskull",
+        "level": 27,
+        "heldItem": "Ninguno",
+        "attacks": [
+          "Shadow Ball",
+          "Confuse Ray",
+          "Will-O-Wisp",
+          "Shadow Sneak"
+        ],
+        "notes": ""
+      },
+      {
+        "species": "Shuppet",
+        "level": 27,
+        "heldItem": "Ninguno",
+        "attacks": [
+          "Shadow Ball",
+          "Icy Wind",
+          "Swagger",
+          "Embargo"
+        ],
+        "notes": ""
+      },
+      {
+        "species": "Haunter",
+        "level": 28,
+        "heldItem": "Ninguno",
+        "attacks": [
+          "Shadow Ball",
+          "Hypnosis",
+          "Dream Eater",
+          "Mean Look"
+        ],
+        "notes": ""
+      },
+      {
+        "species": "Misdreavus",
+        "level": 28,
+        "heldItem": "Ninguno",
+        "attacks": [
+          "Shadow Ball",
+          "Power Gem",
+          "Will-O-Wisp",
+          "Mean Look"
+        ],
+        "notes": ""
+      },
+      {
+        "species": "Sableye",
+        "level": 28,
+        "heldItem": "Ninguno",
+        "attacks": [
+          "Recover",
+          "Shadow Claw",
+          "Torment",
+          "Aerial Ace"
+        ],
+        "notes": ""
+      },
+      {
+        "species": "Gengar",
+        "level": 29,
+        "heldItem": "Sitrus Berry",
+        "attacks": [
+          "Hypnosis",
+          "Shadow Ball",
+          "Thunderbolt",
+          "Giga Drain"
+        ],
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "id": "eusine",
+    "rawTitle": "Eusine",
+    "name": "Eusine",
+    "badge": null,
+    "specialtyType": "Psíquico / Eléctrico",
+    "region": "Johto",
+    "role": "Combate de Historia",
+    "levelCap": 34,
+    "team": [
+      {
+        "species": "Hypno",
+        "level": 34,
+        "heldItem": "Ninguno",
+        "attacks": [
+          "Psychic",
+          "Hypnosis",
+          "Focus Blast",
+          "Nasty Plot"
+        ],
+        "notes": ""
+      },
+      {
+        "species": "Rotom",
+        "level": 34,
+        "heldItem": "Ninguno",
+        "attacks": [
+          "Thunderbolt",
+          "Shadow Ball",
+          "Will-O-Wisp",
+          "Double Team"
+        ],
+        "notes": ""
+      },
+      {
+        "species": "Electrode",
+        "level": 34,
+        "heldItem": "Ninguno",
+        "attacks": [
+          "Screech",
+          "SonicBoom",
+          "Thunder",
+          "Explosion"
+        ],
+        "notes": ""
+      },
+      {
+        "species": "Jumpluff",
+        "level": 34,
+        "heldItem": "Ninguno",
+        "attacks": [
+          "Leech Seed",
+          "Cotton Spore",
+          "Reflect",
+          "Aerial Ace"
+        ],
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "id": "chuck",
+    "rawTitle": "Chuck",
+    "name": "Aníbal (Chuck)",
+    "badge": "Medalla Tormenta",
+    "specialtyType": "Lucha",
+    "region": "Johto",
+    "role": "Líder de Gimnasio 5",
+    "levelCap": 35,
+    "team": [
+      {
+        "species": "Primeape",
+        "level": 34,
+        "heldItem": "Ninguno",
+        "attacks": [
+          "Substitute",
+          "Focus Punch",
+          "ThunderPunch",
+          "Rock Slide"
+        ],
+        "notes": ""
+      },
+      {
+        "species": "Breloom",
+        "level": 33,
+        "heldItem": "Ninguno",
+        "attacks": [
+          "Spore",
+          "Mach Punch",
+          "Bullet Seed",
+          "Focus Punch"
+        ],
+        "notes": ""
+      },
+      {
+        "species": "Hitmonlee",
+        "level": 34,
+        "heldItem": "Ninguno",
+        "attacks": [
+          "Fake Out",
+          "Rock Slide",
+          "Bounce",
+          "Hi Jump Kick"
+        ],
+        "notes": ""
+      },
+      {
+        "species": "Hitmonchan",
+        "level": 34,
+        "heldItem": "Ninguno",
+        "attacks": [
+          "Substitute",
+          "Focus Punch",
+          "Fire Punch",
+          "Ice Punch"
+        ],
+        "notes": ""
+      },
+      {
+        "species": "Hariyama",
+        "level": 33,
+        "heldItem": "Ninguno",
+        "attacks": [
+          "Fake Out",
+          "Whirlwind",
+          "Cross Chop",
+          "Earthquake"
+        ],
+        "notes": ""
+      },
+      {
+        "species": "Poliwrath",
+        "level": 35,
+        "heldItem": "Sitrus Berry",
+        "attacks": [
+          "Hypnosis",
+          "Focus Punch",
+          "Surf",
+          "Ice Punch"
+        ],
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "id": "jasmine",
+    "rawTitle": "Jasmine",
+    "name": "Yasmina (Jasmine)",
+    "badge": "Medalla Mineral",
+    "specialtyType": "Acero",
+    "region": "Johto",
+    "role": "Líder de Gimnasio 6",
+    "levelCap": 40,
+    "team": [
+      {
+        "species": "Metang",
+        "level": 37,
+        "heldItem": "Ninguno",
+        "attacks": [
+          "Earthquake",
+          "Metal Claw",
+          "Psychic",
+          "Bullet Punch"
+        ],
+        "notes": ""
+      },
+      {
+        "species": "Magneton",
+        "level": 39,
+        "heldItem": "Ninguno",
+        "attacks": [
+          "Thunderbolt",
+          "Flash Cannon",
+          "Magnet Rise",
+          "Thunder Wave"
+        ],
+        "notes": ""
+      },
+      {
+        "species": "Forretress",
+        "level": 38,
+        "heldItem": "Ninguno",
+        "attacks": [
+          "Gyro Ball",
+          "Payback",
+          "Explosion",
+          "Bug Bite"
+        ],
+        "notes": ""
+      },
+      {
+        "species": "Skarmory",
+        "level": 39,
+        "heldItem": "Ninguno",
+        "attacks": [
+          "Steel Wing",
+          "Fly",
+          "Toxic",
+          "Protect"
+        ],
+        "notes": ""
+      },
+      {
+        "species": "Bronzong",
+        "level": 38,
+        "heldItem": "Damp Rock",
+        "attacks": [
+          "Hypnosis",
+          "Rain Dance",
+          "Psychic",
+          "Gyro Ball"
+        ],
+        "notes": ""
+      },
+      {
+        "species": "Steelix",
+        "level": 40,
+        "heldItem": "Sitrus Berry",
+        "attacks": [
+          "Earthquake",
+          "Iron Tail",
+          "Stone Edge",
+          "Screech"
+        ],
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "id": "pryce",
+    "rawTitle": "Pryce",
+    "name": "Fredo (Pryce)",
+    "badge": "Medalla Glaciar",
+    "specialtyType": "Hielo",
+    "region": "Johto",
+    "role": "Líder de Gimnasio 7",
+    "levelCap": 44,
+    "team": [
+      {
+        "species": "Abomasnow",
+        "level": 42,
+        "heldItem": "Ninguno",
+        "attacks": [
+          "Blizzard",
+          "Seed Bomb",
+          "Focus Blast",
+          "Ice Shard"
+        ],
+        "notes": ""
+      },
+      {
+        "species": "Dewgong",
+        "level": 43,
+        "heldItem": "Chesto Berry",
+        "attacks": [
+          "Sleep Talk",
+          "Blizzard",
+          "Surf",
+          "Rest"
+        ],
+        "notes": ""
+      },
+      {
+        "species": "Lapras",
+        "level": 43,
+        "heldItem": "Sitrus Berry",
+        "attacks": [
+          "Perish Song",
+          "Blizzard",
+          "Thunderbolt",
+          "Whirlpool"
+        ],
+        "notes": ""
+      },
+      {
+        "species": "Froslass",
+        "level": 42,
+        "heldItem": "Ninguno",
+        "attacks": [
+          "Blizzard",
+          "Shadow Ball",
+          "Thunderbolt",
+          "Ice Shard"
+        ],
+        "notes": ""
+      },
+      {
+        "species": "Glalie",
+        "level": 42,
+        "heldItem": "Ninguno",
+        "attacks": [
+          "Spikes",
+          "Ice Shard",
+          "Explosion",
+          "Blizzard"
+        ],
+        "notes": ""
+      },
+      {
+        "species": "Mamoswine",
+        "level": 44,
+        "heldItem": "White Herb",
+        "attacks": [
+          "Earthquake",
+          "Stone Edge",
+          "Superpower",
+          "Ice Shard"
+        ],
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "id": "underground-rival-if-player-choose-cyndaquil",
+    "rawTitle": "Underground Rival (if player choose cyndaquil)",
+    "name": "Rival (Subterráneo Trigal - vs Cyndaquil)",
+    "badge": null,
+    "specialtyType": "Rival",
+    "region": "Johto",
+    "role": "Combate de Rival",
+    "levelCap": 46,
+    "team": [
+      {
+        "species": "Honckrow",
+        "level": 45,
+        "heldItem": "Ninguno",
+        "attacks": [
+          "Drill Peck",
+          "Toxic",
+          "Protect",
+          "Roost"
+        ],
+        "notes": ""
+      },
+      {
+        "species": "Magmar",
+        "level": 44,
+        "heldItem": "Ninguno",
+        "attacks": [
+          "Flamethrower",
+          "Will-O-Wisp",
+          "Psychic",
+          "Focus Blast"
+        ],
+        "notes": ""
+      },
+      {
+        "species": "Elactabuzz",
+        "level": 44,
+        "heldItem": "Ninguno",
+        "attacks": [
+          "Thunderbolt",
+          "Thunder Wave",
+          "Psychic",
+          "Focus Blast"
+        ],
+        "notes": ""
+      },
+      {
+        "species": "Gengar",
+        "level": 45,
+        "heldItem": "Ninguno",
+        "attacks": [
+          "Shadow Ball",
+          "Giga Drain",
+          "Thunder",
+          "Hypnosis"
+        ],
+        "notes": ""
+      },
+      {
+        "species": "Alakazam",
+        "level": 45,
+        "heldItem": "Ninguno",
+        "attacks": [
+          "Psychic",
+          "Shock Wave",
+          "Energy Ball",
+          "Thunder Wave"
+        ],
+        "notes": ""
+      },
+      {
+        "species": "Feraligatr",
+        "level": 46,
+        "heldItem": "Ninguno",
+        "attacks": [
+          "Waterfall",
+          "Crunch",
+          "Ice Fang",
+          "Swords Dance"
+        ],
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "id": "underground-rival-if-player-choose-chikorita",
+    "rawTitle": "Underground Rival (if player choose chikorita)",
+    "name": "Rival (Subterráneo Trigal - vs Chikorita)",
+    "badge": null,
+    "specialtyType": "Rival",
+    "region": "Johto",
+    "role": "Combate de Rival",
+    "levelCap": 46,
+    "team": [
+      {
+        "species": "Honckrow",
+        "level": 45,
+        "heldItem": "Ninguno",
+        "attacks": [
+          "Drill Peck",
+          "Toxic",
+          "Protect",
+          "Roost"
+        ],
+        "notes": ""
+      },
+      {
+        "species": "Seadra",
+        "level": 44,
+        "heldItem": "Ninguno",
+        "attacks": [
+          "Surf",
+          "Focus Energy",
+          "Ice Beam",
+          "DragonBreath"
+        ],
+        "notes": ""
+      },
+      {
+        "species": "Elactabuzz",
+        "level": 44,
+        "heldItem": "Ninguno",
+        "attacks": [
+          "Thunderbolt",
+          "Thunder Wave",
+          "Psychic",
+          "Focus Blast"
+        ],
+        "notes": ""
+      },
+      {
+        "species": "Gengar",
+        "level": 45,
+        "heldItem": "Ninguno",
+        "attacks": [
+          "Shadow Ball",
+          "Giga Drain",
+          "Thunder",
+          "Hypnosis"
+        ],
+        "notes": ""
+      },
+      {
+        "species": "Alakazam",
+        "level": 45,
+        "heldItem": "Ninguno",
+        "attacks": [
+          "Psychic",
+          "Shock Wave",
+          "Energy Ball",
+          "Thunder Wave"
+        ],
+        "notes": ""
+      },
+      {
+        "species": "Typhlosion",
+        "level": 46,
+        "heldItem": "Ninguno",
+        "attacks": [
+          "Flamethrower",
+          "Focus Blast",
+          "Rock Slide",
+          "Shadow Claw"
+        ],
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "id": "underground-rival-if-player-choose-totodile",
+    "rawTitle": "Underground Rival (if player choose totodile)",
+    "name": "Rival (Subterráneo Trigal - vs Totodile)",
+    "badge": null,
+    "specialtyType": "Rival",
+    "region": "Johto",
+    "role": "Combate de Rival",
+    "levelCap": 46,
+    "team": [
+      {
+        "species": "Honckrow",
+        "level": 45,
+        "heldItem": "Ninguno",
+        "attacks": [
+          "Drill Peck",
+          "Toxic",
+          "Protect",
+          "Roost"
+        ],
+        "notes": ""
+      },
+      {
+        "species": "Seadra",
+        "level": 44,
+        "heldItem": "Ninguno",
+        "attacks": [
+          "Surf",
+          "Focus Energy",
+          "Ice Beam",
+          "DragonBreath"
+        ],
+        "notes": ""
+      },
+      {
+        "species": "Magmar",
+        "level": 44,
+        "heldItem": "Ninguno",
+        "attacks": [
+          "Flamethrower",
+          "Will-O-Wisp",
+          "Focus Blast",
+          "Psychic"
+        ],
+        "notes": ""
+      },
+      {
+        "species": "Gengar",
+        "level": 45,
+        "heldItem": "Ninguno",
+        "attacks": [
+          "Shadow Ball",
+          "Giga Drain",
+          "Thunder",
+          "Hypnosis"
+        ],
+        "notes": ""
+      },
+      {
+        "species": "Alakazam",
+        "level": 45,
+        "heldItem": "Ninguno",
+        "attacks": [
+          "Psychic",
+          "Shock Wave",
+          "Energy Ball",
+          "Thunder Wave"
+        ],
+        "notes": ""
+      },
+      {
+        "species": "Meganium",
+        "level": 46,
+        "heldItem": "Ninguno",
+        "attacks": [
+          "Seed Bomb",
+          "Reflect",
+          "Swords Dance",
+          "Body Slam"
+        ],
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "id": "proton-radio-tower",
+    "rawTitle": "Proton (Radio Tower)",
+    "name": "Protón (Torre Radio)",
+    "badge": null,
+    "specialtyType": "Team Rocket",
+    "region": "Johto",
+    "role": "Ejecutivo Team Rocket",
+    "levelCap": 46,
+    "team": [
+      {
+        "species": "Electrode",
+        "level": 45,
+        "heldItem": "Ninguno",
+        "attacks": [
+          "Rain Dance",
+          "Thunder",
+          "Explosion",
+          "Protect"
+        ],
+        "notes": ""
+      },
+      {
+        "species": "Weezing",
+        "level": 45,
+        "heldItem": "Ninguno",
+        "attacks": [
+          "Thunder",
+          "Sludge Bomb",
+          "Psybeam",
+          "Will-O-Wisp"
+        ],
+        "notes": ""
+      },
+      {
+        "species": "Cacturne",
+        "level": 45,
+        "heldItem": "Ninguno",
+        "attacks": [
+          "Needle Arm",
+          "Sucker Punch",
+          "Focus Blast",
+          "ThunderPunch"
+        ],
+        "notes": ""
+      },
+      {
+        "species": "Tauros",
+        "level": 45,
+        "heldItem": "Ninguno",
+        "attacks": [
+          "Take Down",
+          "Zen Headbutt",
+          "Earthquake",
+          "Payback"
+        ],
+        "notes": ""
+      },
+      {
+        "species": "Camerupt",
+        "level": 45,
+        "heldItem": "Ninguno",
+        "attacks": [
+          "Earth Power",
+          "Fire Blast",
+          "Protect",
+          "Stone Edge"
+        ],
+        "notes": ""
+      },
+      {
+        "species": "Crobat",
+        "level": 46,
+        "heldItem": "Sitrus Berry",
+        "attacks": [
+          "Cross Poison",
+          "Brave Bird",
+          "Heat Wave",
+          "X-Scissor"
+        ],
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "id": "clair",
+    "rawTitle": "Clair",
+    "name": "Débora (Clair)",
+    "badge": "Medalla Dragón",
+    "specialtyType": "Dragón",
+    "region": "Johto",
+    "role": "Líder de Gimnasio 8",
+    "levelCap": 50,
+    "team": [
+      {
+        "species": "Dragonair",
+        "level": 48,
+        "heldItem": "Ninguno",
+        "attacks": [
+          "Thunder Wave",
+          "Surf",
+          "Fire Blast",
+          "Dragon Pulse"
+        ],
+        "notes": ""
+      },
+      {
+        "species": "Gyarados",
+        "level": 48,
+        "heldItem": "Ninguno",
+        "attacks": [
+          "Dragon Dance",
+          "Outrage",
+          "Waterfall",
+          "Earthquake"
+        ],
+        "notes": ""
+      },
+      {
+        "species": "Dragonair",
+        "level": 48,
+        "heldItem": "Ninguno",
+        "attacks": [
+          "ExtremeSpeed",
+          "Aqua Tail",
+          "Outrage",
+          "Dragon Pulse"
+        ],
+        "notes": ""
+      },
+      {
+        "species": "Salamence",
+        "level": 50,
+        "heldItem": "White Herb",
+        "attacks": [
+          "Hydro Pump",
+          "Draco Meteor",
+          "Fire Blast",
+          "Dragon Pulse"
+        ],
+        "notes": ""
+      },
+      {
+        "species": "Altaria",
+        "level": 48,
+        "heldItem": "Ninguno",
+        "attacks": [
+          "Roost",
+          "Ice Beam",
+          "Flamethrower",
+          "Dragon Pulse"
+        ],
+        "notes": ""
+      },
+      {
+        "species": "Kingdra",
+        "level": 50,
+        "heldItem": "Sitrus Berry",
+        "attacks": [
+          "Hydro Pump",
+          "Blizzard",
+          "Swagger",
+          "Dragon Pulse"
+        ],
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "id": "victory-road-rival-if-player-choose-cyndaquil",
+    "rawTitle": "Victory Road Rival (if player choose cyndaquil)",
+    "name": "Rival (Calle Victoria - vs Cyndaquil)",
+    "badge": null,
+    "specialtyType": "Rival",
+    "region": "Johto",
+    "role": "Combate de Rival",
+    "levelCap": 53,
+    "team": [
+      {
+        "species": "Honckrow",
+        "level": 50,
+        "heldItem": "Ninguno",
+        "attacks": [
+          "Drill Peck",
+          "Dark Pulse",
+          "Nasty Plot",
+          "Heat Wave"
+        ],
+        "notes": ""
+      },
+      {
+        "species": "Magmortar",
+        "level": 51,
+        "heldItem": "Ninguno",
+        "attacks": [
+          "Fire Blast",
+          "Swagger",
+          "Thunderbolt",
+          "Focus Blast"
+        ],
+        "notes": ""
+      },
+      {
+        "species": "Electrivire",
+        "level": 51,
+        "heldItem": "Ninguno",
+        "attacks": [
+          "Thunder",
+          "Ice Punch",
+          "Earthquake",
+          "Light Screen"
+        ],
+        "notes": ""
+      },
+      {
+        "species": "Gengar",
+        "level": 49,
+        "heldItem": "Ninguno",
+        "attacks": [
+          "Shadow Ball",
+          "Thunderbolt",
+          "Destiny Bond",
+          "Energy Ball"
+        ],
+        "notes": ""
+      },
+      {
+        "species": "Alakazam",
+        "level": 50,
+        "heldItem": "Ninguno",
+        "attacks": [
+          "Psychic",
+          "Recover",
+          "Energy Ball",
+          "Focus Blast"
+        ],
+        "notes": ""
+      },
+      {
+        "species": "Feraligatr",
+        "level": 53,
+        "heldItem": "Ninguno",
+        "attacks": [
+          "Waterfall",
+          "Crunch",
+          "Ice Fang",
+          "Earthquake"
+        ],
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "id": "victory-road-rival-if-player-choose-chikorita",
+    "rawTitle": "Victory Road Rival (if player choose chikorita)",
+    "name": "Rival (Calle Victoria - vs Chikorita)",
+    "badge": null,
+    "specialtyType": "Rival",
+    "region": "Johto",
+    "role": "Combate de Rival",
+    "levelCap": 53,
+    "team": [
+      {
+        "species": "Honckrow",
+        "level": 50,
+        "heldItem": "Ninguno",
+        "attacks": [
+          "Drill Peck",
+          "Dark Pulse",
+          "Nasty Plot",
+          "Heat Wave"
+        ],
+        "notes": ""
+      },
+      {
+        "species": "Kingdra",
+        "level": 51,
+        "heldItem": "Ninguno",
+        "attacks": [
+          "Hydro Pump",
+          "Yawn",
+          "Dragon Pulse",
+          "Ice Beam"
+        ],
+        "notes": ""
+      },
+      {
+        "species": "Electrivire",
+        "level": 51,
+        "heldItem": "Ninguno",
+        "attacks": [
+          "Thunder",
+          "Ice Punch",
+          "Earthquake",
+          "Light Screen"
+        ],
+        "notes": ""
+      },
+      {
+        "species": "Gengar",
+        "level": 49,
+        "heldItem": "Ninguno",
+        "attacks": [
+          "Shadow Ball",
+          "Thunderbolt",
+          "Destiny Bond",
+          "Energy Ball"
+        ],
+        "notes": ""
+      },
+      {
+        "species": "Alakazam",
+        "level": 50,
+        "heldItem": "Ninguno",
+        "attacks": [
+          "Psychic",
+          "Recover",
+          "Energy Ball",
+          "Focus Blast"
+        ],
+        "notes": ""
+      },
+      {
+        "species": "Typhlosion",
+        "level": 53,
+        "heldItem": "Ninguno",
+        "attacks": [
+          "Fire Blast",
+          "Focus Blast",
+          "ThunderPunch",
+          "Low Kick"
+        ],
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "id": "victory-road-rival-if-player-choose-totodile",
+    "rawTitle": "Victory Road Rival (if player choose totodile)",
+    "name": "Rival (Calle Victoria - vs Totodile)",
+    "badge": null,
+    "specialtyType": "Rival",
+    "region": "Johto",
+    "role": "Combate de Rival",
+    "levelCap": 53,
+    "team": [
+      {
+        "species": "Honckrow",
+        "level": 50,
+        "heldItem": "Ninguno",
+        "attacks": [
+          "Drill Peck",
+          "Dark Pulse",
+          "Nasty Plot",
+          "Heat Wave"
+        ],
+        "notes": ""
+      },
+      {
+        "species": "Magmortar",
+        "level": 51,
+        "heldItem": "Ninguno",
+        "attacks": [
+          "Fire Blast",
+          "Swagger",
+          "Thunderbolt",
+          "Focus Blast"
+        ],
+        "notes": ""
+      },
+      {
+        "species": "Kingdra",
+        "level": 51,
+        "heldItem": "Ninguno",
+        "attacks": [
+          "Hydro Pump",
+          "Yawn",
+          "Dragon Pulse",
+          "Ice Beam"
+        ],
+        "notes": ""
+      },
+      {
+        "species": "Gengar",
+        "level": 49,
+        "heldItem": "Ninguno",
+        "attacks": [
+          "Shadow Ball",
+          "Thunderbolt",
+          "Destiny Bond",
+          "Energy Ball"
+        ],
+        "notes": ""
+      },
+      {
+        "species": "Alakazam",
+        "level": 50,
+        "heldItem": "Ninguno",
+        "attacks": [
+          "Psychic",
+          "Recover",
+          "Energy Ball",
+          "Focus Blast"
+        ],
+        "notes": ""
+      },
+      {
+        "species": "Meganium",
+        "level": 53,
+        "heldItem": "Ninguno",
+        "attacks": [
+          "Swords Dance",
+          "Reflect",
+          "Seed Bomb",
+          "Earthquake"
+        ],
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "id": "will",
+    "rawTitle": "Will",
+    "name": "Mento (Will)",
+    "badge": null,
+    "specialtyType": "Psíquico",
+    "region": "Johto",
+    "role": "Alto Mando 1",
+    "levelCap": 55,
+    "team": [
+      {
+        "species": "Jynx",
+        "level": 53,
+        "heldItem": "Ninguno",
+        "attacks": [
+          "Ice Beam",
+          "Psychic",
+          "Focus Blast",
+          "Lovely Kiss"
+        ],
+        "notes": ""
+      },
+      {
+        "species": "Lunatone",
+        "level": 52,
+        "heldItem": "Ninguno",
+        "attacks": [
+          "Ice Beam",
+          "Psychic",
+          "Earth Power",
+          "Charge Beam"
+        ],
+        "notes": ""
+      },
+      {
+        "species": "Gardevoir",
+        "level": 55,
+        "heldItem": "Ninguno",
+        "attacks": [
+          "Reflect",
+          "Psychic",
+          "Thunderbolt",
+          "Hypnosis"
+        ],
+        "notes": ""
+      },
+      {
+        "species": "Slowbro",
+        "level": 54,
+        "heldItem": "Ninguno",
+        "attacks": [
+          "Amnesia",
+          "Surf",
+          "Flamethrower",
+          "Psychic"
+        ],
+        "notes": ""
+      },
+      {
+        "species": "Solrock",
+        "level": 52,
+        "heldItem": "Ninguno",
+        "attacks": [
+          "Zen Headbutt",
+          "Stone Edge",
+          "Embargo",
+          "Earthquake"
+        ],
+        "notes": ""
+      },
+      {
+        "species": "Xatu",
+        "level": 55,
+        "heldItem": "Sitrus Berry",
+        "attacks": [
+          "Heat Wave",
+          "Air Cutter",
+          "Psychic",
+          "Thunder Wave"
+        ],
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "id": "koga",
+    "rawTitle": "Koga",
+    "name": "Koga",
+    "badge": null,
+    "specialtyType": "Veneno",
+    "region": "Johto",
+    "role": "Alto Mando 2",
+    "levelCap": 55,
+    "team": [
+      {
+        "species": "Venomoth",
+        "level": 53,
+        "heldItem": "Ninguno",
+        "attacks": [
+          "Bug Buzz",
+          "Psychic",
+          "Sleep Powder",
+          "Giga Drain"
+        ],
+        "notes": ""
+      },
+      {
+        "species": "Weezing",
+        "level": 52,
+        "heldItem": "Ninguno",
+        "attacks": [
+          "Fire Blast",
+          "Toxic",
+          "Protect",
+          "Thunder"
+        ],
+        "notes": ""
+      },
+      {
+        "species": "Muk",
+        "level": 55,
+        "heldItem": "Ninguno",
+        "attacks": [
+          "Substitute",
+          "Focus Punch",
+          "Gunk Shot",
+          "Rock slide"
+        ],
+        "notes": ""
+      },
+      {
+        "species": "Tentacruel",
+        "level": 54,
+        "heldItem": "Ninguno",
+        "attacks": [
+          "Swords Dance",
+          "Poison Jab",
+          "Waterfall",
+          "Protect"
+        ],
+        "notes": ""
+      },
+      {
+        "species": "Toxicroak",
+        "level": 52,
+        "heldItem": "Ninguno",
+        "attacks": [
+          "Cross Chop",
+          "Poison Jab",
+          "Earthquake",
+          "Sucker Punch"
+        ],
+        "notes": ""
+      },
+      {
+        "species": "Crobat",
+        "level": 55,
+        "heldItem": "Sitrus Berry",
+        "attacks": [
+          "Double Team",
+          "Brave Bird",
+          "Heat Wave",
+          "X-Scissor"
+        ],
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "id": "bruno",
+    "rawTitle": "Bruno",
+    "name": "Bruno",
+    "badge": null,
+    "specialtyType": "Lucha",
+    "region": "Johto",
+    "role": "Alto Mando 3",
+    "levelCap": 55,
+    "team": [
+      {
+        "species": "Hitmontop",
+        "level": 53,
+        "heldItem": "Ninguno",
+        "attacks": [
+          "Counter",
+          "Fake Out",
+          "Hi Jump Kick",
+          "Sucker Punch"
+        ],
+        "notes": ""
+      },
+      {
+        "species": "Hitmontop",
+        "level": 52,
+        "heldItem": "Ninguno",
+        "attacks": [
+          "Earthquake",
+          "Blaze Kick",
+          "Hi Jump Kick",
+          "Stone Edge"
+        ],
+        "notes": "Documentado como Hitmontop en el archivo original, aunque su moveset (Blaze Kick, Hi Jump Kick, Stone Edge) corresponde a Hitmonlee."
+      },
+      {
+        "species": "Hariyama",
+        "level": 55,
+        "heldItem": "Ninguno",
+        "attacks": [
+          "Substitute",
+          "Focus Punch",
+          "ThunderPunch",
+          "Payback"
+        ],
+        "notes": ""
+      },
+      {
+        "species": "Lucario",
+        "level": 54,
+        "heldItem": "Ninguno",
+        "attacks": [
+          "Aura Sphere",
+          "Dark Pulse",
+          "Psychic",
+          "ExtremeSpeed"
+        ],
+        "notes": ""
+      },
+      {
+        "species": "Hitmonchan",
+        "level": 52,
+        "heldItem": "Ninguno",
+        "attacks": [
+          "Fire Punch",
+          "Ice Punch",
+          "Hi Jump Kick",
+          "ThunderPunch"
+        ],
+        "notes": ""
+      },
+      {
+        "species": "Machamp",
+        "level": 55,
+        "heldItem": "Sitrus Berry",
+        "attacks": [
+          "DynamicPunch",
+          "Stone Edge",
+          "ThunderPunch",
+          "Bullet Punch"
+        ],
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "id": "karen",
+    "rawTitle": "Karen",
+    "name": "Karen",
+    "badge": null,
+    "specialtyType": "Siniestro",
+    "region": "Johto",
+    "role": "Alto Mando 4",
+    "levelCap": 55,
+    "team": [
+      {
+        "species": "Mightyena",
+        "level": 53,
+        "heldItem": "Ninguno",
+        "attacks": [
+          "Attract",
+          "Super Fang",
+          "Sucker Punch",
+          "Fire Fang"
+        ],
+        "notes": ""
+      },
+      {
+        "species": "Spiritomb",
+        "level": 52,
+        "heldItem": "Ninguno",
+        "attacks": [
+          "Embargo",
+          "Dark Pulse",
+          "Nasty Plot",
+          "Silver Wind"
+        ],
+        "notes": ""
+      },
+      {
+        "species": "Honchkrow",
+        "level": 55,
+        "heldItem": "Ninguno",
+        "attacks": [
+          "Swagger",
+          "Thunder Wave",
+          "Sucker Punch",
+          "Brave Bird"
+        ],
+        "notes": ""
+      },
+      {
+        "species": "Umbreon",
+        "level": 54,
+        "heldItem": "Ninguno",
+        "attacks": [
+          "Dark Pulse",
+          "Double Team",
+          "Protect",
+          "Toxic"
+        ],
+        "notes": ""
+      },
+      {
+        "species": "Absol",
+        "level": 52,
+        "heldItem": "Ninguno",
+        "attacks": [
+          "Sucker Punch",
+          "Psycho Cut",
+          "Megahorn",
+          "Thunder Wave"
+        ],
+        "notes": ""
+      },
+      {
+        "species": "Houndoom",
+        "level": 55,
+        "heldItem": "Sitrus Berry",
+        "attacks": [
+          "Heat Wave",
+          "Dark Pulse",
+          "Nasty Plot",
+          "Will-O-Wisp"
+        ],
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "id": "lance",
+    "rawTitle": "Lance",
+    "name": "Lance",
+    "badge": null,
+    "specialtyType": "Dragón / Volador",
+    "region": "Johto",
+    "role": "Campeón de la Liga Pokémon",
+    "levelCap": 60,
+    "team": [
+      {
+        "species": "Gyarados",
+        "level": 56,
+        "heldItem": "Ninguno",
+        "attacks": [
+          "Aqua Tail",
+          "Earthquake",
+          "Stone Edge",
+          "Payback"
+        ],
+        "notes": ""
+      },
+      {
+        "species": "Garchomp",
+        "level": 54,
+        "heldItem": "Ninguno",
+        "attacks": [
+          "Earthquake",
+          "Dragon Claw",
+          "Fire Fang",
+          "Aerial ace"
+        ],
+        "notes": ""
+      },
+      {
+        "species": "Aerodactyl",
+        "level": 54,
+        "heldItem": "Ninguno",
+        "attacks": [
+          "Stone Edge",
+          "Tailwind",
+          "Aerial Ace",
+          "Torment"
+        ],
+        "notes": ""
+      },
+      {
+        "species": "Dragonite",
+        "level": 56,
+        "heldItem": "Ninguno",
+        "attacks": [
+          "Draco Meteor",
+          "Surf",
+          "Fire Blast",
+          "Blizzard"
+        ],
+        "notes": ""
+      },
+      {
+        "species": "Charizard",
+        "level": 57,
+        "heldItem": "Ninguno",
+        "attacks": [
+          "Swords Dance",
+          "Flare Blitz",
+          "Aerial Ace",
+          "Focus Blast"
+        ],
+        "notes": ""
+      },
+      {
+        "species": "Dragonite",
+        "level": 60,
+        "heldItem": "Sitrus Berry",
+        "attacks": [
+          "Outrage",
+          "Wing Attack",
+          "Earthquake",
+          "Roost"
+        ],
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "id": "brock",
+    "rawTitle": "Brock",
+    "name": "Brock",
+    "badge": "Medalla Roca",
+    "specialtyType": "Roca",
+    "region": "Kanto",
+    "role": "Líder de Gimnasio 9",
+    "levelCap": 61,
+    "team": [
+      {
+        "species": "Omastar",
+        "level": 58,
+        "heldItem": "Ninguno",
+        "attacks": [
+          "Blizzard",
+          "Muddy Water",
+          "Toxic",
+          "Earth Power"
+        ],
+        "notes": ""
+      },
+      {
+        "species": "Relicanth",
+        "level": 57,
+        "heldItem": "Ninguno",
+        "attacks": [
+          "Head Smash",
+          "Aqua Tail",
+          "Earthquake",
+          "Double-Edge"
+        ],
+        "notes": ""
+      },
+      {
+        "species": "Kabutops",
+        "level": 58,
+        "heldItem": "Ninguno",
+        "attacks": [
+          "Swords Dance",
+          "Aqua Tail",
+          "Stone Edge",
+          "Aqua Jet"
+        ],
+        "notes": ""
+      },
+      {
+        "species": "Golem",
+        "level": 59,
+        "heldItem": "Sitrus Berry",
+        "attacks": [
+          "Earthquake",
+          "Stone Edge",
+          "Sucker Punch",
+          "Explosion"
+        ],
+        "notes": ""
+      },
+      {
+        "species": "Sudowoodo",
+        "level": 59,
+        "heldItem": "Ninguno",
+        "attacks": [
+          "Stone Edge",
+          "Wood Hammer",
+          "Low Kick",
+          "Explosion"
+        ],
+        "notes": ""
+      },
+      {
+        "species": "Onix",
+        "level": 61,
+        "heldItem": "Focus Sash",
+        "attacks": [
+          "Torment",
+          "Earthquake",
+          "Stone Edge",
+          "Explosion"
+        ],
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "id": "misty",
+    "rawTitle": "Misty",
+    "name": "Misty",
+    "badge": "Medalla Cascada",
+    "specialtyType": "Agua",
+    "region": "Kanto",
+    "role": "Líder de Gimnasio 10",
+    "levelCap": 62,
+    "team": [
+      {
+        "species": "Politoed",
+        "level": 60,
+        "heldItem": "Ninguno",
+        "attacks": [
+          "Hydro Pump",
+          "Hyper Voice",
+          "Encore",
+          "Ice Beam"
+        ],
+        "notes": ""
+      },
+      {
+        "species": "Lapras",
+        "level": 59,
+        "heldItem": "Ninguno",
+        "attacks": [
+          "Ice Beam",
+          "Hydro Pump",
+          "Thunder",
+          "Rain Dance"
+        ],
+        "notes": ""
+      },
+      {
+        "species": "Lanturn",
+        "level": 59,
+        "heldItem": "Ninguno",
+        "attacks": [
+          "Rain Dance",
+          "Thunder",
+          "Signal Beam",
+          "Surf"
+        ],
+        "notes": ""
+      },
+      {
+        "species": "Golduck",
+        "level": 60,
+        "heldItem": "Ninguno",
+        "attacks": [
+          "Water Pulse",
+          "Psychic",
+          "Toxic",
+          "Ice Beam"
+        ],
+        "notes": ""
+      },
+      {
+        "species": "Vaporeon",
+        "level": 59,
+        "heldItem": "Ninguno",
+        "attacks": [
+          "Acid Armor",
+          "Baton Pass",
+          "Attract",
+          "Surf"
+        ],
+        "notes": ""
+      },
+      {
+        "species": "Starmie",
+        "level": 62,
+        "heldItem": "Sitrus Berry",
+        "attacks": [
+          "Hydro Pump",
+          "Thunderbolt",
+          "Ice Beam",
+          "Psychic"
+        ],
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "id": "lt-surge",
+    "rawTitle": "Lt. Surge",
+    "name": "Lt. Surge",
+    "badge": "Medalla Trueno",
+    "specialtyType": "Eléctrico",
+    "region": "Kanto",
+    "role": "Líder de Gimnasio 11",
+    "levelCap": 63,
+    "team": [
+      {
+        "species": "Magnezone",
+        "level": 61,
+        "heldItem": "Ninguno",
+        "attacks": [
+          "Thunderbolt",
+          "Flash Cannon",
+          "Mirror Coat",
+          "Zap Cannon"
+        ],
+        "notes": ""
+      },
+      {
+        "species": "Electrode",
+        "level": 61,
+        "heldItem": "Ninguno",
+        "attacks": [
+          "Double Team",
+          "Thunder Wave",
+          "Thunderbolt",
+          "Hidden Power (probably grass)"
+        ],
+        "notes": ""
+      },
+      {
+        "species": "Ampharos",
+        "level": 59,
+        "heldItem": "Ninguno",
+        "attacks": [
+          "Thunderbolt",
+          "Focus Blast",
+          "Fire Punch",
+          "Signal Beam"
+        ],
+        "notes": ""
+      },
+      {
+        "species": "Electrivire",
+        "level": 61,
+        "heldItem": "Ninguno",
+        "attacks": [
+          "Thunder Punch",
+          "Ice Punch",
+          "Earthquake",
+          "Cross Chop"
+        ],
+        "notes": ""
+      },
+      {
+        "species": "Jolteon",
+        "level": 60,
+        "heldItem": "Ninguno",
+        "attacks": [
+          "Thunderbolt",
+          "Shadow Ball",
+          "Thunder Wave",
+          "Swagger"
+        ],
+        "notes": ""
+      },
+      {
+        "species": "Raichu",
+        "level": 63,
+        "heldItem": "Sitrus Berry",
+        "attacks": [
+          "Thunderbolt",
+          "Surf",
+          "Focus Blast",
+          "Nasty Plot"
+        ],
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "id": "erika",
+    "rawTitle": "Erika",
+    "name": "Erika",
+    "badge": "Medalla Arcoíris",
+    "specialtyType": "Planta",
+    "region": "Kanto",
+    "role": "Líder de Gimnasio 12",
+    "levelCap": 65,
+    "team": [
+      {
+        "species": "Jumpluff",
+        "level": 62,
+        "heldItem": "Heat Rock",
+        "attacks": [
+          "U-Turn",
+          "Leech Seed",
+          "Sunny Day",
+          "Giga Drain"
+        ],
+        "notes": ""
+      },
+      {
+        "species": "Meganium",
+        "level": 60,
+        "heldItem": "Power Herb",
+        "attacks": [
+          "Reflect",
+          "Light Screen",
+          "SolarBeam",
+          "Toxic"
+        ],
+        "notes": ""
+      },
+      {
+        "species": "Victreebel",
+        "level": 63,
+        "heldItem": "Ninguno",
+        "attacks": [
+          "Leaf Blade",
+          "Synthesis",
+          "Sludge Bomb",
+          "Weather Ball"
+        ],
+        "notes": ""
+      },
+      {
+        "species": "Bellosom",
+        "level": 63,
+        "heldItem": "Sitrus Berry",
+        "attacks": [
+          "Petal Dance",
+          "Synthesis",
+          "Teeter Dance",
+          "Flash"
+        ],
+        "notes": ""
+      },
+      {
+        "species": "Leafon",
+        "level": 60,
+        "heldItem": "Ninguno",
+        "attacks": [
+          "Seed Bomb",
+          "Swords Dance",
+          "X-Scissor",
+          "Aerial Ace"
+        ],
+        "notes": ""
+      },
+      {
+        "species": "Tangrowth",
+        "level": 65,
+        "heldItem": "Ninguno",
+        "attacks": [
+          "Power Whip",
+          "Earthquake",
+          "Focus Blast",
+          "Sleep Powder"
+        ],
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "id": "janine",
+    "rawTitle": "Janine",
+    "name": "Sachiko (Janine)",
+    "badge": "Medalla Alma",
+    "specialtyType": "Veneno",
+    "region": "Kanto",
+    "role": "Líder de Gimnasio 13",
+    "levelCap": 64,
+    "team": [
+      {
+        "species": "Ariados",
+        "level": 58,
+        "heldItem": "Ninguno",
+        "attacks": [
+          "Bug Bite",
+          "Agility",
+          "Spider Web",
+          "Baton Pass"
+        ],
+        "notes": ""
+      },
+      {
+        "species": "Weezing",
+        "level": 60,
+        "heldItem": "Ninguno",
+        "attacks": [
+          "Flamethrower",
+          "Thunderbolt",
+          "Will-O-Wisp",
+          "Pain Split"
+        ],
+        "notes": ""
+      },
+      {
+        "species": "Toxicroak",
+        "level": 58,
+        "heldItem": "Ninguno",
+        "attacks": [
+          "Cross Chop",
+          "Poison Jab",
+          "Stone Edge",
+          "Sucker Punch"
+        ],
+        "notes": ""
+      },
+      {
+        "species": "Qwilfish",
+        "level": 60,
+        "heldItem": "Ninguno",
+        "attacks": [
+          "Surf",
+          "Poison Jab",
+          "Thunder Wave",
+          "Aqua Jet"
+        ],
+        "notes": ""
+      },
+      {
+        "species": "Drapion",
+        "level": 58,
+        "heldItem": "Sitrus Berry",
+        "attacks": [
+          "Cross Poison",
+          "Earthquake",
+          "Crunch",
+          "Aqua Tail"
+        ],
+        "notes": ""
+      },
+      {
+        "species": "Venomoth",
+        "level": 64,
+        "heldItem": "Sitrus Berry",
+        "attacks": [
+          "Psychic",
+          "Bug Buzz",
+          "Sleep Powder",
+          "Giga Drain"
+        ],
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "id": "sabrina",
+    "rawTitle": "Sabrina",
+    "name": "Sabrina",
+    "badge": "Medalla Pantano",
+    "specialtyType": "Psíquico",
+    "region": "Kanto",
+    "role": "Líder de Gimnasio 14",
+    "levelCap": 66,
+    "team": [
+      {
+        "species": "Gallade",
+        "level": 63,
+        "heldItem": "Ninguno",
+        "attacks": [
+          "Close Combat",
+          "Leaf Blade",
+          "Psycho Cut",
+          "Skill Swap"
+        ],
+        "notes": ""
+      },
+      {
+        "species": "Medicham",
+        "level": 62,
+        "heldItem": "Ninguno",
+        "attacks": [
+          "Hi Jump Kick",
+          "Zen Headbutt",
+          "Fake Out",
+          "Bullet Punch"
+        ],
+        "notes": ""
+      },
+      {
+        "species": "Mr. Mime",
+        "level": 63,
+        "heldItem": "Ninguno",
+        "attacks": [
+          "Nasty Plot",
+          "Psychic",
+          "Thunderbolt",
+          "Focus Blast"
+        ],
+        "notes": ""
+      },
+      {
+        "species": "Hypno",
+        "level": 61,
+        "heldItem": "Ninguno",
+        "attacks": [
+          "Nasty Plot",
+          "Psychic",
+          "Grass Knot",
+          "Baton Pass"
+        ],
+        "notes": ""
+      },
+      {
+        "species": "Wobbuffet",
+        "level": 63,
+        "heldItem": "Ninguno",
+        "attacks": [
+          "Encore",
+          "Counter",
+          "Mirror Coat",
+          "Safequard"
+        ],
+        "notes": ""
+      },
+      {
+        "species": "Alakazam",
+        "level": 66,
+        "heldItem": "Sitrus Berry",
+        "attacks": [
+          "Psychic",
+          "Calm Mind",
+          "Focus Blast",
+          "Signal Beam"
+        ],
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "id": "blaine",
+    "rawTitle": "Blaine",
+    "name": "Blaine",
+    "badge": "Medalla Volcán",
+    "specialtyType": "Fuego",
+    "region": "Kanto",
+    "role": "Líder de Gimnasio 15",
+    "levelCap": 68,
+    "team": [
+      {
+        "species": "Rapidash",
+        "level": 66,
+        "heldItem": "White Herb",
+        "attacks": [
+          "Sunny Day",
+          "SolarBeam",
+          "Overheat",
+          "Megahorn"
+        ],
+        "notes": ""
+      },
+      {
+        "species": "Ninetales",
+        "level": 65,
+        "heldItem": "White Herb",
+        "attacks": [
+          "SolarBeam",
+          "Overheat",
+          "Confuse Ray",
+          "Dark Pulse"
+        ],
+        "notes": ""
+      },
+      {
+        "species": "Magcargo",
+        "level": 66,
+        "heldItem": "White Herb",
+        "attacks": [
+          "Earth Power",
+          "Recover",
+          "SolarBeam",
+          "Overheat"
+        ],
+        "notes": ""
+      },
+      {
+        "species": "Camerupt",
+        "level": 65,
+        "heldItem": "White Herb",
+        "attacks": [
+          "Overheat",
+          "Earthquake",
+          "SolarBeam",
+          "Stone Edge"
+        ],
+        "notes": ""
+      },
+      {
+        "species": "Arcanine",
+        "level": 66,
+        "heldItem": "White Herb",
+        "attacks": [
+          "Flare Blitz",
+          "Thunder Fang",
+          "Overheat",
+          "Protect"
+        ],
+        "notes": ""
+      },
+      {
+        "species": "Magmortar",
+        "level": 68,
+        "heldItem": "White Herb",
+        "attacks": [
+          "Lava Plume",
+          "Overheat",
+          "Thunderbolt",
+          "SolarBeam"
+        ],
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "id": "blue",
+    "rawTitle": "Blue",
+    "name": "Azul (Blue)",
+    "badge": "Medalla Tierra",
+    "specialtyType": "Variado",
+    "region": "Kanto",
+    "role": "Líder de Gimnasio 16",
+    "levelCap": 70,
+    "team": [
+      {
+        "species": "Nidoqueen",
+        "level": 68,
+        "heldItem": "Ninguno",
+        "attacks": [
+          "Earthquake",
+          "Roar",
+          "Crunch",
+          "Toxic Spikes"
+        ],
+        "notes": ""
+      },
+      {
+        "species": "Gyarados",
+        "level": 66,
+        "heldItem": "Ninguno",
+        "attacks": [
+          "Earthquake",
+          "Aqua Tail",
+          "Dragon Dance",
+          "Bounce"
+        ],
+        "notes": ""
+      },
+      {
+        "species": "Rhyperior",
+        "level": 68,
+        "heldItem": "Ninguno",
+        "attacks": [
+          "Megahorn",
+          "Stone Edge",
+          "Thunder Fang",
+          "Earthquake"
+        ],
+        "notes": ""
+      },
+      {
+        "species": "Exeggutor",
+        "level": 66,
+        "heldItem": "Ninguno",
+        "attacks": [
+          "Leaf Storm",
+          "Trick Room",
+          "Sleep Powder",
+          "Psychic"
+        ],
+        "notes": ""
+      },
+      {
+        "species": "Machamp",
+        "level": 68,
+        "heldItem": "Ninguno",
+        "attacks": [
+          "DynamicPunch",
+          "Ice Punch",
+          "Stone Edge",
+          "Fire Punch"
+        ],
+        "notes": ""
+      },
+      {
+        "species": "Tyranitar",
+        "level": 70,
+        "heldItem": "Sitrus Berry",
+        "attacks": [
+          "Stone Edge",
+          "Crunch",
+          "Earthquake",
+          "Thunder"
+        ],
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "id": "red",
+    "rawTitle": "Red",
+    "name": "Rojo (Red)",
+    "badge": null,
+    "specialtyType": "Campeón Legendario",
+    "region": "Kanto",
+    "role": "Jefe Final (Monte Plateado)",
+    "levelCap": 94,
+    "team": [
+      {
+        "species": "Pikachu",
+        "level": 94,
+        "heldItem": "Light Ball",
+        "attacks": [
+          "Endure",
+          "Endeavor",
+          "Thunder",
+          "Grass Knot"
+        ],
+        "notes": ""
+      },
+      {
+        "species": "Venusaur",
+        "level": 90,
+        "heldItem": "Occa Berry",
+        "attacks": [
+          "Swords Dance",
+          "Power Whip",
+          "Earthquake",
+          "Sleep Powder"
+        ],
+        "notes": ""
+      },
+      {
+        "species": "Charizard",
+        "level": 90,
+        "heldItem": "Passho Berry",
+        "attacks": [
+          "Fire Blast",
+          "Focus Blast",
+          "Air Slash",
+          "Dragon Pulse"
+        ],
+        "notes": ""
+      },
+      {
+        "species": "Blastoise",
+        "level": 90,
+        "heldItem": "Rindo Berry",
+        "attacks": [
+          "Signal Beam",
+          "Hydro Pump",
+          "Blizzard",
+          "Fake Out"
+        ],
+        "notes": ""
+      },
+      {
+        "species": "Espeon",
+        "level": 88,
+        "heldItem": "Light Clay",
+        "attacks": [
+          "Psychic",
+          "Grass Knot",
+          "Reflect",
+          "Shadow Ball"
+        ],
+        "notes": ""
+      },
+      {
+        "species": "Snorlax",
+        "level": 88,
+        "heldItem": "Chesto Berry",
+        "attacks": [
+          "Rest",
+          "Sleep Talk",
+          "Body Slam",
+          "Crunch"
+        ],
+        "notes": ""
+      }
+    ]
+  }
+]

@@ -1,0 +1,796 @@
+{
+  "totalTms": 49,
+  "totalEvoItems": 20,
+  "totalStones": 9,
+  "totalKeyItems": 4,
+  "tms": [
+    {
+      "id": "mt01",
+      "code": "MT01",
+      "name": "MT01 - Puño Certero",
+      "move": "Puño Certero",
+      "category": "Máquina Técnica (MT)",
+      "location": "Ahora puede comprarse también en Ciudad Azafrán.",
+      "isModified": true,
+      "image": "images/items/obj_p4_img12_24x24.png"
+    },
+    {
+      "id": "mt02",
+      "code": "MT02",
+      "name": "MT02 - Garra Dragón",
+      "move": "Garra Dragón",
+      "category": "Máquina Técnica (MT)",
+      "location": "Ya no está en la Ruta 26; ahora solo toca en la Lotería Trigal.",
+      "isModified": true,
+      "image": "images/items/obj_p4_img12_24x24.png"
+    },
+    {
+      "id": "mt03",
+      "code": "MT03",
+      "name": "MT03 - Hidropulso",
+      "move": "Hidropulso",
+      "category": "Máquina Técnica (MT)",
+      "location": "Ahora también te lo regala un Pescador en el Centro PKMN de la Ruta 32.",
+      "isModified": true,
+      "image": "images/items/obj_p4_img12_24x24.png"
+    },
+    {
+      "id": "mt04",
+      "code": "MT04",
+      "name": "MT04 - Paz Mental",
+      "move": "Paz Mental",
+      "category": "Máquina Técnica (MT)",
+      "location": "Te lo da alguien en el Centro PKMN de Ciudad Trigal.",
+      "isModified": true,
+      "image": "images/items/obj_p4_img12_24x24.png"
+    },
+    {
+      "id": "mt06",
+      "code": "MT06",
+      "name": "MT06 - Tóxico",
+      "move": "Tóxico",
+      "category": "Máquina Técnica (MT)",
+      "location": "Te la entrega Petrel al derrotarlo en la Cueva Acantilado.",
+      "isModified": true,
+      "image": "images/items/obj_p4_img12_24x24.png"
+    },
+    {
+      "id": "mt07",
+      "code": "MT07",
+      "name": "MT07 - Granizo",
+      "move": "Granizo",
+      "category": "Máquina Técnica (MT)",
+      "location": "Ahora también puede comprarse en la tienda de Pueblo Caoba.",
+      "isModified": true,
+      "image": "images/items/obj_p4_img12_24x24.png"
+    },
+    {
+      "id": "mt08",
+      "code": "MT08",
+      "name": "MT08 - Corpulencia",
+      "move": "Corpulencia",
+      "category": "Máquina Técnica (MT)",
+      "location": "Te la da alguien en el Centro PKMN de Ciudad Trigal.",
+      "isModified": true,
+      "image": "images/items/obj_p4_img12_24x24.png"
+    },
+    {
+      "id": "mt10",
+      "code": "MT10",
+      "name": "MT10 - Poder Oculto",
+      "move": "Poder Oculto",
+      "category": "Máquina Técnica (MT)",
+      "location": "Recompensa en las Ruinas Alfa por capturar 7 tipos distintos de Unown.",
+      "isModified": true,
+      "image": "images/items/obj_p4_img12_24x24.png"
+    },
+    {
+      "id": "mt11",
+      "code": "MT11",
+      "name": "MT11 - Día Soleado",
+      "move": "Día Soleado",
+      "category": "Máquina Técnica (MT)",
+      "location": "Ahora también puede comprarse en la tienda de Pueblo Caoba.",
+      "isModified": true,
+      "image": "images/items/obj_p4_img12_24x24.png"
+    },
+    {
+      "id": "mt12",
+      "code": "MT12",
+      "name": "MT12 - Mofa",
+      "move": "Mofa",
+      "category": "Máquina Técnica (MT)",
+      "location": "Ya no aparece en la Torre Quemada.",
+      "isModified": true,
+      "image": "images/items/obj_p4_img12_24x24.png"
+    },
+    {
+      "id": "mt13",
+      "code": "MT13",
+      "name": "MT13 - Rayo Hielo",
+      "move": "Rayo Hielo",
+      "category": "Máquina Técnica (MT)",
+      "location": "Ahora también se encuentra en la Ruta Helada; su precio en el Casino es",
+      "isModified": true,
+      "image": "images/items/obj_p4_img12_24x24.png"
+    },
+    {
+      "id": "mt18",
+      "code": "MT18",
+      "name": "MT18 - Danza Lluvia",
+      "move": "Danza Lluvia",
+      "category": "Máquina Técnica (MT)",
+      "location": "Ahora también puede comprarse en la tienda de Pueblo Caoba.",
+      "isModified": true,
+      "image": "images/items/obj_p4_img12_24x24.png"
+    },
+    {
+      "id": "mt19",
+      "code": "MT19",
+      "name": "MT19 - Gigadrenado",
+      "move": "Gigadrenado",
+      "category": "Máquina Técnica (MT)",
+      "location": "También se encuentra en la Ruta 39.",
+      "isModified": true,
+      "image": "images/items/obj_p4_img12_24x24.png"
+    },
+    {
+      "id": "mt23",
+      "code": "MT23",
+      "name": "MT23 - Cola Férrea",
+      "move": "Cola Férrea",
+      "category": "Máquina Técnica (MT)",
+      "location": "Ahora también puede comprarse en Ciudad Plateada.",
+      "isModified": true,
+      "image": "images/items/obj_p4_img12_24x24.png"
+    },
+    {
+      "id": "mt24",
+      "code": "MT24",
+      "name": "MT24 - Rayo",
+      "move": "Rayo",
+      "category": "Máquina Técnica (MT)",
+      "location": "Ahora también se encuentra en una pequeña orilla a la derecha del Faro de Ciudad",
+      "isModified": true,
+      "image": "images/items/obj_p4_img12_24x24.png"
+    },
+    {
+      "id": "mt26",
+      "code": "MT26",
+      "name": "MT26 - Terremoto",
+      "move": "Terremoto",
+      "category": "Máquina Técnica (MT)",
+      "location": "Puede comprarse en Ciudad Azulona.",
+      "isModified": true,
+      "image": "images/items/obj_p4_img12_24x24.png"
+    },
+    {
+      "id": "mt28",
+      "code": "MT28",
+      "name": "MT28 - Excavar",
+      "move": "Excavar",
+      "category": "Máquina Técnica (MT)",
+      "location": "Ya no puede comprarse en Ciudad Azulona; ha sido cambiada a Ciudad Trigal.",
+      "isModified": true,
+      "image": "images/items/obj_p4_img12_24x24.png"
+    },
+    {
+      "id": "mt29",
+      "code": "MT29",
+      "name": "MT29 - Psíquico",
+      "move": "Psíquico",
+      "category": "Máquina Técnica (MT)",
+      "location": "También puede encontrarse en la parte sureste de las Ruinas Alfa.",
+      "isModified": true,
+      "image": "images/items/obj_p4_img12_24x24.png"
+    },
+    {
+      "id": "mt30",
+      "code": "MT30",
+      "name": "MT30 - Bola Sombra",
+      "move": "Bola Sombra",
+      "category": "Máquina Técnica (MT)",
+      "location": "También puede comprarse en Pueblo Lavanda.",
+      "isModified": true,
+      "image": "images/items/obj_p4_img12_24x24.png"
+    },
+    {
+      "id": "mt31",
+      "code": "MT31",
+      "name": "MT31 - Demolición",
+      "move": "Demolición",
+      "category": "Máquina Técnica (MT)",
+      "location": "Te lo da alguien en la Ruta 36.",
+      "isModified": true,
+      "image": "images/items/obj_p4_img12_24x24.png"
+    },
+    {
+      "id": "mt34",
+      "code": "MT34",
+      "name": "MT34 - Onda Voltio",
+      "move": "Onda Voltio",
+      "category": "Máquina Técnica (MT)",
+      "location": "Te la da un rockero en el Centro PKMN de Ciudad Azalea.",
+      "isModified": true,
+      "image": "images/items/obj_p4_img12_24x24.png"
+    },
+    {
+      "id": "mt35",
+      "code": "MT35",
+      "name": "MT35 - Lanzallamas",
+      "move": "Lanzallamas",
+      "category": "Máquina Técnica (MT)",
+      "location": "Ahora puede encontrarse también en la Senda Dindón, y cuesta 4000 Fichas",
+      "isModified": true,
+      "image": "images/items/obj_p4_img12_24x24.png"
+    },
+    {
+      "id": "mt37",
+      "code": "MT37",
+      "name": "MT37 - Tormenta Arena",
+      "move": "Tormenta Arena",
+      "category": "Máquina Técnica (MT)",
+      "location": "Ahora también puede comprarse en la tienda de Pueblo Caoba.",
+      "isModified": true,
+      "image": "images/items/obj_p4_img12_24x24.png"
+    },
+    {
+      "id": "mt40",
+      "code": "MT40",
+      "name": "MT40 - Golpe Aéreo",
+      "move": "Golpe Aéreo",
+      "category": "Máquina Técnica (MT)",
+      "location": "También se encuentra en la Ruta 34.",
+      "isModified": true,
+      "image": "images/items/obj_p4_img12_24x24.png"
+    },
+    {
+      "id": "mt45",
+      "code": "MT45",
+      "name": "MT45 - Atracción",
+      "move": "Atracción",
+      "category": "Máquina Técnica (MT)",
+      "location": "También puede comprarse en Ciudad Carmín.",
+      "isModified": true,
+      "image": "images/items/obj_p4_img12_24x24.png"
+    },
+    {
+      "id": "mt46",
+      "code": "MT46",
+      "name": "MT46 - Ladrón",
+      "move": "Ladrón",
+      "category": "Máquina Técnica (MT)",
+      "location": "Ya no está en la Guarida Rocket, sino que te la da un hombre en Ciudad Azalea.",
+      "isModified": true,
+      "image": "images/items/obj_p4_img12_24x24.png"
+    },
+    {
+      "id": "mt47",
+      "code": "MT47",
+      "name": "MT47 - Ala de Acero",
+      "move": "Ala de Acero",
+      "category": "Máquina Técnica (MT)",
+      "location": "Se encuentra en el suelo, en el Faro de Ciudad Olivo.",
+      "isModified": true,
+      "image": "images/items/obj_p4_img12_24x24.png"
+    },
+    {
+      "id": "mt48",
+      "code": "MT48",
+      "name": "MT48 - Intercambio",
+      "move": "Intercambio",
+      "category": "Máquina Técnica (MT)",
+      "location": "También puede comprarse en la tienda de Pueblo Caoba.",
+      "isModified": true,
+      "image": "images/items/obj_p4_img12_24x24.png"
+    },
+    {
+      "id": "mt50",
+      "code": "MT50",
+      "name": "MT50 - Sofoco",
+      "move": "Sofoco",
+      "category": "Máquina Técnica (MT)",
+      "location": "También se encuentra en el sótano de la Torre Quemada.",
+      "isModified": true,
+      "image": "images/items/obj_p4_img12_24x24.png"
+    },
+    {
+      "id": "mt51",
+      "code": "MT51",
+      "name": "MT51 - Respiro",
+      "move": "Respiro",
+      "category": "Máquina Técnica (MT)",
+      "location": "También puede comprarse en Ciudad Trigal.",
+      "isModified": true,
+      "image": "images/items/obj_p4_img12_24x24.png"
+    },
+    {
+      "id": "mt53",
+      "code": "MT53",
+      "name": "MT53 - Energibola",
+      "move": "Energibola",
+      "category": "Máquina Técnica (MT)",
+      "location": "Te la dan en la Ruta 39 y puede comprarse en Ciudad Azulona",
+      "isModified": true,
+      "image": "images/items/obj_p4_img12_24x24.png"
+    },
+    {
+      "id": "mt55",
+      "code": "MT55",
+      "name": "MT55 - Salmuera",
+      "move": "Salmuera",
+      "category": "Máquina Técnica (MT)",
+      "location": "Ya no está en la tienda de Ciudad Azulona; cambiado a la de Ciudad Trigal.",
+      "isModified": true,
+      "image": "images/items/obj_p4_img12_24x24.png"
+    },
+    {
+      "id": "mt57",
+      "code": "MT57",
+      "name": "MT57 - Rayo Carga",
+      "move": "Rayo Carga",
+      "category": "Máquina Técnica (MT)",
+      "location": "Ya no se encuentra en Ciudad Olivo.",
+      "isModified": true,
+      "image": "images/items/obj_p4_img12_24x24.png"
+    },
+    {
+      "id": "mt59",
+      "code": "MT59",
+      "name": "MT59 - Pulso Dragón",
+      "move": "Pulso Dragón",
+      "category": "Máquina Técnica (MT)",
+      "location": "También puede comprarse en Ciudad Celeste.",
+      "isModified": true,
+      "image": "images/items/obj_p4_img12_24x24.png"
+    },
+    {
+      "id": "mt61",
+      "code": "MT61",
+      "name": "MT61 - Fuego Fatuo",
+      "move": "Fuego Fatuo",
+      "category": "Máquina Técnica (MT)",
+      "location": "Te la da Fantina en la tienda de Ciudad Iris.",
+      "isModified": true,
+      "image": "images/items/obj_p4_img12_24x24.png"
+    },
+    {
+      "id": "mt62",
+      "code": "MT62",
+      "name": "MT62 - Viento Plata",
+      "move": "Viento Plata",
+      "category": "Máquina Técnica (MT)",
+      "location": "Se encuentra en la Ruta 38.",
+      "isModified": true,
+      "image": "images/items/obj_p4_img12_24x24.png"
+    },
+    {
+      "id": "mt63",
+      "code": "MT63",
+      "name": "MT63 - Embargo",
+      "move": "Embargo",
+      "category": "Máquina Técnica (MT)",
+      "location": "Cambiada a la Ruta 40.",
+      "isModified": true,
+      "image": "images/items/obj_p4_img12_24x24.png"
+    },
+    {
+      "id": "mt65",
+      "code": "MT65",
+      "name": "MT65 - Garra Umbría",
+      "move": "Garra Umbría",
+      "category": "Máquina Técnica (MT)",
+      "location": "Ahora está en Ciudad Iris.",
+      "isModified": true,
+      "image": "images/items/obj_p4_img12_24x24.png"
+    },
+    {
+      "id": "mt70",
+      "code": "MT70",
+      "name": "MT70 - Destello",
+      "move": "Destello",
+      "category": "Máquina Técnica (MT)",
+      "location": "Ya no está en Ciudad Trigal, te la dan en el Centro PKMN de la Ruta 10.",
+      "isModified": true,
+      "image": "images/items/obj_p4_img12_24x24.png"
+    },
+    {
+      "id": "mt71",
+      "code": "MT71",
+      "name": "MT71 - Roca Afilada",
+      "move": "Roca Afilada",
+      "category": "Máquina Técnica (MT)",
+      "location": "Te la dan en la Meseta Añil y puede comprarse en Ciudad Azulona.",
+      "isModified": true,
+      "image": "images/items/obj_p4_img12_24x24.png"
+    },
+    {
+      "id": "mt73",
+      "code": "MT73",
+      "name": "MT73 - Onda Trueno",
+      "move": "Onda Trueno",
+      "category": "Máquina Técnica (MT)",
+      "location": "Te la da Lectro en el Faro de Ciudad Olivo.",
+      "isModified": true,
+      "image": "images/items/obj_p4_img12_24x24.png"
+    },
+    {
+      "id": "mt76",
+      "code": "MT76",
+      "name": "MT76 - Trampa Rocas",
+      "move": "Trampa Rocas",
+      "category": "Máquina Técnica (MT)",
+      "location": "La encuentras en el suelo en la entrada central del Monte Mortero.",
+      "isModified": true,
+      "image": "images/items/obj_p4_img12_24x24.png"
+    },
+    {
+      "id": "mt80",
+      "code": "MT80",
+      "name": "MT80 - Avalancha",
+      "move": "Avalancha",
+      "category": "Máquina Técnica (MT)",
+      "location": "También se encuentra en las Ruinas Alfa, tras una de las puertas.",
+      "isModified": true,
+      "image": "images/items/obj_p4_img12_24x24.png"
+    },
+    {
+      "id": "mt81",
+      "code": "MT81",
+      "name": "MT81 - Tijera X",
+      "move": "Tijera X",
+      "category": "Máquina Técnica (MT)",
+      "location": "Te la da un Cazabichos en el Encinar y puede comprarse en Ciudad Azulona.",
+      "isModified": true,
+      "image": "images/items/obj_p4_img12_24x24.png"
+    },
+    {
+      "id": "mt83",
+      "code": "MT83",
+      "name": "MT83 - Don Natural",
+      "move": "Don Natural",
+      "category": "Máquina Técnica (MT)",
+      "location": "Ya no está en la tienda de Ciudad Trigal.",
+      "isModified": true,
+      "image": "images/items/obj_p4_img12_24x24.png"
+    },
+    {
+      "id": "mt84",
+      "code": "MT84",
+      "name": "MT84 - Puya Nociva",
+      "move": "Puya Nociva",
+      "category": "Máquina Técnica (MT)",
+      "location": "Te la dan al vencer a Atenea en la Ruta 47.",
+      "isModified": true,
+      "image": "images/items/obj_p4_img12_24x24.png"
+    },
+    {
+      "id": "mt86",
+      "code": "MT86",
+      "name": "MT86 - Hierba Lazo",
+      "move": "Hierba Lazo",
+      "category": "Máquina Técnica (MT)",
+      "location": "Te lo da Gardenia en el Encina y puede comprarse en el Centro Comercial de",
+      "isModified": true,
+      "image": "images/items/obj_p4_img12_24x24.png"
+    },
+    {
+      "id": "mt89",
+      "code": "MT89",
+      "name": "MT89 - Ida y Vuelta",
+      "move": "Ida y Vuelta",
+      "category": "Máquina Técnica (MT)",
+      "location": "Puede comprarse también en Ciudad Verde.",
+      "isModified": true,
+      "image": "images/items/obj_p4_img12_24x24.png"
+    },
+    {
+      "id": "mt92",
+      "code": "MT92",
+      "name": "MT92 - Espacio Raro",
+      "move": "Espacio Raro",
+      "category": "Máquina Técnica (MT)",
+      "location": "También te la da alguien en Ciudad Iris.",
+      "isModified": true,
+      "image": "images/items/obj_p4_img12_24x24.png"
+    }
+  ],
+  "evolutionItems": [
+    {
+      "id": "orbe-albor",
+      "name": "Orbe Albor",
+      "category": "Objeto Evolutivo",
+      "isExclusiveHack": true,
+      "location": "Te lo da el Anciano de la Torre Bellsprout y se encuentra en la Ruta 42.",
+      "image": "images/items/obj_p4_img9_18x18.png"
+    },
+    {
+      "id": "mineral-helado",
+      "name": "Mineral Helado",
+      "category": "Objeto Evolutivo",
+      "isExclusiveHack": true,
+      "location": "Te lo da el Anciano de la Torre Bellsprout y se encuentra en la Ruta Helada.",
+      "image": "images/items/obj_p4_img10_26x24.png"
+    },
+    {
+      "id": "orbe-uni-n",
+      "name": "Orbe Unión",
+      "category": "Objeto Evolutivo",
+      "isExclusiveHack": true,
+      "location": "Te lo dan cuando completas cualquier intercambio in-game.",
+      "image": "images/items/obj_p4_img11_19x22.png"
+    },
+    {
+      "id": "escama-marina",
+      "name": "Escama Marina",
+      "category": "Objeto Evolutivo",
+      "isExclusiveHack": false,
+      "location": "(Con el Zahorí) Hay en la Ruta 47; también cerca de la entrada de la Torre Oculta.",
+      "image": "images/items/obj_p4_img12_24x24.png"
+    },
+    {
+      "id": "diente-marino",
+      "name": "Diente Marino",
+      "category": "Objeto Evolutivo",
+      "isExclusiveHack": false,
+      "location": "(Con el Zahorí) Hay en la Ruta 47; cerca de la salida de la Cueva Acantilado.",
+      "image": "images/items/obj_p4_img13_24x24.png"
+    },
+    {
+      "id": "escamadrag-n",
+      "name": "Escamadragón",
+      "category": "Objeto Evolutivo",
+      "isExclusiveHack": false,
+      "location": "Te lo regalan en el Centro PKMN de Ciudad Endrino.",
+      "image": "images/items/obj_p4_img14_24x24.png"
+    },
+    {
+      "id": "discoxtra-o",
+      "name": "Discoxtraño",
+      "category": "Objeto Evolutivo",
+      "isExclusiveHack": false,
+      "location": "En la Guarida Rocket.",
+      "image": "images/items/obj_p4_img15_24x24.png"
+    },
+    {
+      "id": "electrizador",
+      "name": "Electrizador",
+      "category": "Objeto Evolutivo",
+      "isExclusiveHack": false,
+      "location": "Se encuentra en la Ruta 44.",
+      "image": "images/items/obj_p4_img16_24x24.png"
+    },
+    {
+      "id": "roca-del-rey",
+      "name": "Roca del Rey",
+      "category": "Objeto Evolutivo",
+      "isExclusiveHack": false,
+      "location": "Te lo dan en el Centro PKMN de Pueblo Caoba.",
+      "image": "images/items/obj_p4_img17_24x24.png"
+    },
+    {
+      "id": "magmatizador",
+      "name": "Magmatizador",
+      "category": "Objeto Evolutivo",
+      "isExclusiveHack": false,
+      "location": "Se encuentra en la planta superior de la Ruta Helada.",
+      "image": "images/items/obj_p4_img18_24x24.png"
+    },
+    {
+      "id": "revestimiento-met-lico",
+      "name": "Revestimiento Metálico",
+      "category": "Objeto Evolutivo",
+      "isExclusiveHack": false,
+      "location": "Te la dan en una casa de Ciudad Olivo.",
+      "image": "images/items/obj_p4_img19_24x24.png"
+    },
+    {
+      "id": "piedra-oval",
+      "name": "Piedra Oval",
+      "category": "Objeto Evolutivo",
+      "isExclusiveHack": false,
+      "location": "Se encuentra en la Ruta 34.",
+      "image": "images/items/obj_p4_img20_24x24.png"
+    },
+    {
+      "id": "protector",
+      "name": "Protector",
+      "category": "Objeto Evolutivo",
+      "isExclusiveHack": false,
+      "location": "En la primera sala de la Calle Victoria.",
+      "image": "images/items/obj_p4_img21_24x24.png"
+    },
+    {
+      "id": "garrafilada",
+      "name": "Garrafilada",
+      "category": "Objeto Evolutivo",
+      "isExclusiveHack": false,
+      "location": "Te lo dan en una casa de Ciudad Orquídea.",
+      "image": "images/items/obj_p4_img22_24x24.png"
+    },
+    {
+      "id": "comillagudo",
+      "name": "Comillagudo",
+      "category": "Objeto Evolutivo",
+      "isExclusiveHack": false,
+      "location": "Te lo dan en una casa de Ciudad Orquídea.",
+      "image": "images/items/obj_p4_img23_24x24.png"
+    },
+    {
+      "id": "telaterrible",
+      "name": "Telaterrible",
+      "category": "Objeto Evolutivo",
+      "isExclusiveHack": false,
+      "location": "Se encuentra en la Cueva Oscura, entrando por el lado de Ciudad Endrino.",
+      "image": "images/items/obj_p4_img24_24x24.png"
+    },
+    {
+      "id": "orbe-ocaso",
+      "name": "Orbe Ocaso",
+      "category": "Objeto Evolutivo",
+      "isExclusiveHack": true,
+      "location": "Te lo da el Anciano de la Torre Bellsprout y se encuentra tras una puerta de las",
+      "image": "images/items/obj_p4_img25_20x17.png"
+    },
+    {
+      "id": "mejora",
+      "name": "Mejora",
+      "category": "Objeto Evolutivo",
+      "isExclusiveHack": false,
+      "location": "Te lo regalan en las Ruinas Alfa por capturar 14 Unown diferentes y también te lo da un",
+      "image": "images/items/obj_p4_img26_24x24.png"
+    },
+    {
+      "id": "mineral-voltaico",
+      "name": "Mineral Voltaico",
+      "category": "Objeto Evolutivo",
+      "isExclusiveHack": true,
+      "location": "Se encuentra en la Ruta 42, cerca de los árboles de bonguri, y en la Ruta 27,",
+      "image": "images/items/obj_p4_img27_26x24.png"
+    },
+    {
+      "id": "mineral-forestal",
+      "name": "Mineral Forestal",
+      "category": "Objeto Evolutivo",
+      "isExclusiveHack": true,
+      "location": "Te lo da el Anciano de la Torre Bellsprout y se encuentra en el Encinar.",
+      "image": "images/items/obj_p4_img28_23x23.png"
+    }
+  ],
+  "evolutionStones": [
+    {
+      "id": "piedra-alba",
+      "name": "Piedra Alba",
+      "category": "Piedra Evolutiva",
+      "isExclusiveHack": false,
+      "location": "En la Ruta 35, puede comprarse en Ciudad Endrino.",
+      "image": "images/items/obj_p4_img1_24x24.png"
+    },
+    {
+      "id": "piedra-noche",
+      "name": "Piedra Noche",
+      "category": "Piedra Evolutiva",
+      "isExclusiveHack": false,
+      "location": "En la segunda sala del Monte Mortero, puede comprarse en Ciudad Endrino.",
+      "image": "images/items/obj_p4_img1_24x24.png"
+    },
+    {
+      "id": "piedra-fuego",
+      "name": "Piedra Fuego",
+      "category": "Piedra Evolutiva",
+      "isExclusiveHack": false,
+      "location": "Te lo da el Anciano de la Torre Bellsprout y puede comprarse en Ciudad Trigal.",
+      "image": "images/items/obj_p4_img1_24x24.png"
+    },
+    {
+      "id": "piedra-hoja",
+      "name": "Piedra Hoja",
+      "category": "Piedra Evolutiva",
+      "isExclusiveHack": false,
+      "location": "Puede comprarse en Ciudad Trigal.",
+      "image": "images/items/obj_p4_img1_24x24.png"
+    },
+    {
+      "id": "piedra-lunar",
+      "name": "Piedra Lunar",
+      "category": "Piedra Evolutiva",
+      "isExclusiveHack": false,
+      "location": "Un hombre de Ciudad Oliva te da una cada día (por la noche).",
+      "image": "images/items/obj_p4_img1_24x24.png"
+    },
+    {
+      "id": "piedra-d-a",
+      "name": "Piedra Día",
+      "category": "Piedra Evolutiva",
+      "isExclusiveHack": false,
+      "location": "En la entrada del Frente Batalla, puede comprarse en Ciudad Endrino.",
+      "image": "images/items/obj_p4_img1_24x24.png"
+    },
+    {
+      "id": "piedra-solar",
+      "name": "Piedra Solar",
+      "category": "Piedra Evolutiva",
+      "isExclusiveHack": false,
+      "location": "Un hombre de Ciudad Oliva te da una cada día (por el día).",
+      "image": "images/items/obj_p4_img1_24x24.png"
+    },
+    {
+      "id": "piedratrueno",
+      "name": "Piedratrueno",
+      "category": "Piedra Evolutiva",
+      "isExclusiveHack": false,
+      "location": "Te lo da el Anciano de la Torre Bellsprout y puede comprarse en Ciudad Trigal.",
+      "image": "images/items/obj_p4_img1_24x24.png"
+    },
+    {
+      "id": "piedra-agua",
+      "name": "Piedra Agua",
+      "category": "Piedra Evolutiva",
+      "isExclusiveHack": false,
+      "location": "Te lo da el Anciano de la Torre Bellsprout y puede comprarse en Ciudad Trigal.",
+      "image": "images/items/obj_p4_img1_24x24.png"
+    }
+  ],
+  "keyItems": [
+    {
+      "id": "ca-a-vieja",
+      "name": "Caña Vieja",
+      "category": "Objeto Clave",
+      "location": "Te la da el Guía de Ciudad Cerezo.",
+      "image": "images/items/obj_p5_img3_24x24.png"
+    },
+    {
+      "id": "ca-a-buena",
+      "name": "Caña Buena",
+      "category": "Objeto Clave",
+      "location": "Te la da un Pescador en el Café Olivo.",
+      "image": "images/items/obj_p5_img3_24x24.png"
+    },
+    {
+      "id": "bicicleta",
+      "name": "Bicicleta",
+      "category": "Objeto Clave",
+      "location": "Te la da tu Madre al empezar el juego.",
+      "image": "images/items/obj_p5_img3_24x24.png"
+    },
+    {
+      "id": "lector-gb",
+      "name": "Lector GB",
+      "category": "Objeto Clave",
+      "location": "Te lo da tu Madre al empezar el juego.",
+      "image": "images/items/obj_p5_img3_24x24.png"
+    }
+  ],
+  "fossils": [
+    {
+      "id": "fosiles-arqueologia",
+      "name": "Fósiles Pokémon (Todos)",
+      "category": "Fósiles",
+      "location": "Gratuitos en el Centro Arqueológico de Ciudad Trigal. El Ámbar Viejo se encuentra usando Golpe Roca en las rocas de las Ruinas Alfa.",
+      "image": "images/items/obj_p5_img7_256x191.png"
+    }
+  ],
+  "otherItems": [
+    {
+      "id": "repartir-experiencia",
+      "name": "Repartir Experiencia",
+      "category": "Objeto Especial",
+      "location": "Te lo da un Científico en el Centro PKMN de Ciudad Malva.",
+      "image": "images/items/obj_p5_img6_24x24.png"
+    },
+    {
+      "id": "huevo-suerte",
+      "name": "Huevo Suerte",
+      "category": "Objeto Especial",
+      "location": "Te lo da el Sr. Pokémon a cambio de una Escama Roja. También te darán uno en",
+      "image": "images/items/obj_p5_img6_24x24.png"
+    },
+    {
+      "id": "hueso-grueso-bolaluminosa-etc",
+      "name": "Hueso Grueso, Bolaluminosa, etc",
+      "category": "Objeto Especial",
+      "location": "En la Estación de Ciudad Trigal, hay una mujer que te dará",
+      "image": "images/items/obj_p5_img6_24x24.png"
+    }
+  ]
+}

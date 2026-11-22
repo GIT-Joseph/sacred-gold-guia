@@ -1,0 +1,328 @@
+{
+  "title": "Cambios Evolutivos en Pokémon Sacred Gold",
+  "description": "En Pokémon Sacred Gold se han eliminado todas las necesidades de intercambio para evolucionar, introduciendo nuevos objetos exclusivos y permitiendo usar directamente los objetos equipables de evolución.",
+  "categories": [
+    {
+      "id": "direct-use-items",
+      "name": "Objetos de Intercambio Usables Directamente",
+      "description": "Ya no es necesario equipar el objeto e intercambiar al Pokémon. Basta con 'Usar' el objeto directamente desde la mochila como si fuese una piedra evolutiva.",
+      "methods": [
+        {
+          "basePokemon": "Seadra",
+          "targetPokemon": "Kingdra",
+          "item": "Escamadragón",
+          "originalMethod": "Intercambio equipado con Escamadragón",
+          "newMethod": "Usar Escamadragón"
+        },
+        {
+          "basePokemon": "Onix",
+          "targetPokemon": "Steelix",
+          "item": "Revestimiento Metálico",
+          "originalMethod": "Intercambio equipado con Revestimiento Metálico",
+          "newMethod": "Usar Revestimiento Metálico"
+        },
+        {
+          "basePokemon": "Scyther",
+          "targetPokemon": "Scizor",
+          "item": "Revestimiento Metálico",
+          "originalMethod": "Intercambio equipado con Revestimiento Metálico",
+          "newMethod": "Usar Revestimiento Metálico"
+        },
+        {
+          "basePokemon": "Poliwhirl",
+          "targetPokemon": "Politoed",
+          "item": "Roca del Rey",
+          "originalMethod": "Intercambio equipado con Roca del Rey",
+          "newMethod": "Usar Roca del Rey"
+        },
+        {
+          "basePokemon": "Slowpoke",
+          "targetPokemon": "Slowking",
+          "item": "Roca del Rey",
+          "originalMethod": "Intercambio equipado con Roca del Rey",
+          "newMethod": "Usar Roca del Rey"
+        },
+        {
+          "basePokemon": "Clamperl",
+          "targetPokemon": "Gorebyss",
+          "item": "Escama Marina",
+          "originalMethod": "Intercambio equipado con Escama Marina",
+          "newMethod": "Usar Escama Marina"
+        },
+        {
+          "basePokemon": "Clamperl",
+          "targetPokemon": "Huntail",
+          "item": "Diente Marino",
+          "originalMethod": "Intercambio equipado con Diente Marino",
+          "newMethod": "Usar Diente Marino"
+        },
+        {
+          "basePokemon": "Rhydon",
+          "targetPokemon": "Rhyperior",
+          "item": "Protector",
+          "originalMethod": "Intercambio equipado con Protector",
+          "newMethod": "Usar Protector"
+        },
+        {
+          "basePokemon": "Dusclops",
+          "targetPokemon": "Dusknoir",
+          "item": "Telaterrible",
+          "originalMethod": "Intercambio equipado con Telaterrible",
+          "newMethod": "Usar Telaterrible"
+        },
+        {
+          "basePokemon": "Magmar",
+          "targetPokemon": "Magmortar",
+          "item": "Magmatizador",
+          "originalMethod": "Intercambio equipado con Magmatizador",
+          "newMethod": "Usar Magmatizador"
+        },
+        {
+          "basePokemon": "Electabuzz",
+          "targetPokemon": "Electivire",
+          "item": "Electrizador",
+          "originalMethod": "Intercambio equipado con Electrizador",
+          "newMethod": "Usar Electrizador"
+        },
+        {
+          "basePokemon": "Porygon",
+          "targetPokemon": "Porygon2",
+          "item": "Mejora",
+          "originalMethod": "Intercambio equipado con Mejora",
+          "newMethod": "Usar Mejora"
+        },
+        {
+          "basePokemon": "Porygon2",
+          "targetPokemon": "Porygon-Z",
+          "item": "Discoxtraño",
+          "originalMethod": "Intercambio equipado con Discoxtraño",
+          "newMethod": "Usar Discoxtraño"
+        }
+      ]
+    },
+    {
+      "id": "covenant-orb",
+      "name": "Evoluciones por Orbe Unión (Nuevo Objeto)",
+      "description": "Sustituye la evolución por intercambio simple sin objeto. Al 'Usar' un Orbe Unión evolucionan inmediatamente.",
+      "methods": [
+        {
+          "basePokemon": "Kadabra",
+          "targetPokemon": "Alakazam",
+          "item": "Orbe Unión",
+          "originalMethod": "Intercambio",
+          "newMethod": "Usar Orbe Unión"
+        },
+        {
+          "basePokemon": "Machoke",
+          "targetPokemon": "Machamp",
+          "item": "Orbe Unión",
+          "originalMethod": "Intercambio",
+          "newMethod": "Usar Orbe Unión"
+        },
+        {
+          "basePokemon": "Graveler",
+          "targetPokemon": "Golem",
+          "item": "Orbe Unión",
+          "originalMethod": "Intercambio",
+          "newMethod": "Usar Orbe Unión"
+        },
+        {
+          "basePokemon": "Haunter",
+          "targetPokemon": "Gengar",
+          "item": "Orbe Unión",
+          "originalMethod": "Intercambio",
+          "newMethod": "Usar Orbe Unión"
+        }
+      ]
+    },
+    {
+      "id": "voltaic-mineral",
+      "name": "Evoluciones por Mineral Voltaico (Nuevo Objeto)",
+      "description": "Dado que en Johto/Kanto no existe el Monte Corona de Sinnoh, se ha creado el Mineral Voltaico para provocar la evolución electromagnética.",
+      "methods": [
+        {
+          "basePokemon": "Magneton",
+          "targetPokemon": "Magnezone",
+          "item": "Mineral Voltaico",
+          "originalMethod": "Subir nivel en Campo Magnético Especial (Monte Corona)",
+          "newMethod": "Usar Mineral Voltaico"
+        },
+        {
+          "basePokemon": "Nosepass",
+          "targetPokemon": "Probopass",
+          "item": "Mineral Voltaico",
+          "originalMethod": "Subir nivel en Campo Magnético Especial (Monte Corona)",
+          "newMethod": "Usar Mineral Voltaico"
+        }
+      ]
+    },
+    {
+      "id": "eeveelutions",
+      "name": "Evoluciones de Eevee (Nuevos Métodos)",
+      "description": "Eevee cuenta con métodos simplificados y nuevos objetos para eliminar la dependencia de amistad u horario.",
+      "methods": [
+        {
+          "basePokemon": "Eevee",
+          "targetPokemon": "Vaporeon",
+          "item": "Piedra Agua",
+          "originalMethod": "Piedra Agua",
+          "newMethod": "Usar Piedra Agua"
+        },
+        {
+          "basePokemon": "Eevee",
+          "targetPokemon": "Jolteon",
+          "item": "Piedratrueno",
+          "originalMethod": "Piedratrueno",
+          "newMethod": "Usar Piedratrueno"
+        },
+        {
+          "basePokemon": "Eevee",
+          "targetPokemon": "Flareon",
+          "item": "Piedra Fuego",
+          "originalMethod": "Piedra Fuego",
+          "newMethod": "Usar Piedra Fuego"
+        },
+        {
+          "basePokemon": "Eevee",
+          "targetPokemon": "Espeon",
+          "item": "Orbe Albor",
+          "originalMethod": "Amistad alta durante el día",
+          "newMethod": "Usar Orbe Albor"
+        },
+        {
+          "basePokemon": "Eevee",
+          "targetPokemon": "Umbreon",
+          "item": "Orbe Ocaso",
+          "originalMethod": "Amistad alta durante la noche",
+          "newMethod": "Usar Orbe Ocaso"
+        },
+        {
+          "basePokemon": "Eevee",
+          "targetPokemon": "Leafeon",
+          "item": "Mineral Forestal",
+          "originalMethod": "Subir nivel cerca de Roca Musgo",
+          "newMethod": "Usar Mineral Forestal"
+        },
+        {
+          "basePokemon": "Eevee",
+          "targetPokemon": "Glaceon",
+          "item": "Mineral Helado",
+          "originalMethod": "Subir nivel cerca de Roca Hielo",
+          "newMethod": "Usar Mineral Helado"
+        }
+      ]
+    },
+    {
+      "id": "other-special",
+      "name": "Otras Evoluciones por Piedra y Movimiento",
+      "description": "Métodos que se mantienen de Gen 4 estándar, disponibles antes de la Liga gracias a la nueva ubicación de piedras.",
+      "methods": [
+        {
+          "basePokemon": "Roselia",
+          "targetPokemon": "Roserade",
+          "item": "Piedra Día",
+          "originalMethod": "Piedra Día",
+          "newMethod": "Usar Piedra Día"
+        },
+        {
+          "basePokemon": "Togetic",
+          "targetPokemon": "Togekiss",
+          "item": "Piedra Día",
+          "originalMethod": "Piedra Día",
+          "newMethod": "Usar Piedra Día"
+        },
+        {
+          "basePokemon": "Murkrow",
+          "targetPokemon": "Honchkrow",
+          "item": "Piedra Noche",
+          "originalMethod": "Piedra Noche",
+          "newMethod": "Usar Piedra Noche"
+        },
+        {
+          "basePokemon": "Misdreavus",
+          "targetPokemon": "Mismagius",
+          "item": "Piedra Noche",
+          "originalMethod": "Piedra Noche",
+          "newMethod": "Usar Piedra Noche"
+        },
+        {
+          "basePokemon": "Kirlia",
+          "targetPokemon": "Gallade",
+          "item": "Piedra Alba (Macho)",
+          "originalMethod": "Piedra Alba (♂)",
+          "newMethod": "Usar Piedra Alba en Kirlia Macho"
+        },
+        {
+          "basePokemon": "Snorunt",
+          "targetPokemon": "Froslass",
+          "item": "Piedra Alba (Hembra)",
+          "originalMethod": "Piedra Alba (♀)",
+          "newMethod": "Usar Piedra Alba en Snorunt Hembra"
+        },
+        {
+          "basePokemon": "Piloswine",
+          "targetPokemon": "Mamoswine",
+          "item": "Poder Pasado",
+          "originalMethod": "Subir de nivel conociendo Poder Pasado",
+          "newMethod": "Subir de nivel conociendo Poder Pasado"
+        },
+        {
+          "basePokemon": "Yanma",
+          "targetPokemon": "Yanmega",
+          "item": "Poder Pasado",
+          "originalMethod": "Subir de nivel conociendo Poder Pasado",
+          "newMethod": "Subir de nivel conociendo Poder Pasado"
+        },
+        {
+          "basePokemon": "Tangela",
+          "targetPokemon": "Tangrowth",
+          "item": "Poder Pasado",
+          "originalMethod": "Subir de nivel conociendo Poder Pasado",
+          "newMethod": "Subir de nivel conociendo Poder Pasado"
+        },
+        {
+          "basePokemon": "Aipom",
+          "targetPokemon": "Ambipom",
+          "item": "Doble Golpe",
+          "originalMethod": "Subir de nivel conociendo Doble Golpe",
+          "newMethod": "Subir de nivel conociendo Doble Golpe"
+        },
+        {
+          "basePokemon": "Lickitung",
+          "targetPokemon": "Lickilicky",
+          "item": "Rodar",
+          "originalMethod": "Subir de nivel conociendo Rodar",
+          "newMethod": "Subir de nivel conociendo Rodar"
+        },
+        {
+          "basePokemon": "Gligar",
+          "targetPokemon": "Gliscor",
+          "item": "Comillagudo",
+          "originalMethod": "Subir de nivel de noche equipado con Comillagudo",
+          "newMethod": "Subir de nivel de noche equipado con Comillagudo"
+        },
+        {
+          "basePokemon": "Sneasel",
+          "targetPokemon": "Weavile",
+          "item": "Garrafilada",
+          "originalMethod": "Subir de nivel de noche equipado con Garrafilada",
+          "newMethod": "Subir de nivel de noche equipado con Garrafilada"
+        },
+        {
+          "basePokemon": "Happiny",
+          "targetPokemon": "Chansey",
+          "item": "Piedra Oval",
+          "originalMethod": "Subir de nivel de día equipada con Piedra Oval",
+          "newMethod": "Subir de nivel de día equipada con Piedra Oval"
+        },
+        {
+          "basePokemon": "Feebas",
+          "targetPokemon": "Milotic",
+          "item": "Belleza 170+",
+          "originalMethod": "Subir de nivel con Belleza 170+",
+          "newMethod": "Subir de nivel con Belleza 170+ (peluquería en Subterráneo Trigal o Dalia en Pueblo Paleta)"
+        }
+      ]
+    }
+  ]
+}

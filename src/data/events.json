@@ -1,0 +1,533 @@
+{
+  "totalEvents": 38,
+  "totalPlates": 16,
+  "events": [
+    {
+      "id": "rotom",
+      "name": "Rotom",
+      "category": "No-Legendarios",
+      "page": 2,
+      "requirements": [
+        "Medalla Planicie"
+      ],
+      "description": "Encontrar a Rotom es bastante fácil: cuando consigas la Medalla Planicie de manos de Blanca, vuelve a Pueblo Primavera y acércate a la televisión de la planta baja de tu casa. Te preguntarán si quieres darle unos golpes (como en Diamante & Perla). Si lo haces, encontrarás a un Rotom en el nivel 20. Si quieres cambiar la forma de Rotom antes de llegar a Ciudad Azafrán, ve al sótano del Centro Comercial de Ciudad Trigal y habla con un ladrón que se encuentra por allí.",
+      "screenshot": "images/events/event_p2_1_256x192.png"
+    },
+    {
+      "id": "spiritomb",
+      "name": "Spiritomb",
+      "category": "No-Legendarios",
+      "page": 2,
+      "requirements": [
+        "Tener una Piedra Espíritu"
+      ],
+      "description": "Cuando te dirijas por primera vez a Ciudad Trigal, te encontrarás a Cintia, que te dará una Piedra Espíritu. Con ella, ve a Ciudad Azalea y ponte justo encima del Pozo Slowpoke (sin entrar, claro). Pulsa A y te preguntarán si quieres tirar la Piedra Espíritu al pozo. Si lo haces, aparecerá un Spiritomb al nivel 20. Si por alguna razón pierdes o huyes del combate, no recibirás más Piedras Espíritu hasta obtener la Medalla Tierra y hablar con el capitán del Ferry S.S. Aqua.",
+      "screenshot": "images/events/event_p2_1_256x192.png"
+    },
+    {
+      "id": "sudowoodo",
+      "name": "Sudowoodo",
+      "category": "No-Legendarios",
+      "page": 2,
+      "requirements": [
+        "Ninguno, es parte de la historia"
+      ],
+      "description": "Sudowoodo sigue en el mismo lugar de siempre: consigues la Medalla Planicie, luego la Regadera y al usarla, reacciona. La única diferencia es que ahora está en el nivel 25, y no en el 20.",
+      "screenshot": "images/events/event_p2_1_256x192.png"
+    },
+    {
+      "id": "lapras",
+      "name": "Lapras",
+      "category": "No-Legendarios",
+      "page": 3,
+      "requirements": [
+        "Que sea viernes",
+        "Medalla Niebla"
+      ],
+      "description": "Lapras tampoco ha cambiado: cuando consigas la Medalla Niebla de manos de Morti, podrás capturar uno cada viernes en la Cueva Unión La única diferencia es que ahora está en el nivel 25 y no en el 20.",
+      "screenshot": "images/events/event_p3_1_256x192.png"
+    },
+    {
+      "id": "gyarados",
+      "name": "Gyarados",
+      "category": "No-Legendarios",
+      "page": 3,
+      "requirements": [
+        "Ninguno, es parte de la historia"
+      ],
+      "description": "El único cambio es que Gyarados está en el nivel 40 en vez del 30.",
+      "screenshot": "images/events/event_p3_1_256x192.png"
+    },
+    {
+      "id": "snorlax",
+      "name": "Snorlax",
+      "category": "No-Legendarios",
+      "page": 3,
+      "requirements": [
+        "Tener la Tarjeta Expansión de la radio de Kanto"
+      ],
+      "description": "En este caso, Snorlax ha cambiado de sitio. No sale en la imagen, pero ahora no bloquea la entrada a la Cueva Diglett, sino que solo bloquea la Ruta 11. Además, ahora está en el nivel 60.",
+      "screenshot": "images/events/event_p3_1_256x192.png"
+    },
+    {
+      "id": "pseudo-legendarios",
+      "name": "Pseudo-legendarios",
+      "category": "No-Legendarios",
+      "page": 4,
+      "requirements": [
+        "Medalla Tierra"
+      ],
+      "description": "Tras conseguir la Medalla Tierra, ¡podrás conseguir un regalo! Tendrás que ir a la sala de la radio de las Cataratas Tohjo. Te preguntarán qué emisora quieres poner de 5 que te aparecerán en la pantalla táctil. Según la que elijas, aparecerá un Pokémon u otro, varicolor, y al nivel 60. Dieciséis Horas --> Dragonite La Roca Negra --> Tyranitar Siniestros 101 --> Salamence Ataque Cruzado --> Metagross Tiburón X --> Garchomp",
+      "screenshot": "images/events/event_p4_1_256x192.png"
+    },
+    {
+      "id": "eevee",
+      "name": "Eevee",
+      "category": "Pokémon Regalados",
+      "page": 5,
+      "requirements": [
+        "Ninguno, es parte de la historia"
+      ],
+      "description": "Bueno, es imposible no recibir a este Eevee ya que es parte de la historia. Te lo dará Cintia cuando vayas a ver al Sr. Pokémon por primera vez. Estará al nivel 5.",
+      "screenshot": "images/events/event_p5_1_256x192.png"
+    },
+    {
+      "id": "castform",
+      "name": "Castform",
+      "category": "Pokémon Regalados",
+      "page": 5,
+      "requirements": [
+        "Ve al Centro PKMN de Ciudad Iris"
+      ],
+      "description": "Castform reemplaza al Eevee que daba antes Bill; por lo demás, todo sigue igual. Está en el nivel 25 y tiene un Agua Mística.",
+      "screenshot": "images/events/event_p5_1_256x192.png"
+    },
+    {
+      "id": "riolu",
+      "name": "Riolu",
+      "category": "Pokémon Regalados",
+      "page": 5,
+      "requirements": [
+        "Llega a Pueblo Caoba"
+      ],
+      "description": "Una vez llegues a Pueblo Caoba, te encontrarás a Quinoa y Bulgur en una de las casas. Habla con Quinoa y te dará un Huevo del que saldrá un Riolu.",
+      "screenshot": "images/events/event_p5_1_256x192.png"
+    },
+    {
+      "id": "dragonair",
+      "name": "Dragonair",
+      "category": "Pokémon Regalados",
+      "page": 6,
+      "requirements": [
+        "Vuelve a la Guarida Dragón por segunda vez"
+      ],
+      "description": "Como siempre, el Anciano te dará un Pokémon con Velocidad Extrema. La diferencia es que es un Dragonair, está al nivel 45 y lleva la Tabla Draco.",
+      "screenshot": "images/events/event_p6_1_256x192.png"
+    },
+    {
+      "id": "iniciales-de-kanto-bulbasaur-charmander-y-squirtle",
+      "name": "Iniciales de Kanto – Bulbasaur, Charmander y Squirtle",
+      "category": "Pokémon Regalados",
+      "page": 6,
+      "requirements": [
+        "Llegar a Ciudad Malva…"
+      ],
+      "description": "Tu primer inicial de Kanto lo podrás obtener en el Centro PKMN de Ciudad Malva. Si respondes a las preguntas del Encuestador, podrás quedarte con uno de ellos. Luego, una vez llegues a Kanto, si vas por la Ruta 12 y entras en la casa donde recibías la Supercaña, encontrarás al Prof. Oak. Enséñale tu inicial de Kanto, y te dará a los otros dos.",
+      "screenshot": "images/events/event_p6_1_256x192.png"
+    },
+    {
+      "id": "iniciales-de-johto-chikorita-cyndaquil-y-totodile",
+      "name": "Iniciales de Johto – Chikorita, Cyndaquil y Totodile",
+      "category": "Pokémon Regalados",
+      "page": 6,
+      "requirements": [
+        "Empezar el juego…"
+      ],
+      "description": "El primero te lo da, obviamente, el Prof. Elm en su laboratorio. Cuando llegues a Ciudad Azafrán, te lo encontrarás en Silph S.A. Habla con él y te dará los otros dos iniciales.",
+      "screenshot": "images/events/event_p6_1_256x192.png"
+    },
+    {
+      "id": "iniciales-de-hoenn-treecko-torchic-y-mudkip",
+      "name": "Iniciales de Hoenn – Treecko, Torchic y Mudkip",
+      "category": "Legendarios",
+      "page": 7,
+      "requirements": [
+        "Llegar a Pueblo Azalea…"
+      ],
+      "description": "El primer inicial de Hoenn te lo dará el Encuestador del Centro PKMN. Luego, podrás obtener a los otros dos de manos de Máximo en Ciudad Plateada, enseñándole el que conseguiste primero.",
+      "screenshot": "images/events/event_p7_1_256x192.png"
+    },
+    {
+      "id": "iniciales-de-sinnoh-turtwig-chimchar-y-piplup",
+      "name": "Iniciales de Sinnoh – Turtwig, Chimchar y Piplup",
+      "category": "Legendarios",
+      "page": 7,
+      "requirements": [
+        "Llegar a Ciudad Trigal…"
+      ],
+      "description": "El primer inicial de Sinnoh te lo dará el Encuestador del Centro PKMN. Luego, podrás obtener a los otros dos de manos de Cintia en Ciudad Trigal, en el Centro Arqueológico, enseñándole el que conseguiste primero.",
+      "screenshot": "images/events/event_p7_1_256x192.png"
+    },
+    {
+      "id": "pikachu-volador-y-surfero",
+      "name": "Pikachu Volador y Surfero",
+      "category": "Legendarios",
+      "page": 7,
+      "requirements": [
+        "Llegar a Ciudad Orquídea",
+        "Ir con un Pokémon con la felicidad al máximo"
+      ],
+      "description": "En la playa de Ciudad Orquídea te encontrarás con Catleya. Aunque no se presente como tal, sí que te cuenta que se ha encontrado a un Pikachu varado en la playa y le gustaría que lo cuidase alguien. Si el Pokémon que vaya junto a ti tiene la felicidad al máximo, te dará al Pikachu. Por lo demás, el Tyrogue que entrega el Rey del Kárate sigue igual, aunque lleva la Tabla Fuerte. Togepi, Spearow y Shuckle siguen exactamente igual que en HeartGold/SoulSilver.",
+      "screenshot": "images/events/event_p7_1_256x192.png"
+    },
+    {
+      "id": "articuno-y-zapdos",
+      "name": "Articuno y Zapdos",
+      "category": "Legendarios",
+      "page": 8,
+      "requirements": [
+        "Tener las 16 Medallas (solo para Zapdos)"
+      ],
+      "description": "Estos pájaros se encuentran en el mismo sitio que en HG/SS. La única diferencia es que tienen 10 niveles más.",
+      "screenshot": "images/events/event_p8_1_256x192.png"
+    },
+    {
+      "id": "moltres",
+      "name": "Moltres",
+      "category": "Legendarios",
+      "page": 8,
+      "requirements": [
+        "Tener las 16 Medallas",
+        "Haber capturado a Heatran"
+      ],
+      "description": "Esta vez, Moltres estará en el Gimnasio de Blaine tras haber capturado a Heatran. Está en el nivel 60.",
+      "screenshot": "images/events/event_p8_1_256x192.png"
+    },
+    {
+      "id": "mewtwo",
+      "name": "Mewtwo",
+      "category": "Legendarios",
+      "page": 8,
+      "requirements": [
+        "Tener las 16 Medallas"
+      ],
+      "description": "Mewtwo sigue en el mismo sitio, aunque ahora está en el nivel 75. Vuelve al mismo sitio tras haberlo capturado y te llevarás una sorpresa especial…",
+      "screenshot": "images/events/event_p8_1_256x192.png"
+    },
+    {
+      "id": "mew",
+      "name": "Mew",
+      "category": "Legendarios",
+      "page": 9,
+      "requirements": [
+        "Tener las 16 Medallas"
+      ],
+      "description": "Mew se encuentra en el Bosque Verde. Cuando lo veas por primera vez, estará en la ubicación de la imagen. Cuando interactúes con él, se teletransportará al centro- norte del Bosque. Interactúa con él otra vez y se irá al centro-sur. Vuelve a interactuar con él de nuevo, y se teletransportará a un pequeño hueco entre los árboles, al sur de la entrada norte. Por última vez, interactúa con él y empezará el combate. Está al nivel 45.",
+      "screenshot": "images/events/event_p9_1_256x192.png"
+    },
+    {
+      "id": "entei-raikou-y-suicune",
+      "name": "Entei, Raikou y Suicune",
+      "category": "Legendarios",
+      "page": 9,
+      "requirements": [
+        "Ir al sótano de la Torre Quemada",
+        "Buscar por la región (solo para Suicune)"
+      ],
+      "description": "Están exactamente en el mismo sitio que en HG/SS. No hay siquiera cambios en los niveles, así que captúralos tal y como harías en el juego original (recomiendo llevar a un Pokémon con la habilidad Sombratrampa o que sepa Mal de Ojo).",
+      "screenshot": "images/events/event_p9_1_256x192.png"
+    },
+    {
+      "id": "lugia-y-ho-oh",
+      "name": "Lugia y Ho-Oh",
+      "category": "Legendarios",
+      "page": 9,
+      "requirements": [
+        "Depende de tu versión…"
+      ],
+      "description": "Lugia y Ho-Oh tampoco tienen cambios en cómo se encuentran, aunque estarán en el nivel 50. (Por cierto, en SacredGold, Lugia puede ser capturado. Ve a las Islas Remolino y lo encontrarás).",
+      "screenshot": "images/events/event_p9_1_256x192.png"
+    },
+    {
+      "id": "celebi",
+      "name": "Celebi",
+      "category": "Legendarios",
+      "page": 10,
+      "requirements": [
+        "Tener las 16 Medallas",
+        "Tener la Flauta Azur"
+      ],
+      "description": "Para encontrarte con Celebi, deberás interactuar con el Santuario llevando la en la Bolsa. Para obtenerla, debes darle la Piedra Magma a una mujer que está en una casa de Pueblo Lavanda. Una vez uses la Flauta en el Santuario, Celebi aparecerá y atacará, pero solo UNA VEZ. Estará en el nivel 45.",
+      "screenshot": "images/events/event_p10_1_256x192.png"
+    },
+    {
+      "id": "regirock-regice-y-registeel",
+      "name": "Regirock, Regice y Registeel",
+      "category": "Legendarios",
+      "page": 10,
+      "requirements": [
+        "Vencer al Alto Mando"
+      ],
+      "description": "Una vez te conviertas en el Campeón, ve al muelle de Ciudad Olivo. Oak te felicitará por tu hazaña y te regalará la Cápsula Candado. Llévasela a Cintia en Ciudad Trigal, y desbloquearás a los Regis. Regirock está en el sótano del Monte Mortero, Regice en el segundo sótano de la Ruta Helada, y Registeel en la Cueva Oscura, en el lado de Ciudad Endrino. Todos están en el nivel 40.",
+      "screenshot": "images/events/event_p10_1_256x192.png"
+    },
+    {
+      "id": "latias-y-latios",
+      "name": "Latias y Latios",
+      "category": "Legendarios",
+      "page": 11,
+      "requirements": [
+        "Depende de tu versión…"
+      ],
+      "description": "Al primer PKMN Eón lo encontrarás como en HG/SS: primero obtienes el Poké Muñeco en Ciudad Carmín, te encuentras a Máximo y te habla sobre Latias y Latios. A partir de ese momento, Latias (en Sacred Gold) rondará por Kanto al nivel 35. Una vez la captures, habla con Máximo en Ciudad Plateada y enséñale a Latias. Su Misticristal reaccionará a ella, te lo dará y tendrás que llevarlo al Centro Arqueológico de Ciudad Trigal. Allí, lo pulirán y se convertirá en el Rocío Bondad. Por último, vuelve a Ciudad Carmín e interactúa con la losa que hay en la parte noreste de la ciudad teniendo el Rocío Bondad en la Bolsa. Podrás decidir si quieres o no luchar contra Latios, que aparecerá al nivel 40 (SOLO UNA VEZ).",
+      "screenshot": "images/events/event_p11_1_256x192.png"
+    },
+    {
+      "id": "groudon-kyogre-y-rayquaza",
+      "name": "Groudon, Kyogre y Rayquaza",
+      "category": "Legendarios",
+      "page": 11,
+      "requirements": [
+        "Vencer a Rojo"
+      ],
+      "description": "Para capturarlos, tienes que hacer más o menos lo mismo que en HG/SS, aunque hay algunos cambios. Cuando venzas a Rojo, vuelve a Pueblo Paleta y habla con Oak. Después, visita al Sr. Pokémon y te dará la Esfera Roja. Ve a la Ruta 47, entra en la Torre Oculta y verás a Groudon. Captúralo y la Esfera Roja se transformará en la Esfera Azul. Sal y vuelve a entrar y está Kyogre. Tras capturarlo, se convertirá en la Esfera Verde. Sal, vuelve a entrar y estará Rayquaza, al nivel 75.",
+      "screenshot": "images/events/event_p11_1_256x192.png"
+    },
+    {
+      "id": "jirachi",
+      "name": "Jirachi",
+      "category": "Legendarios",
+      "page": 12,
+      "requirements": [
+        "Tener las 16 Medallas",
+        "Tener la Flauta Azur"
+      ],
+      "description": "Una vez obtengas Treparrocas de mano de Oak, encontrarás a una Chica Kimono fuera del Teatro, en Ciudad Iris. Te hablará sobre Jirachi. Jirachi se encuentra cerca de donde está el Rey del Kárate, en el Monte Mortero. Llevando la Flauta Azur, podrás despertarlo. Te dará a elegir varias opciones (mucho dinero, fichas…). Obviamente, se recomienda luchar contra él. Está al nivel 45. (SOLO UNA VEZ)",
+      "screenshot": "images/events/event_p12_1_256x192.png"
+    },
+    {
+      "id": "deoxys",
+      "name": "Deoxys",
+      "category": "Legendarios",
+      "page": 12,
+      "requirements": [
+        "Tener las 16 Medallas"
+      ],
+      "description": "Capturar a Deoxys es fácil: si pasas por cierto punto en la Ruta 3, en la zona de los meteoritos, te saldrá un mensaje sobre que sientes algo raro. Si haces esto tras obtener la Medalla Tierra entre medianoche y las 04:00 AM (inclusive), aparecerá Deoxys y te atacará. Está al nivel 60.",
+      "screenshot": "images/events/event_p12_1_256x192.png"
+    },
+    {
+      "id": "uxie-mesprit-y-azelf",
+      "name": "Uxie, Mesprit y Azelf",
+      "category": "Legendarios",
+      "page": 12,
+      "requirements": [
+        "Completa el evento de la Central Energía"
+      ],
+      "description": "La clave para este evento es usar la Cadena Roja, que obtendrás automáticamente del jefe de la Central Energía una vez le des la Maquinaria perdida. Llévale la Cadena Roja a Cintia y te dará la opción de ir a las Ruinas Sinjoh. Una vez allí, ve al Estrado Mistrío y allí está el Trío del Lago. Las tres están al nivel 50.",
+      "screenshot": "images/events/event_p12_1_256x192.png"
+    },
+    {
+      "id": "dialga-palkia-y-giratina",
+      "name": "Dialga, Palkia y Giratina",
+      "category": "Legendarios",
+      "page": 13,
+      "requirements": [
+        "Obtén la Medalla Tierra",
+        "Captura al Trío del Lago"
+      ],
+      "description": "Una vez completes los requisitos, ponte en el centro del Estrado Mistrío y se te juzgará, para ver si estás listo para enfrentarte al Trío Dragón. Si es así, aparecerán los tres, al nivel 70. Al capturarlos, te darán sus respectivas esferas (Griseosfera, etc.).",
+      "screenshot": "images/events/event_p13_1_256x192.png"
+    },
+    {
+      "id": "heatran",
+      "name": "Heatran",
+      "category": "Legendarios",
+      "page": 13,
+      "requirements": [
+        "Tener las 16 Medallas"
+      ],
+      "description": "Heatran se encuentra en la cima de Isla Canela, o, mejor dicho, la Piedra Magma se encuentra allí. Está bajando con Treparrocas. Cógela y aparecerá automáticamente Heatran. Habla con él y estará al nivel 70. ¡No olvides cambiar la Piedra Magma por la Flauta Azur!",
+      "screenshot": "images/events/event_p13_1_256x192.png"
+    },
+    {
+      "id": "regigigas",
+      "name": "Regigigas",
+      "category": "Legendarios",
+      "page": 13,
+      "requirements": [
+        "Tener las 16 Medallas",
+        "Haber capturado a los 3 Regis"
+      ],
+      "description": "Regigigas se encuentra en donde estaba Moltres en HG/SS. Fuera, la entrada está bloqueada por una losa que te hablará (crípticamente) sobre los Regis. Interactúa con la losa llevando a los 3 Regis en tu equipo y desaparecerá. En la sala siguiente estará Regigigas en el nivel 75. (En la traducción, que es de la versión completa del hack, Regigigas NO tendrá Inicio Lento)",
+      "screenshot": "images/events/event_p13_1_256x192.png"
+    },
+    {
+      "id": "cresselia",
+      "name": "Cresselia",
+      "category": "Legendarios",
+      "page": 14,
+      "requirements": [
+        "Tener las 16 Medallas"
+      ],
+      "description": "Al obtener la Medalla Tierra, ve a tu casa e intenta dormir en tu cama. Sufrirás una “pesadilla” y no descansarás bien. Por eso, tus Pokémon no podrán recuperarse. Después, ve al Mt. Moon. Si vas cuando no estén los Clefairy bailando, encontrarás a Cresselia en el estanque. Desafíala, la encontrarás al nivel 50. Si la capturas, recibirás la Pluma Lunar, clave para obtener a Darkrai.",
+      "screenshot": "images/events/event_p14_1_256x192.png"
+    },
+    {
+      "id": "phione",
+      "name": "Phione",
+      "category": "Legendarios",
+      "page": 14,
+      "requirements": [
+        "Ninguno en particular…"
+      ],
+      "description": "Aunque Phione no es legendario, se ha decidido ponerlo en esta guía. Es bastante fácil encontrarlo: una chica en la orilla de la Ruta 40 te hablará sobre Phione. Eso significa que hay un 2% de probabilidad de encontrar un Phione al nivel 30 en las Rutas 40 y 41. Si capturas un Phione y se lo enseñas a esa chica, te dará 5 Escamas Corazón.",
+      "screenshot": "images/events/event_p14_1_256x192.png"
+    },
+    {
+      "id": "manaphy",
+      "name": "Manaphy",
+      "category": "Legendarios",
+      "page": 14,
+      "requirements": [
+        "Obtén la Medalla Tierra"
+      ],
+      "description": "Cuando obtengas la Medalla Tierra, encontrarás a una Chica Kimono en la playa de la Ruta 40. Habla con ella y te ofrecerá cuidar de un extraño Huevo que se encontró. Cuídalo y nacerá Manaphy.",
+      "screenshot": "images/events/event_p14_1_256x192.png"
+    },
+    {
+      "id": "darkrai",
+      "name": "Darkrai",
+      "category": "Legendarios",
+      "page": 15,
+      "requirements": [
+        "Tener las 16 Medallas",
+        "Capturar a Cresselia"
+      ],
+      "description": "Tras capturar a Cresselia, obtendrás la Pluma Lunar. Con ella, vuelve tu casa e intenta dormir en tu cama. Esta vez, gracias a la pluma descansarás bien, pero aparecerá Darkrai y te atacará. Aparece en el nivel 50, y puedes repetir la batalla cuantas veces quieras.",
+      "screenshot": "images/events/event_p15_1_256x192.png"
+    },
+    {
+      "id": "shaymin",
+      "name": "Shaymin",
+      "category": "Legendarios",
+      "page": 15,
+      "requirements": [
+        "Tener las 16 Medallas",
+        "Tener la Flauta Azur"
+      ],
+      "description": "Una vez consigas la Medalla Tierra, habla con la chica joven de la Floristería de Ciudad Trigal. Te hablará sobre Shaymin. Luego, ve al Parque Nacional y verás a Shaymin entre la hierba. Interactúa con él; si tienes la Flauta Azur, te preguntarán si quieres usarla. Hazlo, y lucharás contra él. Está al nivel 45.",
+      "screenshot": "images/events/event_p15_1_256x192.png"
+    },
+    {
+      "id": "arceus-final",
+      "name": "Arceus (Evento Final y Desafío Supremo)",
+      "category": "Arceus (Objetivo Principal)",
+      "page": 16,
+      "requirements": [
+        "Capturar a los otros 492 Pokémon existentes",
+        "Obtener las 16 Tablas Elementales de Kanto y Johto"
+      ],
+      "description": "El objetivo cumbre de Pokémon Sacred Gold & Storm Silver. Al cumplir los dos requisitos, dirígete al Estrado Mistrío en las Ruinas Sinjoh. Se te juzgará y podrás enfrentarte a Arceus. Si lo derrotas o huyes se considera final malo; si lo capturas, habrás completado oficialmente el juego.",
+      "screenshot": "images/events/event_p16_1_256x192.png"
+    }
+  ],
+  "arceusPlates": [
+    {
+      "id": "tabla-llama",
+      "name": "Tabla Llama",
+      "type": "Fuego",
+      "location": "Está bajo un montón de tierra en la Senda Dindón"
+    },
+    {
+      "id": "tabla-linfa",
+      "name": "Tabla Linfa",
+      "type": "Agua",
+      "location": "En la sala principal en Silph S.A. habrá alguien en la parte izquierda que quiere ver a"
+    },
+    {
+      "id": "tabla-helada",
+      "name": "Tabla Helada",
+      "type": "Hielo",
+      "location": "Está bajo un montón de nieve en las Ruinas Sinjoh."
+    },
+    {
+      "id": "tabla-t-xica",
+      "name": "Tabla Tóxica",
+      "type": "Veneno",
+      "location": "Tras obtener la Medalla Colmena, ve al Laboratorio de Elm e interactúa con la"
+    },
+    {
+      "id": "tabla-mental",
+      "name": "Tabla Mental",
+      "type": "Psíquico",
+      "location": "En Ciudad Azafrán, alguien te pedirá que le enseñes la tercera evolución de un"
+    },
+    {
+      "id": "tabla-trueno",
+      "name": "Tabla Trueno",
+      "type": "Eléctrico",
+      "location": "Una vez consigas que la Central Energía vuelva a funcionar, investiga la librería de"
+    },
+    {
+      "id": "tabla-pradal",
+      "name": "Tabla Pradal",
+      "type": "Planta",
+      "location": "En la Ruta 39 hay una chica con problemas en su coreografía. Enséñale un Bellosom"
+    },
+    {
+      "id": "tabla-fuerte",
+      "name": "Tabla Fuerte",
+      "type": "Lucha",
+      "location": "La lleva el Tyrogue del Rey del Kárate, que se encuentra en el Monte Mortero."
+    },
+    {
+      "id": "tabla-cielo",
+      "name": "Tabla Cielo",
+      "type": "Volador",
+      "location": "Bajo un montón de nieve justo enfrente de Rojo en el Monte Plateado."
+    },
+    {
+      "id": "tabla-terrax",
+      "name": "Tabla Terrax",
+      "type": "Tierra",
+      "location": "Vuelve a la Cueva Diglett con Treparrocas y examina una de las zonas altas."
+    },
+    {
+      "id": "tabla-bicho",
+      "name": "Tabla Bicho",
+      "type": "Bicho",
+      "location": "En el Parque Nacional, hay un entrenador que te dirá algo sobre el suelo que hay"
+    },
+    {
+      "id": "tabla-p-trea",
+      "name": "Tabla Pétrea",
+      "type": "Roca",
+      "location": "A la derecha del museo de Ciudad Plateada habrá un montón de tierra donde estará"
+    },
+    {
+      "id": "tabla-terror",
+      "name": "Tabla Terror",
+      "type": "Fantasma",
+      "location": "En el cementerio de Pueblo Lavanda, una mujer te pedirá que des las condolencias a"
+    },
+    {
+      "id": "tabla-draco",
+      "name": "Tabla Draco",
+      "type": "Dragón",
+      "location": "La lleva el Dragonair que te da el Anciano de la Guarida Dragón."
+    },
+    {
+      "id": "tabla-oscura",
+      "name": "Tabla Oscura",
+      "type": "Siniestro",
+      "location": "Hay una mujer en al Faro de Ciudad Olivo que te pedirá Pokéballs y un Lazo"
+    },
+    {
+      "id": "tabla-acero",
+      "name": "Tabla Acero",
+      "type": "Acero",
+      "location": "Te la da Máximo al hablarte sobre las Tablas entre Ciudad Iris y la Ruta 38."
+    }
+  ]
+}

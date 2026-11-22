@@ -1,0 +1,72 @@
+{
+  "gameTitle": "Pokémon Sacred Gold (Versión Completa)",
+  "gameId": "IPKE 66972395",
+  "authorRecommendation": "Drayano",
+  "description": "Códigos oficiales recomendados para agilizar la partida sin alterar la dificultad ni la experiencia competitiva.",
+  "codes": [
+    {
+      "id": "instant-text",
+      "title": "Mensajes Instantáneos",
+      "description": "El código favorito de Drayano. Los textos de diálogos aparecen al instante en vez de letra por letra.",
+      "code": "12002346 00002100\n120202EE 00001C0C\n120202F0 00004818\n1202031E 0000BD10\n02020320 E7E53C2D\n1202032E 0000D0DF\n1202033A 0000E7F1",
+      "warning": "En el emulador DeSmuME, desactiva el código al iniciar o resetear el juego para evitar que se quede congelado en la pantalla de inicio; una vez cargada la partida puedes volver a activarlo.",
+      "category": "Velocidad"
+    },
+    {
+      "id": "fast-screen-transition",
+      "title": "Cambio Rápido de Pantalla",
+      "description": "Acelera drásticamente las transiciones y fundidos a negro al entrar y salir de edificios o áreas.",
+      "code": "1200FA78 00002200\n1200FA9C 00002200",
+      "warning": null,
+      "category": "Velocidad"
+    },
+    {
+      "id": "instant-pokemon-center",
+      "title": "Centro Pokémon Instantáneo",
+      "description": "Cura a tu equipo de inmediato. Entregas los Pokémon a la Enfermera Joy y los devuelve curados al instante sin pausas.",
+      "code": "1206325E 0000E000\n1206327A 0000E000\n9224BDCC 00002000\n1224BDCC 00002001\nD2000000 00000000",
+      "warning": null,
+      "category": "Calidad de Vida"
+    },
+    {
+      "id": "fast-hp-exp-bar",
+      "title": "Barra de PS y EXP Rápida",
+      "description": "En 4ª generación las barras de salud bajan muy lento (especialmente con Blissey). Este código hace que las barras de PS y de Experiencia se llenen y vacíen de forma instantánea sin animaciones lentas.",
+      "code": "12265A80 00001C20\n12265A8E 00001C20\n12081750 00001C21",
+      "warning": "Puede provocar que algunos efectos de sonido de la barra no se reproduzcan.",
+      "category": "Velocidad"
+    },
+    {
+      "id": "super-speed",
+      "title": "¡Más Velocidad! (Flashcards / Emulador)",
+      "description": "Acelera la velocidad general del juego similar al turbo de un emulador. Muy recomendado para partidas en tarjetas flashcard reales donde las batallas avanzan mucho más rápido.",
+      "code": "12000104 00000000\nB21D1594 00000000\nDA000000 00000004\nD3000000 00000000\nD6000000 02000100\nD3000000 00000000\n92000100 00001C1C\n12000E1E 000046F0\n12000E20 000046F0\n12000104 00008080\nD2000000 00000000\n92000100 0000071C\n12000E1E 000046C0\n12000E20 000046C0\n12000104 00008080\nD2000000 00000000\nA2000104 00008080\n12000E1E 0000F0D0\n12000E20 0000E826\nD2000000 00000000",
+      "warning": null,
+      "category": "Velocidad"
+    },
+    {
+      "id": "skip-hm-animations",
+      "title": "¡Fuera Animación de MOs!",
+      "description": "Elimina las repetitivas animaciones de corte, golpe roca, vuelo, etc., permitiendo interactuar con el entorno al instante.",
+      "code": "12043768 0000E00B",
+      "warning": null,
+      "category": "Calidad de Vida"
+    },
+    {
+      "id": "disable-3d-outlines",
+      "title": "Desactivación de Bordes 3D (No$GBA)",
+      "description": "Elimina los contornos negros gruesos alrededor de los modelos tridimensionales para corregir fallos visuales en el emulador No$GBA.",
+      "code": "521FBC38 20204001\n221FBC3A 00000010\nD2000000 00000000",
+      "warning": "Diseñado específicamente para mejorar el renderizado en No$GBA.",
+      "category": "Gráficos"
+    },
+    {
+      "id": "infinite-rematches",
+      "title": "¡Revanchas a Tutiplén! (Sustituto Buscapelea)",
+      "description": "Funciona como el Buscapelea: mantén pulsado el botón [R] mientras hablas con cualquier entrenador del mapa para reiniciar el combate inmediatamente.",
+      "code": "02040EA8 F7FF68E0\n94000130 FEFF0000\n02040EA8 E0002000\nD0000000 00000000",
+      "warning": "Mantener pulsado [R] antes de pulsar el botón de interacción.",
+      "category": "Entrenamiento"
+    }
+  ]
+}
