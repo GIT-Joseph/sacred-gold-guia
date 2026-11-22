@@ -2,7 +2,7 @@ import React, { useState, useMemo } from 'react';
 import { NavLink } from 'react-router-dom';
 import locationsData from '../data/locations.json';
 import { LocationArea, EncounterMethod } from '../types/location';
-import { MapPin, Search, Sun, Moon, Compass, Waves, Fish, Radio, Mountain, TreePine } from 'lucide-react';
+import { MapPin, Search, Sun, Moon, Compass, Waves, Fish, Radio, Mountain, TreePine, Landmark, Building2 } from 'lucide-react';
 import { getSpriteUrl } from '../services/pokeapi';
 import { getPokemonDexNumber } from '../utils/pokemonNames';
 
@@ -10,7 +10,7 @@ export const LocationsPage: React.FC = () => {
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedRegion, setSelectedRegion] = useState<'ALL' | 'Johto' | 'Kanto'>('ALL');
   const [page, setPage] = useState(1);
-  const itemsPerPage = 12;
+  const itemsPerPage = 10;
 
   const locationsList = locationsData as unknown as LocationArea[];
 
@@ -49,6 +49,29 @@ export const LocationsPage: React.FC = () => {
     return <Compass className="w-3.5 h-3.5 text-emerald-400" />;
   };
 
+  const getLocationTypeInfo = (name: string) => {
+    const n = name.toLowerCase();
+    if (n.includes('ruta')) {
+      return { label: 'Ruta Terrestre', icon: <Compass className="w-4 h-4 text-emerald-400" />, theme: 'from-emerald-950/40 to-slate-950' };
+    }
+    if (n.includes('ciudad') || n.includes('pueblo')) {
+      return { label: 'Ciudad / Población', icon: <Landmark className="w-4 h-4 text-amber-400" />, theme: 'from-amber-950/40 to-slate-950' };
+    }
+    if (n.includes('cueva') || n.includes('monte') || n.includes('túnel') || n.includes('guarida')) {
+      return { label: 'Caverna Subterránea', icon: <Mountain className="w-4 h-4 text-stone-400" />, theme: 'from-stone-900/40 to-slate-950' };
+    }
+    if (n.includes('torre')) {
+      return { label: 'Torre Ancestral', icon: <Building2 className="w-4 h-4 text-orange-400" />, theme: 'from-orange-950/40 to-slate-950' };
+    }
+    if (n.includes('bosque') || n.includes('encinar') || n.includes('parque')) {
+      return { label: 'Espacio Natural / Bosque', icon: <TreePine className="w-4 h-4 text-teal-400" />, theme: 'from-teal-950/40 to-slate-950' };
+    }
+    if (n.includes('isla') || n.includes('lago') || n.includes('cataratas') || n.includes('pozo')) {
+      return { label: 'Área Acuática / Surf', icon: <Waves className="w-4 h-4 text-cyan-400" />, theme: 'from-cyan-950/40 to-slate-950' };
+    }
+    return { label: 'Hábitat Salvaje', icon: <MapPin className="w-4 h-4 text-amber-400" />, theme: 'from-slate-900 to-slate-950' };
+  };
+
   return (
     <div className="flex flex-col gap-6">
       {/* Header */}
@@ -58,10 +81,10 @@ export const LocationsPage: React.FC = () => {
           <span>Documento Ubicación Pokémon Oficial</span>
         </div>
         <h1 className="text-2xl sm:text-4xl font-extrabold text-white tracking-tight">
-          Ubicaciones y Hábitats Salvajes ({locationsList.length} Áreas)
+          Ubicaciones y Hábitats Salvajes ({locationsList.length} Zonas)
         </h1>
         <p className="text-slate-400 text-sm mt-2 max-w-3xl leading-relaxed">
-          Consulta todos los encuentros salvajes por ruta, piso de cueva, surf y cañas de pesca con las probabilidades matemáticas exactas, niveles de Sacred Gold y sprites de cada Pokémon.
+          Consulta todos los encuentros salvajes por ruta, piso de cueva, surf y cañas de pesca con las probabilidades matemáticas exactas, niveles de Sacred Gold y sprites oficiales de cada Pokémon.
         </p>
       </div>
 
@@ -73,7 +96,7 @@ export const LocationsPage: React.FC = () => {
             type="text"
             value={searchTerm}
             onChange={(e) => { setSearchTerm(e.target.value); setPage(1); }}
-            placeholder="Buscar por nombre de ruta (ej. 'Ruta 29') o Pokémon (ej. 'Dratini')..."
+            placeholder="Buscar por ruta (ej. 'Ruta 29', 'Cueva Unión') o Pokémon (ej. 'Larvitar')..."
             className="w-full pl-10 pr-4 py-2 rounded-xl bg-slate-950 border border-slate-800 text-slate-100 placeholder-slate-500 text-sm outline-none focus:border-amber-500/50"
           />
         </div>
@@ -98,19 +121,36 @@ export const LocationsPage: React.FC = () => {
       {/* Locations List */}
       <div className="flex flex-col gap-6">
         {paginatedLocations.map((loc) => {
-          // Filter encounter methods that have at least one pokemon
           const validMethods = loc.encounterMethods.filter(em => em.pokemon && em.pokemon.length > 0);
+          const typeInfo = getLocationTypeInfo(loc.name);
+
+          // Extract top unique pokemon for the habitat card preview
+          const distinctPokemon: string[] = [];
+          for (const m of validMethods) {
+            for (const p of m.pokemon) {
+              const clean = p.pokemon.split(/[\(\/]/)[0].trim();
+              if (!distinctPokemon.includes(clean)) {
+                distinctPokemon.push(clean);
+              }
+              if (distinctPokemon.length >= 4) break;
+            }
+            if (distinctPokemon.length >= 4) break;
+          }
 
           return (
             <div
               key={loc.id}
               id={loc.id}
-              className="p-5 sm:p-6 rounded-2xl bg-slate-900/40 border border-slate-800/80 hover:border-slate-700 transition-all shadow-md flex flex-col gap-5"
+              className="p-5 sm:p-6 rounded-3xl bg-slate-900/40 border border-slate-800/80 hover:border-slate-700 transition-all shadow-md flex flex-col gap-5"
             >
               {/* Area Header */}
               <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 pb-3 border-b border-slate-800/60">
                 <div className="flex items-center gap-3">
-                  <div className="w-9 h-9 rounded-xl bg-amber-500/10 text-amber-400 border border-amber-500/20 flex items-center justify-center font-bold text-sm">
+                  <div className={`w-10 h-10 rounded-2xl flex items-center justify-center font-bold text-sm shrink-0 border ${
+                    loc.region === 'Johto'
+                      ? 'bg-amber-500/10 text-amber-400 border-amber-500/30'
+                      : 'bg-cyan-500/10 text-cyan-400 border-cyan-500/30'
+                  }`}>
                     {loc.region[0]}
                   </div>
                   <div>
@@ -118,56 +158,81 @@ export const LocationsPage: React.FC = () => {
                       {loc.name}
                     </h2>
                     <div className="flex items-center gap-2 mt-0.5">
-                      <span className="text-xs text-slate-400">Región de {loc.region}</span>
+                      <span className={`text-xs font-semibold ${
+                        loc.region === 'Johto' ? 'text-amber-400/90' : 'text-cyan-400/90'
+                      }`}>
+                        Región de {loc.region}
+                      </span>
                       <span className="text-slate-600">•</span>
-                      <span className="text-xs font-mono text-amber-400/90 font-medium">
-                        Niveles salvajes: {loc.wildLevels || 'N/A'}
+                      <span className="text-xs font-mono text-slate-300 font-medium">
+                        Niveles salvajes: <strong className="text-amber-400">{loc.wildLevels || 'N/A'}</strong>
                       </span>
                     </div>
                   </div>
                 </div>
 
-                <span className="text-[11px] font-mono text-slate-500 self-start sm:self-auto bg-slate-950 px-2.5 py-1 rounded-md border border-slate-800">
+                <span className="text-[11px] font-mono text-slate-400 self-start sm:self-auto bg-slate-950 px-3 py-1 rounded-lg border border-slate-800">
                   Doc Pág. {loc.page}
                 </span>
               </div>
 
-              {/* In-Game DS Screenshot & Encounters Layout */}
-              <div className="flex flex-col lg:flex-row gap-5 items-start">
-                {/* DS Screenshot Thumbnail or Habitat Card */}
-                <div className="w-full sm:w-64 aspect-[4/3] rounded-xl overflow-hidden bg-slate-950 border border-slate-800 shrink-0 shadow-inner group relative flex items-center justify-center">
-                  {loc.screenshot ? (
-                    <>
-                      <img
-                        src={loc.screenshot}
-                        alt={loc.name}
-                        loading="lazy"
-                        className="w-full h-full object-cover group-hover:scale-105 transition-transform"
-                        onError={(e) => {
-                          // Hide image and fallback if broken
-                          (e.target as HTMLElement).style.display = 'none';
-                        }}
-                      />
-                      <div className="absolute bottom-2 left-2 px-2 py-0.5 rounded bg-slate-950/85 backdrop-blur-sm border border-slate-800 text-[10px] font-mono text-amber-400 font-semibold pointer-events-none">
-                        DS In-Game
+              {/* Layout: Dedicated Habitat Card + Encounter Methods Grid */}
+              <div className="flex flex-col lg:flex-row gap-5 items-stretch">
+                {/* Pokémon Pokégear / Habitat Identity Card */}
+                <div className={`w-full lg:w-72 rounded-2xl p-4 border border-slate-800 bg-gradient-to-b ${typeInfo.theme} flex flex-col justify-between gap-4 shrink-0 shadow-inner`}>
+                  <div className="flex flex-col gap-2">
+                    <div className="flex items-center justify-between">
+                      <div className="flex items-center gap-1.5 px-2 py-0.5 rounded-md bg-slate-950/70 border border-slate-800 text-[11px] font-medium text-slate-300">
+                        {typeInfo.icon}
+                        <span>{typeInfo.label}</span>
                       </div>
-                    </>
-                  ) : (
-                    <div className="w-full h-full flex flex-col items-center justify-center p-4 text-center bg-gradient-to-br from-slate-900 to-slate-950">
-                      <div className="w-10 h-10 rounded-full bg-slate-800/80 border border-slate-700/80 flex items-center justify-center text-amber-400 mb-2">
-                        <Compass className="w-5 h-5 opacity-80" />
-                      </div>
-                      <span className="text-xs font-semibold text-slate-300">
-                        Subzona Interior
-                      </span>
-                      <span className="text-[11px] text-slate-500 mt-1 line-clamp-1 max-w-[200px]">
-                        {loc.name}
-                      </span>
-                      <span className="text-[10px] font-mono text-amber-400/80 mt-2 bg-amber-500/10 px-2 py-0.5 rounded border border-amber-500/20">
-                        Nv. {loc.wildLevels || 'Varios'}
+                      <span className="text-[10px] font-bold tracking-wider uppercase font-mono px-2 py-0.5 rounded bg-slate-950/60 border border-slate-800 text-slate-400">
+                        {loc.region}
                       </span>
                     </div>
+
+                    <h3 className="text-sm font-bold text-white mt-1 leading-tight line-clamp-2">
+                      {loc.name}
+                    </h3>
+                  </div>
+
+                  {/* Wild Species Preview */}
+                  {distinctPokemon.length > 0 && (
+                    <div className="p-2.5 rounded-xl bg-slate-950/80 border border-slate-800/80 flex flex-col gap-2">
+                      <span className="text-[10px] font-bold text-slate-400 uppercase tracking-wider">
+                        Especies Destacadas:
+                      </span>
+                      <div className="flex items-center gap-2">
+                        {distinctPokemon.map((pName, pIdx) => {
+                          const dex = getPokemonDexNumber(pName);
+                          return (
+                            <NavLink
+                              key={pIdx}
+                              to={`/pokedex/${dex}`}
+                              className="w-10 h-10 rounded-lg bg-slate-900 border border-slate-800 hover:border-amber-500/50 p-0.5 flex items-center justify-center transition-all hover:scale-105"
+                              title={pName}
+                            >
+                              <img
+                                src={getSpriteUrl(dex)}
+                                alt={pName}
+                                loading="lazy"
+                                className="w-full h-full object-contain filter drop-shadow"
+                                onError={(e) => { (e.target as HTMLElement).style.display = 'none'; }}
+                              />
+                            </NavLink>
+                          );
+                        })}
+                      </div>
+                    </div>
                   )}
+
+                  {/* Habitat Status Footer */}
+                  <div className="pt-2 border-t border-slate-800/60 flex items-center justify-between text-[11px] text-slate-400">
+                    <span>Niveles:</span>
+                    <span className="font-mono font-bold text-amber-400">
+                      {loc.wildLevels || 'Varios'}
+                    </span>
+                  </div>
                 </div>
 
                 {/* Encounters Grid */}
@@ -176,7 +241,7 @@ export const LocationsPage: React.FC = () => {
                     validMethods.map((em: EncounterMethod, emIdx: number) => (
                       <div
                         key={emIdx}
-                        className="p-3.5 rounded-xl bg-slate-950/60 border border-slate-800/70"
+                        className="p-3.5 rounded-2xl bg-slate-950/60 border border-slate-800/70 shadow-sm"
                       >
                         <div className="flex items-center gap-2 mb-2.5 pb-1.5 border-b border-slate-800/50">
                           {getMethodIcon(em.method)}
@@ -224,7 +289,7 @@ export const LocationsPage: React.FC = () => {
                     ))
                   ) : (
                     <div className="p-4 rounded-xl bg-slate-950/40 border border-slate-800/50 text-slate-500 text-xs text-center italic">
-                      No hay encuentros de hierba/agua convencionales en esta sección (ver eventos o regalos).
+                      No hay encuentros salvajes convencionales en esta sección (ver eventos o regalos).
                     </div>
                   )}
                 </div>

@@ -2,38 +2,47 @@ import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import evolutionsData from '../data/evolutions.json';
 import { EvolutionsData, EvolutionCategory, EvolutionMethod } from '../types/evolution';
-import { GitFork, ArrowRight, Sparkles, CheckCircle2 } from 'lucide-react';
+import { GitFork, ArrowRight, Sparkles, CheckCircle2, Zap, Heart } from 'lucide-react';
 import { getSpriteUrl } from '../services/pokeapi';
 import { getPokemonDexNumber } from '../utils/pokemonNames';
 
-const evolutionItemImages: Record<string, string> = {
-  'Escamadragón': 'images/items/obj_p4_img14_24x24.png',
-  'Revestimiento Metálico': 'images/items/obj_p4_img19_24x24.png',
-  'Roca del Rey': 'images/items/obj_p4_img17_24x24.png',
-  'Escama Marina': 'images/items/obj_p4_img12_24x24.png',
-  'Diente Marino': 'images/items/obj_p4_img13_24x24.png',
-  'Protector': 'images/items/obj_p4_img21_24x24.png',
-  'Telaterrible': 'images/items/obj_p4_img24_24x24.png',
-  'Magmatizador': 'images/items/obj_p4_img18_24x24.png',
-  'Electrizador': 'images/items/obj_p4_img16_24x24.png',
-  'Mejora': 'images/items/obj_p4_img26_24x24.png',
-  'Discoxtraño': 'images/items/obj_p4_img15_24x24.png',
-  'Orbe Unión': 'images/items/obj_p4_img11_19x22.png',
-  'Mineral Voltaico': 'images/items/obj_p4_img27_26x24.png',
-  'Piedra Agua': 'images/items/obj_p4_img8_24x24.png',
-  'Piedratrueno': 'images/items/obj_p4_img7_24x24.png',
-  'Piedra Fuego': 'images/items/obj_p4_img2_24x24.png',
-  'Orbe Albor': 'images/items/obj_p4_img9_18x18.png',
-  'Orbe Ocaso': 'images/items/obj_p4_img25_20x17.png',
-  'Mineral Forestal': 'images/items/obj_p4_img28_23x23.png',
-  'Mineral Helado': 'images/items/obj_p4_img10_26x24.png',
-  'Piedra Día': 'images/items/obj_p4_img5_24x24.png',
-  'Piedra Noche': 'images/items/obj_p4_img1_24x24.png',
-  'Piedra Alba (Macho)': 'images/items/obj_p4_img0_24x24.png',
-  'Piedra Alba (Hembra)': 'images/items/obj_p4_img0_24x24.png',
-  'Comillagudo': 'images/items/obj_p4_img23_24x24.png',
-  'Garrafilada': 'images/items/obj_p4_img22_24x24.png',
-  'Piedra Oval': 'images/items/obj_p4_img20_24x24.png'
+// Standard Pokemon items mapped to PokeAPI official item sprites
+const POKEAPI_ITEM_SLUGS: Record<string, string> = {
+  'Escamadragón': 'dragon-scale',
+  'Revestimiento Metálico': 'metal-coat',
+  'Roca del Rey': 'kings-rock',
+  'Escama Marina': 'deep-sea-scale',
+  'Diente Marino': 'deep-sea-tooth',
+  'Protector': 'protector',
+  'Telaterrible': 'reaper-cloth',
+  'Magmatizador': 'magmarizer',
+  'Electrizador': 'electirizer',
+  'Mejora': 'up-grade',
+  'Discoxtraño': 'dubious-disc',
+  'Piedra Agua': 'water-stone',
+  'Piedratrueno': 'thunder-stone',
+  'Piedra Fuego': 'fire-stone',
+  'Piedra Día': 'shiny-stone',
+  'Piedra Noche': 'dusk-stone',
+  'Piedra Alba': 'dawn-stone',
+  'Piedra Alba (Macho)': 'dawn-stone',
+  'Piedra Alba (Hembra)': 'dawn-stone',
+  'Comillagudo': 'razor-fang',
+  'Garrafilada': 'razor-claw',
+  'Piedra Oval': 'oval-stone',
+  'Piedra Solar': 'sun-stone',
+  'Piedra Lunar': 'moon-stone',
+  'Piedra Hoja': 'leaf-stone',
+};
+
+// Exclusive Sacred Gold items extracted directly from Drayano's official document
+const EXCLUSIVE_ITEM_IMAGES: Record<string, string> = {
+  'Orbe Unión': 'images/items/orbe_union.png',
+  'Mineral Voltaico': 'images/items/mineral_voltaico.png',
+  'Mineral Forestal': 'images/items/mineral_forestal.png',
+  'Mineral Helado': 'images/items/mineral_helado.png',
+  'Orbe Albor': 'images/items/orbe_albor.png',
+  'Orbe Ocaso': 'images/items/orbe_ocaso.png',
 };
 
 export const EvolutionsPage: React.FC = () => {
@@ -44,6 +53,51 @@ export const EvolutionsPage: React.FC = () => {
     if (activeCategory === 'all') return true;
     return cat.id === activeCategory;
   });
+
+  const getItemVisual = (item: string | undefined) => {
+    if (!item) return null;
+
+    // Check if exclusive Sacred Gold item
+    if (EXCLUSIVE_ITEM_IMAGES[item]) {
+      return {
+        type: 'exclusive-item',
+        src: EXCLUSIVE_ITEM_IMAGES[item],
+        label: item,
+        badge: 'Exclusivo Sacred Gold'
+      };
+    }
+
+    // Check if standard PokeAPI item
+    if (POKEAPI_ITEM_SLUGS[item]) {
+      const slug = POKEAPI_ITEM_SLUGS[item];
+      return {
+        type: 'standard-item',
+        src: `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/${slug}.png`,
+        label: item,
+        badge: 'Objeto Evolutivo'
+      };
+    }
+
+    // If it's a move requirement
+    if (item === 'Poder Pasado' || item === 'Doble Golpe' || item === 'Rodar') {
+      return {
+        type: 'move',
+        label: item,
+        badge: 'Movimiento'
+      };
+    }
+
+    // If it's a condition (e.g. Belleza)
+    if (item.includes('Belleza')) {
+      return {
+        type: 'condition',
+        label: item,
+        badge: 'Condición'
+      };
+    }
+
+    return null;
+  };
 
   return (
     <div className="flex flex-col gap-8">
@@ -57,7 +111,7 @@ export const EvolutionsPage: React.FC = () => {
           Métodos de Evolución en Sacred Gold
         </h1>
         <p className="text-slate-400 text-sm mt-2 max-w-3xl leading-relaxed">
-          En Pokémon Sacred Gold se han eliminado por completo las necesidades de intercambio para completar la Pokédex. Los objetos que antes requerían intercambio ahora se <strong>Usan directamente</strong>, y se introducen objetos exclusivos como el <strong>Orbe Unión</strong> y el <strong>Mineral Voltaico</strong>.
+          En Pokémon Sacred Gold se eliminaron por completo las necesidades de intercambio para completar la Pokédex. Los objetos que antes requerían intercambio ahora se <strong>Usan directamente</strong>, y se introducen objetos exclusivos como el <strong>Orbe Unión</strong> y el <strong>Mineral Voltaico</strong> con sus sprites correspondientes.
         </p>
       </div>
 
@@ -67,7 +121,7 @@ export const EvolutionsPage: React.FC = () => {
           onClick={() => setActiveCategory('all')}
           className={`px-3.5 py-1.5 rounded-xl text-xs font-semibold whitespace-nowrap transition-all ${
             activeCategory === 'all'
-              ? 'bg-amber-500 text-slate-950 shadow-md shadow-amber-500/20'
+              ? 'bg-amber-500 text-slate-950 shadow-md shadow-amber-500/20 font-bold'
               : 'bg-slate-900 text-slate-400 hover:text-slate-200'
           }`}
         >
@@ -79,7 +133,7 @@ export const EvolutionsPage: React.FC = () => {
             onClick={() => setActiveCategory(cat.id)}
             className={`px-3.5 py-1.5 rounded-xl text-xs font-semibold whitespace-nowrap transition-all ${
               activeCategory === cat.id
-                ? 'bg-amber-500 text-slate-950 shadow-md shadow-amber-500/20'
+                ? 'bg-amber-500 text-slate-950 shadow-md shadow-amber-500/20 font-bold'
                 : 'bg-slate-900 text-slate-400 hover:text-slate-200'
             }`}
           >
@@ -114,15 +168,15 @@ export const EvolutionsPage: React.FC = () => {
               {cat.methods.map((m: EvolutionMethod, mIdx: number) => {
                 const baseDex = getPokemonDexNumber(m.basePokemon);
                 const targetDex = getPokemonDexNumber(m.targetPokemon);
-                const itemImg = m.item ? evolutionItemImages[m.item] : null;
+                const visual = getItemVisual(m.item);
 
                 return (
                   <div
                     key={mIdx}
                     className="p-4 rounded-2xl bg-slate-950/70 border border-slate-800/80 hover:border-slate-700 transition-all flex flex-col justify-between gap-3 group"
                   >
-                    {/* Visual Diagram: Base Pokemon -> Target Pokemon */}
-                    <div className="flex items-center justify-between gap-2 p-2 rounded-xl bg-slate-900/60 border border-slate-800/50">
+                    {/* Visual Diagram: Base Pokemon -> Connector with Item -> Target Pokemon */}
+                    <div className="flex items-center justify-between gap-2 p-2.5 rounded-xl bg-slate-900/60 border border-slate-800/50">
                       {/* Base Pokemon Card */}
                       <NavLink
                         to={`/pokedex/${baseDex}`}
@@ -143,20 +197,45 @@ export const EvolutionsPage: React.FC = () => {
                         </span>
                       </NavLink>
 
-                      {/* Evolution Connector (Arrow + Item Sprite if exists) */}
+                      {/* Evolution Connector (Arrow + Item Sprite or Move Badge) */}
                       <div className="flex flex-col items-center gap-1 px-1 shrink-0">
-                        {itemImg && (
-                          <div className="w-7 h-7 rounded-lg bg-amber-500/10 border border-amber-500/20 p-1 flex items-center justify-center shadow-sm">
+                        {visual?.src ? (
+                          <div 
+                            className="w-8 h-8 rounded-lg bg-amber-500/10 border border-amber-500/30 p-1 flex items-center justify-center shadow-md relative group/item"
+                            title={`${visual.label} (${visual.badge})`}
+                          >
                             <img
-                              src={itemImg}
-                              alt={m.item}
-                              title={m.item}
-                              className="w-full h-full object-contain image-pixelated"
+                              src={visual.src}
+                              alt={visual.label}
+                              className="w-full h-full object-contain image-pixelated hover:scale-110 transition-transform"
                               onError={(e) => { (e.target as HTMLElement).style.display = 'none'; }}
                             />
                           </div>
-                        )}
+                        ) : visual?.type === 'move' ? (
+                          <div 
+                            className="px-2 py-0.5 rounded-md bg-purple-500/15 border border-purple-500/30 text-[10px] font-bold text-purple-300 flex items-center gap-1"
+                            title={`Aprender ${visual.label}`}
+                          >
+                            <Zap className="w-3 h-3 text-purple-400" />
+                            <span>{visual.label}</span>
+                          </div>
+                        ) : visual?.type === 'condition' ? (
+                          <div 
+                            className="px-2 py-0.5 rounded-md bg-pink-500/15 border border-pink-500/30 text-[10px] font-bold text-pink-300 flex items-center gap-1"
+                            title={visual.label}
+                          >
+                            <Heart className="w-3 h-3 text-pink-400" />
+                            <span>Belleza</span>
+                          </div>
+                        ) : null}
+
                         <ArrowRight className="w-4 h-4 text-amber-400 group-hover:translate-x-0.5 transition-transform" />
+
+                        {visual?.src && (
+                          <span className="text-[9px] font-semibold text-amber-400/90 max-w-[80px] text-center truncate">
+                            {visual.label}
+                          </span>
+                        )}
                       </div>
 
                       {/* Target Pokemon Card */}

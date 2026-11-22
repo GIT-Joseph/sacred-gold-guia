@@ -1,11 +1,11 @@
 [
   {
     "id": "loc-1-new-bark-town",
-    "name": "New Bark Town",
+    "name": "Pueblo Primavera (New Bark Town)",
     "region": "Johto",
     "page": 2,
     "wildLevels": "N/A",
-    "screenshot": "images/locations/loc_p2_1_256x192.png",
+    "screenshot": null,
     "encounterMethods": [
       {
         "method": "Surf",
@@ -75,11 +75,11 @@
   },
   {
     "id": "loc-2-route-29",
-    "name": "Route 29",
+    "name": "Ruta 29",
     "region": "Johto",
     "page": 2,
     "wildLevels": "3 – 5",
-    "screenshot": "images/locations/loc_p2_2_256x192.png",
+    "screenshot": null,
     "encounterMethods": [
       {
         "method": "Grass, Morning / Day",
@@ -181,11 +181,11 @@
   },
   {
     "id": "loc-3-route-46",
-    "name": "Route 46",
+    "name": "Ruta 46",
     "region": "Kanto",
     "page": 3,
     "wildLevels": "4 – 6",
-    "screenshot": "images/locations/loc_p3_1_256x192.png",
+    "screenshot": null,
     "encounterMethods": [
       {
         "method": "Grass, Morning / Day",
@@ -291,11 +291,11 @@
   },
   {
     "id": "loc-4-cherrygrove-city",
-    "name": "Cherrygrove City",
+    "name": "Ciudad Cerezo (Cherrygrove City)",
     "region": "Johto",
     "page": 3,
     "wildLevels": "N /A",
-    "screenshot": "images/locations/loc_p3_2_256x192.png",
+    "screenshot": null,
     "encounterMethods": [
       {
         "method": "Surf",
@@ -351,11 +351,11 @@
   },
   {
     "id": "loc-5-route-30",
-    "name": "Route 30",
+    "name": "Ruta 30",
     "region": "Kanto",
     "page": 4,
     "wildLevels": "4 – 6",
-    "screenshot": "images/locations/loc_p4_1_256x192.png",
+    "screenshot": null,
     "encounterMethods": [
       {
         "method": "Grass",
@@ -587,11 +587,11 @@
   },
   {
     "id": "loc-6-route-31",
-    "name": "Route 31",
+    "name": "Ruta 31",
     "region": "Kanto",
     "page": 5,
     "wildLevels": "6 – 10",
-    "screenshot": "images/locations/loc_p5_1_256x192.png",
+    "screenshot": null,
     "encounterMethods": [
       {
         "method": "Grass",
@@ -851,11 +851,11 @@
   },
   {
     "id": "loc-7-violet-side",
-    "name": "Violet Side",
+    "name": "Cueva Oscura (Dark Cave) - Lado Malva",
     "region": "Johto",
     "page": 6,
     "wildLevels": "8 – 10",
-    "screenshot": "images/locations/loc_p6_1_256x192.png",
+    "screenshot": null,
     "encounterMethods": [
       {
         "method": "Cave, Night",
@@ -1013,11 +1013,11 @@
   },
   {
     "id": "loc-8-violet-city",
-    "name": "Violet City",
+    "name": "Ciudad Malva (Violet City)",
     "region": "Johto",
     "page": 6,
     "wildLevels": "N/A",
-    "screenshot": "images/locations/loc_p6_2_256x192.png",
+    "screenshot": null,
     "encounterMethods": [
       {
         "method": "Surf",
@@ -1091,11 +1091,11 @@
   },
   {
     "id": "loc-9-route-32",
-    "name": "Route 32",
+    "name": "Ruta 32",
     "region": "Kanto",
     "page": 7,
     "wildLevels": "10 – 12",
-    "screenshot": "images/locations/loc_p7_1_256x192.png",
+    "screenshot": null,
     "encounterMethods": [
       {
         "method": "Grass, Morning / Day",
@@ -1273,11 +1273,11 @@
   },
   {
     "id": "loc-10-ruins-of-alph",
-    "name": "Ruins of Alph",
+    "name": "Ruinas Alfa (Ruins of Alph)",
     "region": "Johto",
     "page": 8,
     "wildLevels": "26 – 30",
-    "screenshot": "images/locations/loc_p8_1_256x192.png",
+    "screenshot": null,
     "encounterMethods": [
       {
         "method": "Grass, All Times",
@@ -1411,11 +1411,11 @@
   },
   {
     "id": "loc-11-2f",
-    "name": "2F",
+    "name": "Torre Bellsprout (Sprout Tower) - 2F",
     "region": "Johto",
     "page": 9,
     "wildLevels": "9 –12",
-    "screenshot": "images/locations/loc_p9_1_256x192.png",
+    "screenshot": null,
     "encounterMethods": [
       {
         "method": "Building, Night",
@@ -1469,7 +1469,7 @@
   },
   {
     "id": "loc-12-3f",
-    "name": "3F",
+    "name": "Torre Bellsprout (Sprout Tower) - 3F",
     "region": "Johto",
     "page": 9,
     "wildLevels": "10 – 13",
@@ -1579,11 +1579,11 @@
   },
   {
     "id": "loc-13-1f",
-    "name": "1F",
+    "name": "Cueva Unión (Union Cave) - 1F",
     "region": "Johto",
     "page": 10,
     "wildLevels": "12 – 15",
-    "screenshot": "images/locations/loc_p10_1_256x192.png",
+    "screenshot": null,
     "encounterMethods": [
       {
         "method": "Cave, All Times",
@@ -1727,7 +1727,7 @@
   },
   {
     "id": "loc-14-b1f",
-    "name": "B1F",
+    "name": "Cueva Unión (Union Cave) - B1F",
     "region": "Johto",
     "page": 10,
     "wildLevels": "13 – 16",
@@ -1875,7 +1875,7 @@
   },
   {
     "id": "loc-15-b2f",
-    "name": "B2F",
+    "name": "Cueva Unión (Union Cave) - B2F",
     "region": "Johto",
     "page": 10,
     "wildLevels": "28 – 30",
@@ -2017,11 +2017,11 @@
   },
   {
     "id": "loc-16-route-33",
-    "name": "Route 33",
+    "name": "Ruta 33",
     "region": "Kanto",
     "page": 11,
     "wildLevels": "14 – 16",
-    "screenshot": "images/locations/loc_p11_1_256x192.png",
+    "screenshot": null,
     "encounterMethods": [
       {
         "method": "Grass, Morning / Day",
@@ -2127,11 +2127,11 @@
   },
   {
     "id": "loc-17-1f",
-    "name": "1F",
+    "name": "Pozo Slowpoke (Slowpoke Well) - 1F",
     "region": "Johto",
     "page": 11,
     "wildLevels": "15 – 16",
-    "screenshot": "images/locations/loc_p11_2_256x192.png",
+    "screenshot": null,
     "encounterMethods": [
       {
         "method": "Cave, All Times",
@@ -2263,11 +2263,11 @@
   },
   {
     "id": "loc-18-b1f",
-    "name": "B1F",
+    "name": "Pozo Slowpoke (Slowpoke Well) - B1F",
     "region": "Johto",
     "page": 12,
     "wildLevels": "28 – 33",
-    "screenshot": "images/locations/loc_p12_1_256x192.png",
+    "screenshot": null,
     "encounterMethods": [
       {
         "method": "Cave, All Times",
@@ -2403,7 +2403,7 @@
   },
   {
     "id": "loc-19-ilex-forest",
-    "name": "Ilex Forest",
+    "name": "Encinar (Ilex Forest)",
     "region": "Johto",
     "page": 12,
     "wildLevels": "15 – 18",
@@ -2639,11 +2639,11 @@
   },
   {
     "id": "loc-20-route-34",
-    "name": "Route 34",
+    "name": "Ruta 34",
     "region": "Kanto",
     "page": 13,
     "wildLevels": "15 – 19",
-    "screenshot": "images/locations/loc_p13_1_256x192.png",
+    "screenshot": null,
     "encounterMethods": [
       {
         "method": "Grass, All Times",
@@ -2773,11 +2773,11 @@
   },
   {
     "id": "loc-21-route-35",
-    "name": "Route 35",
+    "name": "Ruta 35",
     "region": "Kanto",
     "page": 14,
     "wildLevels": "17 – 19",
-    "screenshot": "images/locations/loc_p14_1_256x192.png",
+    "screenshot": null,
     "encounterMethods": [
       {
         "method": "Grass, Morning / Day",
@@ -2949,11 +2949,11 @@
   },
   {
     "id": "loc-22-national-park",
-    "name": "National Park",
+    "name": "Parque Nacional (National Park)",
     "region": "Johto",
     "page": 15,
     "wildLevels": "17 – 19",
-    "screenshot": "images/locations/loc_p15_1_256x192.png",
+    "screenshot": null,
     "encounterMethods": [
       {
         "method": "Grass",
@@ -3129,11 +3129,11 @@
   },
   {
     "id": "loc-23-route-36",
-    "name": "Route 36",
+    "name": "Ruta 36",
     "region": "Kanto",
     "page": 15,
     "wildLevels": "17 – 19",
-    "screenshot": "images/locations/loc_p15_2_256x192.png",
+    "screenshot": null,
     "encounterMethods": [
       {
         "method": "Grass",
@@ -3205,11 +3205,11 @@
   },
   {
     "id": "loc-24-route-37",
-    "name": "Route 37",
+    "name": "Ruta 37",
     "region": "Kanto",
     "page": 16,
     "wildLevels": "21 – 24",
-    "screenshot": "images/locations/loc_p16_1_256x192.png",
+    "screenshot": null,
     "encounterMethods": [
       {
         "method": "Grass",
@@ -3271,11 +3271,11 @@
   },
   {
     "id": "loc-25-ecruteak-city",
-    "name": "Ecruteak City",
+    "name": "Ciudad Iris (Ecruteak City)",
     "region": "Johto",
     "page": 16,
     "wildLevels": "N/A",
-    "screenshot": "images/locations/loc_p16_2_256x192.png",
+    "screenshot": null,
     "encounterMethods": [
       {
         "method": "Surf",
@@ -3333,11 +3333,11 @@
   },
   {
     "id": "loc-26-1f",
-    "name": "1F",
+    "name": "Torre Quemada (Burned Tower) - 1F",
     "region": "Johto",
     "page": 17,
     "wildLevels": "22 – 23",
-    "screenshot": "images/locations/loc_p17_1_256x192.png",
+    "screenshot": null,
     "encounterMethods": [
       {
         "method": "Cave, All Times",
@@ -3405,7 +3405,7 @@
   },
   {
     "id": "loc-27-b1f",
-    "name": "B1F",
+    "name": "Torre Quemada (Burned Tower) - B1F",
     "region": "Johto",
     "page": 17,
     "wildLevels": "23 – 24",
@@ -3477,11 +3477,11 @@
   },
   {
     "id": "loc-28-blackthorn-side",
-    "name": "Blackthorn Side",
+    "name": "Cueva Oscura (Dark Cave) - Lado Endrino",
     "region": "Johto",
     "page": 18,
     "wildLevels": "26 – 30",
-    "screenshot": "images/locations/loc_p18_1_256x192.png",
+    "screenshot": null,
     "encounterMethods": [
       {
         "method": "Cave, All Times",
@@ -3595,11 +3595,11 @@
   },
   {
     "id": "loc-29-route-38",
-    "name": "Route 38",
+    "name": "Ruta 38",
     "region": "Kanto",
     "page": 18,
     "wildLevels": "26 – 27",
-    "screenshot": "images/locations/loc_p18_2_256x192.png",
+    "screenshot": null,
     "encounterMethods": [
       {
         "method": "Grass",
@@ -3665,11 +3665,11 @@
   },
   {
     "id": "loc-30-route-39",
-    "name": "Route 39",
+    "name": "Ruta 39",
     "region": "Kanto",
     "page": 19,
     "wildLevels": "27 – 28",
-    "screenshot": "images/locations/loc_p19_1_256x192.png",
+    "screenshot": null,
     "encounterMethods": [
       {
         "method": "Meridian Sound",
@@ -3703,11 +3703,11 @@
   },
   {
     "id": "loc-31-olivine-city",
-    "name": "Olivine City",
+    "name": "Ciudad Olivo (Olivine City)",
     "region": "Johto",
     "page": 19,
     "wildLevels": "N/A",
-    "screenshot": "images/locations/loc_p19_2_256x192.png",
+    "screenshot": null,
     "encounterMethods": [
       {
         "method": "Surf",
@@ -3785,11 +3785,11 @@
   },
   {
     "id": "loc-32-route-40",
-    "name": "Route 40",
+    "name": "Ruta 40",
     "region": "Kanto",
     "page": 20,
     "wildLevels": "25 – 35",
-    "screenshot": "images/locations/loc_p20_1_256x192.png",
+    "screenshot": null,
     "encounterMethods": [
       {
         "method": "Surf",
@@ -3871,11 +3871,11 @@
   },
   {
     "id": "loc-33-route-41",
-    "name": "Route 41",
+    "name": "Ruta 41",
     "region": "Kanto",
     "page": 20,
     "wildLevels": "25 – 35",
-    "screenshot": "images/locations/loc_p20_2_256x192.png",
+    "screenshot": null,
     "encounterMethods": [
       {
         "method": "Surf",
@@ -3969,11 +3969,11 @@
   },
   {
     "id": "loc-34-cianwood-city",
-    "name": "Cianwood City",
+    "name": "Ciudad Orquídea (Cianwood City)",
     "region": "Johto",
     "page": 21,
     "wildLevels": "N/A",
-    "screenshot": "images/locations/loc_p21_1_256x192.png",
+    "screenshot": null,
     "encounterMethods": [
       {
         "method": "Rock Smash",
@@ -4061,11 +4061,11 @@
   },
   {
     "id": "loc-35-route-47",
-    "name": "Route 47",
+    "name": "Ruta 47",
     "region": "Kanto",
     "page": 21,
     "wildLevels": "41 – 45",
-    "screenshot": "images/locations/loc_p21_2_256x192.png",
+    "screenshot": null,
     "encounterMethods": [
       {
         "method": "Grass, Morning / Day",
@@ -4243,11 +4243,11 @@
   },
   {
     "id": "loc-36-the-cliff-cave",
-    "name": "The Cliff Cave",
+    "name": "Cueva Acantilado (Cliff Cave)",
     "region": "Johto",
     "page": 22,
     "wildLevels": "30 – 33",
-    "screenshot": "images/locations/loc_p22_1_256x192.png",
+    "screenshot": null,
     "encounterMethods": [
       {
         "method": "Cave",
@@ -4337,11 +4337,11 @@
   },
   {
     "id": "loc-37-route-48",
-    "name": "Route 48",
+    "name": "Ruta 48",
     "region": "Kanto",
     "page": 22,
     "wildLevels": "30 – 33",
-    "screenshot": "images/locations/loc_p22_2_256x192.png",
+    "screenshot": null,
     "encounterMethods": [
       {
         "method": "Grass",
@@ -4417,11 +4417,11 @@
   },
   {
     "id": "loc-38-route-42-42",
-    "name": "Route 42 42",
+    "name": "Ruta 42",
     "region": "Kanto",
     "page": 23,
     "wildLevels": "30 – 32",
-    "screenshot": "images/locations/loc_p23_1_256x192.png",
+    "screenshot": null,
     "encounterMethods": [
       {
         "method": "Grass",
@@ -4549,11 +4549,11 @@
   },
   {
     "id": "loc-39-1f",
-    "name": "1F",
+    "name": "Monte Mortero (Mt. Mortar) - 1F Entrada",
     "region": "Johto",
     "page": 24,
     "wildLevels": "31 – 34",
-    "screenshot": "images/locations/loc_p24_1_256x192.png",
+    "screenshot": null,
     "encounterMethods": [
       {
         "method": "Cave, All Times",
@@ -4673,7 +4673,7 @@
   },
   {
     "id": "loc-40-1f-2",
-    "name": "1F-2",
+    "name": "Monte Mortero (Mt. Mortar) - 1F Interior",
     "region": "Johto",
     "page": 24,
     "wildLevels": "33 – 37",
@@ -4757,7 +4757,7 @@
   },
   {
     "id": "loc-41-1f-3",
-    "name": "1F-3",
+    "name": "Monte Mortero (Mt. Mortar) - 1F Fondo",
     "region": "Johto",
     "page": 24,
     "wildLevels": "41 – 45",
@@ -4901,11 +4901,11 @@
   },
   {
     "id": "loc-42-b1f",
-    "name": "B1F",
+    "name": "Monte Mortero (Mt. Mortar) - B1F",
     "region": "Johto",
     "page": 25,
     "wildLevels": "33 – 35",
-    "screenshot": "images/locations/loc_p25_1_256x192.png",
+    "screenshot": null,
     "encounterMethods": [
       {
         "method": "Cave, All Times",
@@ -5041,7 +5041,7 @@
   },
   {
     "id": "loc-43-route-43",
-    "name": "Route 43",
+    "name": "Ruta 43",
     "region": "Kanto",
     "page": 25,
     "wildLevels": "34 – 36",
@@ -5153,11 +5153,11 @@
   },
   {
     "id": "loc-44-lake-of-rage",
-    "name": "Lake of Rage",
+    "name": "Lago de la Furia (Lake of Rage)",
     "region": "Johto",
     "page": 26,
     "wildLevels": "10 – 50",
-    "screenshot": "images/locations/loc_p26_1_256x192.png",
+    "screenshot": null,
     "encounterMethods": [
       {
         "method": "Surf",
@@ -5227,11 +5227,11 @@
   },
   {
     "id": "loc-45-1f",
-    "name": "1F",
+    "name": "Islas Remolino (Whirl Islands) - 1F",
     "region": "Johto",
     "page": 26,
     "wildLevels": "34 – 36",
-    "screenshot": "images/locations/loc_p26_2_256x192.png",
+    "screenshot": null,
     "encounterMethods": [
       {
         "method": "Cave",
@@ -5325,7 +5325,7 @@
   },
   {
     "id": "loc-46-b1f",
-    "name": "B1F",
+    "name": "Islas Remolino (Whirl Islands) - B1F",
     "region": "Johto",
     "page": 27,
     "wildLevels": "35 – 38",
@@ -5389,7 +5389,7 @@
   },
   {
     "id": "loc-47-b2f",
-    "name": "B2F",
+    "name": "Islas Remolino (Whirl Islands) - B2F",
     "region": "Johto",
     "page": 27,
     "wildLevels": "37 – 39",
@@ -5505,7 +5505,7 @@
   },
   {
     "id": "loc-48-b3f",
-    "name": "B3F",
+    "name": "Islas Remolino (Whirl Islands) - B3F Entrada",
     "region": "Johto",
     "page": 27,
     "wildLevels": "Sacred Gold  47 – 49",
@@ -5514,7 +5514,7 @@
   },
   {
     "id": "loc-49-b3f",
-    "name": "B3F",
+    "name": "Islas Remolino (Whirl Islands) - B3F Lugia",
     "region": "Johto",
     "page": 27,
     "wildLevels": "Storm Silver  42 – 44",
@@ -5582,11 +5582,11 @@
   },
   {
     "id": "loc-50-route-44",
-    "name": "Route 44",
+    "name": "Ruta 44",
     "region": "Kanto",
     "page": 28,
     "wildLevels": "38 – 39",
-    "screenshot": "images/locations/loc_p28_1_256x192.png",
+    "screenshot": null,
     "encounterMethods": [
       {
         "method": "Grass",
@@ -5738,11 +5738,11 @@
   },
   {
     "id": "loc-51-1f",
-    "name": "1F",
+    "name": "Ruta Helada (Ice Path) - 1F",
     "region": "Johto",
     "page": 29,
     "wildLevels": "37 – 40",
-    "screenshot": "images/locations/loc_p29_1_256x192.png",
+    "screenshot": null,
     "encounterMethods": [
       {
         "method": "Cave",
@@ -5798,7 +5798,7 @@
   },
   {
     "id": "loc-52-b1f",
-    "name": "B1F",
+    "name": "Ruta Helada (Ice Path) - B1F",
     "region": "Johto",
     "page": 29,
     "wildLevels": "38 – 41",
@@ -5866,7 +5866,7 @@
   },
   {
     "id": "loc-53-b2f",
-    "name": "B2F",
+    "name": "Ruta Helada (Ice Path) - B2F",
     "region": "Johto",
     "page": 29,
     "wildLevels": "40 – 43",
@@ -5938,7 +5938,7 @@
   },
   {
     "id": "loc-54-b3f",
-    "name": "B3F",
+    "name": "Ruta Helada (Ice Path) - B3F",
     "region": "Johto",
     "page": 29,
     "wildLevels": "42 – 44",
@@ -6010,11 +6010,11 @@
   },
   {
     "id": "loc-55-blackthorn-city",
-    "name": "Blackthorn City",
+    "name": "Ciudad Endrino (Blackthorn City)",
     "region": "Johto",
     "page": 30,
     "wildLevels": "N/A",
-    "screenshot": "images/locations/loc_p30_1_256x192.png",
+    "screenshot": null,
     "encounterMethods": [
       {
         "method": "Surf",
@@ -6058,11 +6058,11 @@
   },
   {
     "id": "loc-56-route-45",
-    "name": "Route 45",
+    "name": "Ruta 45",
     "region": "Kanto",
     "page": 30,
     "wildLevels": "42 – 45",
-    "screenshot": "images/locations/loc_p30_2_256x192.png",
+    "screenshot": null,
     "encounterMethods": [
       {
         "method": "Meridian Sound",
@@ -6148,11 +6148,11 @@
   },
   {
     "id": "loc-57-dragon-s-den",
-    "name": "Dragon’s Den",
+    "name": "Guarida Dragón (Dragon's Den)",
     "region": "Johto",
     "page": 31,
     "wildLevels": "10 – 40",
-    "screenshot": "images/locations/loc_p31_1_256x192.png",
+    "screenshot": null,
     "encounterMethods": [
       {
         "method": "Surf",
@@ -6230,11 +6230,11 @@
   },
   {
     "id": "loc-58-tohjo-falls",
-    "name": "Tohjo Falls",
+    "name": "Cataratas Tohjo (Tohjo Falls)",
     "region": "Johto",
     "page": 31,
     "wildLevels": "43 – 45",
-    "screenshot": "images/locations/loc_p31_2_256x192.png",
+    "screenshot": null,
     "encounterMethods": [
       {
         "method": "Cave",
@@ -6344,11 +6344,11 @@
   },
   {
     "id": "loc-59-route-27-27",
-    "name": "Route 27 27",
+    "name": "Ruta 27",
     "region": "Johto",
     "page": 32,
     "wildLevels": "42 – 45",
-    "screenshot": "images/locations/loc_p32_1_256x192.png",
+    "screenshot": null,
     "encounterMethods": [
       {
         "method": "Grass",
@@ -6452,11 +6452,11 @@
   },
   {
     "id": "loc-60-route-26-26",
-    "name": "Route 26 26",
+    "name": "Ruta 26",
     "region": "Johto",
     "page": 33,
     "wildLevels": "44 – 46",
-    "screenshot": "images/locations/loc_p33_1_256x192.png",
+    "screenshot": null,
     "encounterMethods": [
       {
         "method": "Grass",
@@ -6568,11 +6568,11 @@
   },
   {
     "id": "loc-61-1f",
-    "name": "1F",
+    "name": "Calle Victoria (Victory Road) - 1F",
     "region": "Johto",
     "page": 34,
     "wildLevels": "44 – 46",
-    "screenshot": "images/locations/loc_p34_1_256x192.png",
+    "screenshot": null,
     "encounterMethods": [
       {
         "method": "Cave",
@@ -6644,7 +6644,7 @@
   },
   {
     "id": "loc-62-2f",
-    "name": "2F",
+    "name": "Calle Victoria (Victory Road) - 2F",
     "region": "Johto",
     "page": 34,
     "wildLevels": "44 – 46",
@@ -6728,7 +6728,7 @@
   },
   {
     "id": "loc-63-3f",
-    "name": "3F",
+    "name": "Calle Victoria (Victory Road) - 3F",
     "region": "Johto",
     "page": 34,
     "wildLevels": "45 – 46",
@@ -6780,11 +6780,11 @@
   },
   {
     "id": "loc-64-vermilion-city",
-    "name": "Vermilion City",
+    "name": "Ciudad Carmín (Vermilion City)",
     "region": "Kanto",
     "page": 35,
     "wildLevels": "27 – 53",
-    "screenshot": "images/locations/loc_p35_1_256x192.png",
+    "screenshot": null,
     "encounterMethods": [
       {
         "method": "Surf",
@@ -6864,11 +6864,11 @@
   },
   {
     "id": "loc-65-diglett-s-cave",
-    "name": "Diglett’s Cave",
+    "name": "Cueva Diglett (Diglett's Cave)",
     "region": "Kanto",
     "page": 35,
     "wildLevels": "15 – 63",
-    "screenshot": "images/locations/loc_p35_2_256x192.png",
+    "screenshot": null,
     "encounterMethods": [
       {
         "method": "Cave",
@@ -6912,11 +6912,11 @@
   },
   {
     "id": "loc-66-route-6",
-    "name": "Route 6",
+    "name": "Ruta 6",
     "region": "Kanto",
     "page": 36,
     "wildLevels": "45 – 48",
-    "screenshot": "images/locations/loc_p36_1_256x192.png",
+    "screenshot": null,
     "encounterMethods": [
       {
         "method": "Grass",
@@ -7028,11 +7028,11 @@
   },
   {
     "id": "loc-67-north",
-    "name": "North",
+    "name": "Ruta 2 - Norte (Route 2 North)",
     "region": "Kanto",
     "page": 36,
     "wildLevels": "45 – 49",
-    "screenshot": "images/locations/loc_p36_2_256x192.png",
+    "screenshot": null,
     "encounterMethods": [
       {
         "method": "Grass, Morning / Day",
@@ -7122,11 +7122,11 @@
   },
   {
     "id": "loc-68-route-3",
-    "name": "Route 3",
+    "name": "Ruta 3",
     "region": "Kanto",
     "page": 37,
     "wildLevels": "46 – 49",
-    "screenshot": "images/locations/loc_p37_1_256x192.png",
+    "screenshot": null,
     "encounterMethods": [
       {
         "method": "Grass, Morning / Day",
@@ -7220,11 +7220,11 @@
   },
   {
     "id": "loc-69-route-4",
-    "name": "Route 4",
+    "name": "Ruta 4",
     "region": "Kanto",
     "page": 37,
     "wildLevels": "46 – 50",
-    "screenshot": "images/locations/loc_p37_2_256x192.png",
+    "screenshot": null,
     "encounterMethods": [
       {
         "method": "Grass, All Times",
@@ -7352,11 +7352,11 @@
   },
   {
     "id": "loc-70-1f",
-    "name": "1F",
+    "name": "Monte Moon (Mt. Moon) - 1F",
     "region": "Kanto",
     "page": 38,
     "wildLevels": "47 – 51",
-    "screenshot": "images/locations/loc_p38_1_256x192.png",
+    "screenshot": null,
     "encounterMethods": [
       {
         "method": "Cave",
@@ -7412,7 +7412,7 @@
   },
   {
     "id": "loc-71-2f",
-    "name": "2F",
+    "name": "Monte Moon (Mt. Moon) - 2F",
     "region": "Kanto",
     "page": 38,
     "wildLevels": "48 – 50",
@@ -7474,7 +7474,7 @@
   },
   {
     "id": "loc-72-outside",
-    "name": "Outside",
+    "name": "Monte Moon (Mt. Moon) - Exterior",
     "region": "Kanto",
     "page": 38,
     "wildLevels": "40 – 50",
@@ -7536,11 +7536,11 @@
   },
   {
     "id": "loc-73-cerulean-city",
-    "name": "Cerulean City",
+    "name": "Ciudad Celeste (Cerulean City)",
     "region": "Kanto",
     "page": 39,
     "wildLevels": "20 – 50",
-    "screenshot": "images/locations/loc_p39_1_256x192.png",
+    "screenshot": null,
     "encounterMethods": [
       {
         "method": "Surf",
@@ -7622,11 +7622,11 @@
   },
   {
     "id": "loc-74-te-5",
-    "name": "te 5",
+    "name": "Ruta 5",
     "region": "Kanto",
     "page": 39,
     "wildLevels": "47 – 50",
-    "screenshot": "images/locations/loc_p39_2_256x192.png",
+    "screenshot": null,
     "encounterMethods": [
       {
         "method": "Grass, Morning / Day",
@@ -7732,11 +7732,11 @@
   },
   {
     "id": "loc-75-route-24-24",
-    "name": "Route 24 24",
+    "name": "Ruta 24",
     "region": "Kanto",
     "page": 40,
     "wildLevels": "47 – 51",
-    "screenshot": "images/locations/loc_p40_1_256x192.png",
+    "screenshot": null,
     "encounterMethods": [
       {
         "method": "Grass",
@@ -7872,11 +7872,11 @@
   },
   {
     "id": "loc-76-route-25-25",
-    "name": "Route 25 25",
+    "name": "Ruta 25",
     "region": "Kanto",
     "page": 41,
     "wildLevels": "47 – 52",
-    "screenshot": "images/locations/loc_p41_1_256x192.png",
+    "screenshot": null,
     "encounterMethods": [
       {
         "method": "Grass",
@@ -8016,11 +8016,11 @@
   },
   {
     "id": "loc-77-route-9",
-    "name": "Route 9",
+    "name": "Ruta 9",
     "region": "Kanto",
     "page": 42,
     "wildLevels": "49 – 51",
-    "screenshot": "images/locations/loc_p42_1_256x192.png",
+    "screenshot": null,
     "encounterMethods": [
       {
         "method": "Grass",
@@ -8140,11 +8140,11 @@
   },
   {
     "id": "loc-78-route-10-10",
-    "name": "Route 10 10",
+    "name": "Ruta 10",
     "region": "Kanto",
     "page": 43,
     "wildLevels": "47 – 52",
-    "screenshot": "images/locations/loc_p43_1_256x192.png",
+    "screenshot": null,
     "encounterMethods": [
       {
         "method": "Grass",
@@ -8264,11 +8264,11 @@
   },
   {
     "id": "loc-79-1f",
-    "name": "1F",
+    "name": "Túnel Roca (Rock Tunnel) - 1F",
     "region": "Kanto",
     "page": 44,
     "wildLevels": "52 – 55",
-    "screenshot": "images/locations/loc_p44_1_256x192.png",
+    "screenshot": null,
     "encounterMethods": [
       {
         "method": "Cave",
@@ -8340,11 +8340,11 @@
   },
   {
     "id": "loc-80-b1f",
-    "name": "B1F",
+    "name": "Túnel Roca (Rock Tunnel) - B1F",
     "region": "Kanto",
     "page": 44,
     "wildLevels": "53 – 56",
-    "screenshot": "images/locations/loc_p44_2_256x192.png",
+    "screenshot": null,
     "encounterMethods": [
       {
         "method": "Cave",
@@ -8430,7 +8430,7 @@
   },
   {
     "id": "loc-81-route-8",
-    "name": "Route 8",
+    "name": "Ruta 8",
     "region": "Kanto",
     "page": 44,
     "wildLevels": "50 – 54",
@@ -8528,11 +8528,11 @@
   },
   {
     "id": "loc-82-route-12",
-    "name": "Route 12",
+    "name": "Ruta 12",
     "region": "Kanto",
     "page": 45,
     "wildLevels": "20 – 55",
-    "screenshot": "images/locations/loc_p45_1_256x192.png",
+    "screenshot": null,
     "encounterMethods": [
       {
         "method": "Surf",
@@ -8598,11 +8598,11 @@
   },
   {
     "id": "loc-83-route-13-13",
-    "name": "Route 13 13",
+    "name": "Ruta 13",
     "region": "Kanto",
     "page": 45,
     "wildLevels": "50 – 54",
-    "screenshot": "images/locations/loc_p45_2_256x192.png",
+    "screenshot": null,
     "encounterMethods": [
       {
         "method": "Grass",
@@ -8718,11 +8718,11 @@
   },
   {
     "id": "loc-84-route-14",
-    "name": "Route 14",
+    "name": "Ruta 14",
     "region": "Kanto",
     "page": 46,
     "wildLevels": "51 – 55",
-    "screenshot": "images/locations/loc_p46_1_256x192.png",
+    "screenshot": null,
     "encounterMethods": [
       {
         "method": "Grass",
@@ -8764,11 +8764,11 @@
   },
   {
     "id": "loc-85-route-15-15",
-    "name": "Route 15 15",
+    "name": "Ruta 15",
     "region": "Kanto",
     "page": 46,
     "wildLevels": "51 – 55",
-    "screenshot": "images/locations/loc_p46_2_256x192.png",
+    "screenshot": null,
     "encounterMethods": [
       {
         "method": "Grass",
@@ -8820,11 +8820,11 @@
   },
   {
     "id": "loc-86-route-11-11",
-    "name": "Route 11 11",
+    "name": "Ruta 11",
     "region": "Kanto",
     "page": 47,
     "wildLevels": "50 – 55",
-    "screenshot": "images/locations/loc_p47_1_256x192.png",
+    "screenshot": null,
     "encounterMethods": [
       {
         "method": "Grass",
@@ -8884,11 +8884,11 @@
   },
   {
     "id": "loc-87-fuchsia-city",
-    "name": "Fuchsia City",
+    "name": "Ciudad Fucsia (Fuchsia City)",
     "region": "Kanto",
     "page": 47,
     "wildLevels": "10 – 20",
-    "screenshot": "images/locations/loc_p47_2_256x192.png",
+    "screenshot": null,
     "encounterMethods": [
       {
         "method": "Surf",
@@ -8942,11 +8942,11 @@
   },
   {
     "id": "loc-88-route-18-18",
-    "name": "Route 18 18",
+    "name": "Ruta 18",
     "region": "Kanto",
     "page": 48,
     "wildLevels": "50 – 56",
-    "screenshot": "images/locations/loc_p48_1_256x192.png",
+    "screenshot": null,
     "encounterMethods": [
       {
         "method": "Grass",
@@ -9006,11 +9006,11 @@
   },
   {
     "id": "loc-89-route-17-17",
-    "name": "Route 17 17",
+    "name": "Ruta 17",
     "region": "Kanto",
     "page": 48,
     "wildLevels": "52 – 55",
-    "screenshot": "images/locations/loc_p48_2_256x192.png",
+    "screenshot": null,
     "encounterMethods": [
       {
         "method": "Grass",
@@ -9074,11 +9074,11 @@
   },
   {
     "id": "loc-90-route-16-16",
-    "name": "Route 16 16",
+    "name": "Ruta 16",
     "region": "Kanto",
     "page": 49,
     "wildLevels": "52 – 55",
-    "screenshot": "images/locations/loc_p49_1_256x192.png",
+    "screenshot": null,
     "encounterMethods": [
       {
         "method": "Meridian Sound",
@@ -9108,11 +9108,11 @@
   },
   {
     "id": "loc-91-route-7",
-    "name": "Route 7",
+    "name": "Ruta 7",
     "region": "Kanto",
     "page": 49,
     "wildLevels": "50 – 54",
-    "screenshot": "images/locations/loc_p49_2_256x192.png",
+    "screenshot": null,
     "encounterMethods": [
       {
         "method": "Grass",
@@ -9180,11 +9180,11 @@
   },
   {
     "id": "loc-92-celadon-city",
-    "name": "Celadon City",
+    "name": "Ciudad Azulona (Celadon City)",
     "region": "Kanto",
     "page": 50,
     "wildLevels": "15 – 20",
-    "screenshot": "images/locations/loc_p50_1_256x192.png",
+    "screenshot": null,
     "encounterMethods": [
       {
         "method": "Surf",
@@ -9204,11 +9204,11 @@
   },
   {
     "id": "loc-93-viridian-city",
-    "name": "Viridian City",
+    "name": "Ciudad Verde (Viridian City)",
     "region": "Kanto",
     "page": 50,
     "wildLevels": "1 – 70",
-    "screenshot": "images/locations/loc_p50_2_256x192.png",
+    "screenshot": null,
     "encounterMethods": [
       {
         "method": "Surf",
@@ -9254,11 +9254,11 @@
   },
   {
     "id": "loc-94-south",
-    "name": "South",
+    "name": "Ruta 2 - Sur (Route 2 South)",
     "region": "Kanto",
     "page": 51,
     "wildLevels": "45 – 49",
-    "screenshot": "images/locations/loc_p51_1_256x192.png",
+    "screenshot": null,
     "encounterMethods": [
       {
         "method": "Grass, Morning / Day",
@@ -9348,11 +9348,11 @@
   },
   {
     "id": "loc-95-route-1",
-    "name": "Route 1",
+    "name": "Ruta 1",
     "region": "Kanto",
     "page": 51,
     "wildLevels": "48 – 60",
-    "screenshot": "images/locations/loc_p51_2_256x192.png",
+    "screenshot": null,
     "encounterMethods": [
       {
         "method": "Grass, Morning / Day",
@@ -9478,11 +9478,11 @@
   },
   {
     "id": "loc-96-pallet-town",
-    "name": "Pallet Town",
+    "name": "Pueblo Paleta (Pallet Town)",
     "region": "Kanto",
     "page": 52,
     "wildLevels": "1 – 70",
-    "screenshot": "images/locations/loc_p52_1_256x192.png",
+    "screenshot": null,
     "encounterMethods": [
       {
         "method": "Surf",
@@ -9528,11 +9528,11 @@
   },
   {
     "id": "loc-97-route-21",
-    "name": "Route 21",
+    "name": "Ruta 21",
     "region": "Kanto",
     "page": 52,
     "wildLevels": "54 – 59",
-    "screenshot": "images/locations/loc_p52_2_256x192.png",
+    "screenshot": null,
     "encounterMethods": [
       {
         "method": "Surf",
@@ -9626,11 +9626,11 @@
   },
   {
     "id": "loc-98-route-22",
-    "name": "Route 22",
+    "name": "Ruta 22",
     "region": "Kanto",
     "page": 53,
     "wildLevels": "54 – 59",
-    "screenshot": "images/locations/loc_p53_1_256x192.png",
+    "screenshot": null,
     "encounterMethods": [
       {
         "method": "Grass",
@@ -9734,11 +9734,11 @@
   },
   {
     "id": "loc-99-cinnabar-island",
-    "name": "Cinnabar Island",
+    "name": "Isla Canela (Cinnabar Island)",
     "region": "Kanto",
     "page": 53,
     "wildLevels": "40 – 55",
-    "screenshot": "images/locations/loc_p53_2_256x192.png",
+    "screenshot": null,
     "encounterMethods": [
       {
         "method": "Surf",
@@ -9808,11 +9808,11 @@
   },
   {
     "id": "loc-100-route-20",
-    "name": "Route 20",
+    "name": "Ruta 20",
     "region": "Kanto",
     "page": 54,
     "wildLevels": "5 – 60",
-    "screenshot": "images/locations/loc_p54_1_256x192.png",
+    "screenshot": null,
     "encounterMethods": [
       {
         "method": "Surf",
@@ -9876,11 +9876,11 @@
   },
   {
     "id": "loc-101-route-19",
-    "name": "Route 19",
+    "name": "Ruta 19",
     "region": "Kanto",
     "page": 54,
     "wildLevels": "5 – 60",
-    "screenshot": "images/locations/loc_p54_2_256x192.png",
+    "screenshot": null,
     "encounterMethods": [
       {
         "method": "Surf",
@@ -9976,11 +9976,11 @@
   },
   {
     "id": "loc-102-1f",
-    "name": "1F",
+    "name": "Islas Espuma (Seafoam Islands) - 1F",
     "region": "Kanto",
     "page": 55,
     "wildLevels": "48 – 58",
-    "screenshot": "images/locations/loc_p55_1_256x192.png",
+    "screenshot": null,
     "encounterMethods": [
       {
         "method": "Cave, All Times",
@@ -10032,7 +10032,7 @@
   },
   {
     "id": "loc-103-b1f",
-    "name": "B1F",
+    "name": "Islas Espuma (Seafoam Islands) - B1F",
     "region": "Kanto",
     "page": 55,
     "wildLevels": "49 – 59",
@@ -10096,7 +10096,7 @@
   },
   {
     "id": "loc-104-b2f",
-    "name": "B2F",
+    "name": "Islas Espuma (Seafoam Islands) - B2F",
     "region": "Kanto",
     "page": 55,
     "wildLevels": "56 – 60",
@@ -10168,7 +10168,7 @@
   },
   {
     "id": "loc-105-b3f",
-    "name": "B3F",
+    "name": "Islas Espuma (Seafoam Islands) - B3F",
     "region": "Kanto",
     "page": 55,
     "wildLevels": "56 – 60",
@@ -10206,11 +10206,11 @@
   },
   {
     "id": "loc-106-b4f",
-    "name": "B4F",
+    "name": "Islas Espuma (Seafoam Islands) - B4F Articuno",
     "region": "Kanto",
     "page": 56,
     "wildLevels": "57 – 60",
-    "screenshot": "images/locations/loc_p56_1_256x192.png",
+    "screenshot": null,
     "encounterMethods": [
       {
         "method": "Cave, All Times",
@@ -10366,7 +10366,7 @@
   },
   {
     "id": "loc-107-viridian-forest",
-    "name": "Viridian Forest",
+    "name": "Bosque Verde (Viridian Forest)",
     "region": "Kanto",
     "page": 56,
     "wildLevels": "60 – 68",
@@ -10490,16 +10490,16 @@
   },
   {
     "id": "loc-108-2f-3f",
-    "name": "2F, 3F",
+    "name": "Torre Hojalata (Bell Tower) - 2F, 3F",
     "region": "Kanto",
     "page": 57,
     "wildLevels": "Sacred Gold  40 – 43",
-    "screenshot": "images/locations/loc_p57_1_256x192.png",
+    "screenshot": null,
     "encounterMethods": []
   },
   {
     "id": "loc-109-2f-3f",
-    "name": "2F, 3F",
+    "name": "Torre Hojalata (Bell Tower) - 2F, 3F (Noche)",
     "region": "Kanto",
     "page": 57,
     "wildLevels": "Storm Silver  45 – 48",
@@ -10567,7 +10567,7 @@
   },
   {
     "id": "loc-110-4f-5f-6f",
-    "name": "4F, 5F, 6F",
+    "name": "Torre Hojalata (Bell Tower) - 4F, 5F, 6F",
     "region": "Kanto",
     "page": 57,
     "wildLevels": "Sacred Gold  41 – 44",
@@ -10576,7 +10576,7 @@
   },
   {
     "id": "loc-111-4f-5f-6f",
-    "name": "4F, 5F, 6F",
+    "name": "Torre Hojalata (Bell Tower) - 4F, 5F, 6F (Noche)",
     "region": "Kanto",
     "page": 57,
     "wildLevels": "Storm Silver  46 – 49",
@@ -10644,7 +10644,7 @@
   },
   {
     "id": "loc-112-7f-8f-9f",
-    "name": "7F, 8F, 9F",
+    "name": "Torre Hojalata (Bell Tower) - 7F, 8F, 9F",
     "region": "Kanto",
     "page": 57,
     "wildLevels": "Sacred Gold  41 – 45",
@@ -10653,7 +10653,7 @@
   },
   {
     "id": "loc-113-7f-8f-9f",
-    "name": "7F, 8F, 9F",
+    "name": "Torre Hojalata (Bell Tower) - 7F, 8F, 9F (Noche)",
     "region": "Kanto",
     "page": 57,
     "wildLevels": "Storm Silver  46 – 50",
@@ -10733,7 +10733,7 @@
   },
   {
     "id": "loc-114-10f",
-    "name": "10F",
+    "name": "Torre Hojalata (Bell Tower) - 10F",
     "region": "Kanto",
     "page": 57,
     "wildLevels": "Sacred Gold  43 – 45",
@@ -10742,7 +10742,7 @@
   },
   {
     "id": "loc-115-10f",
-    "name": "10F",
+    "name": "Torre Hojalata (Bell Tower) - 10F (Noche)",
     "region": "Kanto",
     "page": 57,
     "wildLevels": "Storm Silver  48 – 50",
@@ -10822,11 +10822,11 @@
   },
   {
     "id": "loc-116-1f",
-    "name": "1F",
+    "name": "Cueva Celeste (Cerulean Cave) - 1F",
     "region": "Kanto",
     "page": 58,
     "wildLevels": "60 – 64",
-    "screenshot": "images/locations/loc_p58_1_256x192.png",
+    "screenshot": null,
     "encounterMethods": [
       {
         "method": "Cave",
@@ -11010,7 +11010,7 @@
   },
   {
     "id": "loc-117-2f",
-    "name": "2F",
+    "name": "Cueva Celeste (Cerulean Cave) - 2F",
     "region": "Kanto",
     "page": 58,
     "wildLevels": "64 – 68",
@@ -11174,11 +11174,11 @@
   },
   {
     "id": "loc-118-b2f",
-    "name": "B2F",
+    "name": "Cueva Celeste (Cerulean Cave) - B1F",
     "region": "Kanto",
     "page": 59,
     "wildLevels": "68 – 72",
-    "screenshot": "images/locations/loc_p59_1_256x192.png",
+    "screenshot": null,
     "encounterMethods": [
       {
         "method": "Cave",
@@ -11424,7 +11424,7 @@
   },
   {
     "id": "loc-119-route-28-28",
-    "name": "Route 28 28",
+    "name": "Ruta 28",
     "region": "Kanto",
     "page": 59,
     "wildLevels": "58 - 64",
@@ -11556,11 +11556,11 @@
   },
   {
     "id": "loc-120-mt-silver-outside",
-    "name": "Mt. Silver Outside",
+    "name": "Monte Plateado (Mt. Silver) - Exterior",
     "region": "Kanto",
     "page": 60,
     "wildLevels": "59 - 65",
-    "screenshot": "images/locations/loc_p60_1_256x192.png",
+    "screenshot": null,
     "encounterMethods": [
       {
         "method": "Grass",
@@ -11688,11 +11688,11 @@
   },
   {
     "id": "loc-121-entrance-room",
-    "name": "Entrance Room",
+    "name": "Monte Plateado (Mt. Silver) - 1F Entrada",
     "region": "Kanto",
     "page": 61,
     "wildLevels": "50 – 64",
-    "screenshot": "images/locations/loc_p61_1_256x192.png",
+    "screenshot": null,
     "encounterMethods": [
       {
         "method": "Cave, Morning / Day",
@@ -11866,11 +11866,11 @@
   },
   {
     "id": "loc-122-side-room",
-    "name": "Side Room",
+    "name": "Monte Plateado (Mt. Silver) - 1F Sala Lateral",
     "region": "Kanto",
     "page": 62,
     "wildLevels": "50 – 64",
-    "screenshot": "images/locations/loc_p62_1_256x192.png",
+    "screenshot": null,
     "encounterMethods": [
       {
         "method": "Cave, Morning / Day",
@@ -11956,11 +11956,11 @@
   },
   {
     "id": "loc-123-back-room",
-    "name": "Back Room",
+    "name": "Monte Plateado (Mt. Silver) - 1F Sala Posterior",
     "region": "Kanto",
     "page": 62,
     "wildLevels": "64 – 68",
-    "screenshot": "images/locations/loc_p62_2_224x192.png",
+    "screenshot": null,
     "encounterMethods": [
       {
         "method": "Cave, Morning / Day",
@@ -12050,11 +12050,11 @@
   },
   {
     "id": "loc-124-spiral-cave",
-    "name": "Spiral Cave",
+    "name": "Monte Plateado (Mt. Silver) - 2F Cueva Espiral",
     "region": "Kanto",
     "page": 63,
     "wildLevels": "62 – 66",
-    "screenshot": "images/locations/loc_p63_1_256x192.png",
+    "screenshot": null,
     "encounterMethods": [
       {
         "method": "Cave, Morning / Day",
@@ -12152,11 +12152,11 @@
   },
   {
     "id": "loc-125-snowy-area",
-    "name": "Snowy Area",
+    "name": "Monte Plateado (Mt. Silver) - 3F Zona Nevada",
     "region": "Kanto",
     "page": 63,
     "wildLevels": "54 - 65",
-    "screenshot": "images/locations/loc_p63_2_256x192.png",
+    "screenshot": null,
     "encounterMethods": [
       {
         "method": "Grass, Morning / Day",
@@ -12262,11 +12262,11 @@
   },
   {
     "id": "loc-126-mountainous-area",
-    "name": "Mountainous Area",
+    "name": "Monte Plateado (Mt. Silver) - Exterior Montaña",
     "region": "Kanto",
     "page": 64,
     "wildLevels": "60 – 64",
-    "screenshot": "images/locations/loc_p64_1_256x192.png",
+    "screenshot": null,
     "encounterMethods": [
       {
         "method": "Grass, Morning / Day",
@@ -12364,11 +12364,11 @@
   },
   {
     "id": "loc-127-final-cave",
-    "name": "Final Cave",
+    "name": "Monte Plateado (Mt. Silver) - Cueva Final (Cima)",
     "region": "Kanto",
     "page": 64,
     "wildLevels": "64 – 68",
-    "screenshot": "images/locations/loc_p64_2_256x192.png",
+    "screenshot": null,
     "encounterMethods": [
       {
         "method": "Cave, Morning / Day",

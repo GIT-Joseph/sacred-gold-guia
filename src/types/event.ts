@@ -6,6 +6,7 @@ export interface SpecialEvent {
   requirements: string[];
   description: string;
   screenshot: string;
+  pokemon?: string[];
 }
 
 export interface ArceusPlate {

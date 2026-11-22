@@ -2,8 +2,10 @@ import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import eventsData from '../data/events.json';
 import { SpecialEvent, ArceusPlate } from '../types/event';
-import { Flame, Sparkles, CheckCircle2, MapPin, Award, Layers, ShieldAlert, Key } from 'lucide-react';
+import { Flame, CheckCircle2, Award, Key } from 'lucide-react';
 import { Badge } from '../components/common/Badge';
+import { getSpriteUrl } from '../services/pokeapi';
+import { getPokemonDexNumber } from '../utils/pokemonNames';
 
 export const EventsPage: React.FC = () => {
   const [activeTab, setActiveTab] = useState<'all' | 'no-leg' | 'gifts' | 'legendary' | 'arceus'>('all');
@@ -29,7 +31,7 @@ export const EventsPage: React.FC = () => {
           Legendarios, Eventos Especiales & Desafío Arceus
         </h1>
         <p className="text-slate-400 text-sm mt-2 max-w-3xl leading-relaxed">
-          Guía paso a paso para desbloquear los <strong>37 encuentros únicos</strong> y Pokémon regalados en Sacred Gold, incluyendo los requisitos para el combate supremo contra Arceus y las 16 Tablas Elementales.
+          Guía paso a paso para desbloquear los <strong>38 encuentros únicos</strong>, legendarios y Pokémon regalados en Sacred Gold, con sus sprites oficiales, requisitos exactos y las 16 Tablas Elementales de Arceus.
         </p>
       </div>
 
@@ -47,7 +49,7 @@ export const EventsPage: React.FC = () => {
             onClick={() => setActiveTab(tab.id as any)}
             className={`px-3.5 py-1.5 rounded-xl text-xs font-semibold whitespace-nowrap transition-all ${
               activeTab === tab.id
-                ? 'bg-amber-500 text-slate-950 shadow-md shadow-amber-500/20'
+                ? 'bg-amber-500 text-slate-950 shadow-md shadow-amber-500/20 font-bold'
                 : 'bg-slate-900 text-slate-400 hover:text-slate-200'
             }`}
           >
@@ -133,24 +135,60 @@ export const EventsPage: React.FC = () => {
                 </div>
               </div>
 
-              <span className="text-xs font-mono text-slate-500 self-start sm:self-auto">
-                Pág. {ev.page}
-              </span>
+              {/* Featured Pokemon Sprites with Dex Links */}
+              {ev.pokemon && ev.pokemon.length > 0 && (
+                <div className="flex flex-wrap items-center gap-2">
+                  {ev.pokemon.map((pkName) => {
+                    const dexNum = getPokemonDexNumber(pkName);
+                    return (
+                      <NavLink
+                        key={pkName}
+                        to={`/pokedex/${dexNum}`}
+                        className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-xl bg-slate-950/80 hover:bg-slate-900 border border-slate-800 hover:border-amber-500/50 transition-all group/pk shadow-sm"
+                        title={`Ver ficha completa de ${pkName} (#${dexNum})`}
+                      >
+                        <img
+                          src={getSpriteUrl(dexNum)}
+                          alt={pkName}
+                          loading="lazy"
+                          className="w-7 h-7 object-contain group-hover/pk:scale-115 transition-transform"
+                          onError={(e) => { (e.target as HTMLElement).style.display = 'none'; }}
+                        />
+                        <span className="text-xs font-semibold text-slate-200 group-hover/pk:text-amber-400">
+                          {pkName}
+                        </span>
+                        <span className="text-[10px] font-mono text-slate-500">
+                          #{dexNum.toString().padStart(3, '0')}
+                        </span>
+                      </NavLink>
+                    );
+                  })}
+                </div>
+              )}
             </div>
 
             {/* Event Layout: Screenshot + Requirements & Guide */}
             <div className="flex flex-col lg:flex-row gap-5 items-start">
               {/* Authentic In-Game DS Screenshot */}
-              <div className="w-full sm:w-64 aspect-[4/3] rounded-2xl overflow-hidden bg-slate-950 border border-slate-800 shrink-0 shadow-inner group">
-                <img
-                  src={ev.screenshot}
-                  alt={ev.name}
-                  loading="lazy"
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform"
-                  onError={(e) => {
-                    (e.target as HTMLElement).style.display = 'none';
-                  }}
-                />
+              <div className="w-full sm:w-64 aspect-[4/3] rounded-2xl overflow-hidden bg-slate-950 border border-slate-800 shrink-0 shadow-inner group relative flex items-center justify-center">
+                {ev.screenshot ? (
+                  <>
+                    <img
+                      src={ev.screenshot}
+                      alt={ev.name}
+                      loading="lazy"
+                      className="w-full h-full object-cover group-hover:scale-105 transition-transform"
+                    />
+                    <div className="absolute bottom-2 left-2 px-2 py-0.5 rounded bg-slate-950/85 backdrop-blur-sm border border-slate-800 text-[10px] font-mono text-amber-400 font-semibold pointer-events-none">
+                      Captura del Evento
+                    </div>
+                  </>
+                ) : (
+                  <div className="w-full h-full flex flex-col items-center justify-center p-4 text-center bg-slate-950 text-slate-500 text-xs">
+                    <Flame className="w-6 h-6 text-amber-500/50 mb-1" />
+                    <span>Evento Especial</span>
+                  </div>
+                )}
               </div>
 
               {/* Instructions and Requirements */}
@@ -173,7 +211,7 @@ export const EventsPage: React.FC = () => {
                 )}
 
                 {/* Description */}
-                <div className="text-xs sm:text-sm text-slate-300 leading-relaxed">
+                <div className="text-xs sm:text-sm text-slate-300 leading-relaxed bg-slate-950/40 p-3.5 rounded-xl border border-slate-800/50">
                   {ev.description}
                 </div>
               </div>
