@@ -3,9 +3,10 @@ import { NavLink } from 'react-router-dom';
 import trainersData from '../data/trainers_levelcaps.json';
 import { TrainerBattle, TrainerPokemon } from '../types/trainer';
 import { Badge } from '../components/common/Badge';
-import { Swords, Shield, Trophy, Sparkles, AlertCircle, Award } from 'lucide-react';
+import { Swords, Shield, Trophy, Sparkles, AlertCircle, Award, Languages, Search } from 'lucide-react';
 import { getSpriteUrl } from '../services/pokeapi';
 import { getPokemonDexNumber } from '../utils/pokemonNames';
+import { getMoveTranslation } from '../utils/pokemonMoves';
 
 const trainerImageKeyMap: Record<string, string> = {
   'falkner': 'falkner',
@@ -45,6 +46,7 @@ const trainerImageKeyMap: Record<string, string> = {
 export const GymsPage: React.FC = () => {
   const [activeTab, setActiveTab] = useState<'all' | 'johto' | 'league' | 'kanto' | 'story'>('all');
   const [searchTerm, setSearchTerm] = useState('');
+  const [moveLang, setMoveLang] = useState<'both' | 'es' | 'en'>('both');
 
   const filteredTrainers = trainersData.filter((trainer: any) => {
     // Filter by tab
@@ -66,11 +68,18 @@ export const GymsPage: React.FC = () => {
       }
     }
 
-    // Filter by search term
+    // Filter by search
     if (searchTerm.trim()) {
       const q = searchTerm.toLowerCase();
       const matchName = trainer.name.toLowerCase().includes(q);
-      const matchPokemon = trainer.team.some((p: any) => p.species.toLowerCase().includes(q));
+      const matchPokemon = trainer.team.some((p: any) => {
+        const matchSpecies = p.species.toLowerCase().includes(q);
+        const matchAttack = p.attacks.some((a: string) => {
+          const { es, en } = getMoveTranslation(a);
+          return es.toLowerCase().includes(q) || en.toLowerCase().includes(q);
+        });
+        return matchSpecies || matchAttack;
+      });
       const matchType = trainer.specialtyType.toLowerCase().includes(q);
       const matchBadge = trainer.badge && trainer.badge.toLowerCase().includes(q);
       return matchName || matchPokemon || matchType || matchBadge;
@@ -91,13 +100,14 @@ export const GymsPage: React.FC = () => {
           Líderes de Gimnasio, Liga Pokémon & Level Caps
         </h1>
         <p className="text-slate-400 text-sm mt-2 max-w-3xl leading-relaxed">
-          Los <strong>Level Caps</strong> indican el nivel máximo al que deberías entrenar a tu equipo antes de cada líder o desafío importante para mantener la experiencia justa y retadora diseñada por Drayano.
+          Los <strong>Level Caps</strong> indican el nivel máximo al que deberías entrenar a tu equipo antes de cada líder o desafío importante para mantener la experiencia justa y retadora diseñada por Drayano. Consulta los equipos completos y movimientos en <strong>Español e Inglés</strong>.
         </p>
       </div>
 
-      {/* Tabs and Search Bar */}
-      <div className="flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-4 pb-2 border-b border-slate-800">
-        <div className="flex items-center gap-1.5 overflow-x-auto pb-2 sm:pb-0 scrollbar-none">
+      {/* Tabs and Controls Bar */}
+      <div className="flex flex-col gap-3 pb-2 border-b border-slate-800">
+        {/* Category Tabs */}
+        <div className="flex items-center gap-1.5 overflow-x-auto pb-1 scrollbar-none">
           {[
             { id: 'all', label: 'Todos (32)' },
             { id: 'johto', label: 'Gimnasios Johto (8)' },
@@ -110,7 +120,7 @@ export const GymsPage: React.FC = () => {
               onClick={() => setActiveTab(tab.id as any)}
               className={`px-3.5 py-1.5 rounded-xl text-xs font-semibold whitespace-nowrap transition-all ${
                 activeTab === tab.id
-                  ? 'bg-amber-500 text-slate-950 shadow-md shadow-amber-500/20'
+                  ? 'bg-amber-500 text-slate-950 shadow-md shadow-amber-500/20 font-bold'
                   : 'bg-slate-900 text-slate-400 hover:text-slate-200 hover:bg-slate-800'
               }`}
             >
@@ -119,13 +129,61 @@ export const GymsPage: React.FC = () => {
           ))}
         </div>
 
-        <input
-          type="text"
-          value={searchTerm}
-          onChange={(e) => setSearchTerm(e.target.value)}
-          placeholder="Buscar por líder o Pokémon del equipo..."
-          className="px-3.5 py-1.5 rounded-xl bg-slate-900 border border-slate-800 text-slate-100 placeholder-slate-500 text-xs sm:text-sm outline-none focus:border-amber-500/50"
-        />
+        {/* Search & Move Language Switcher */}
+        <div className="flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-3 pt-1">
+          {/* Search Box */}
+          <div className="relative flex-1">
+            <Search className="w-4 h-4 text-slate-500 absolute left-3.5 top-1/2 -translate-y-1/2" />
+            <input
+              type="text"
+              value={searchTerm}
+              onChange={(e) => setSearchTerm(e.target.value)}
+              placeholder="Buscar por líder, Pokémon o ataque (ej. 'Terremoto', 'Rayo', 'Gengar')..."
+              className="w-full pl-10 pr-4 py-2 rounded-xl bg-slate-950 border border-slate-800 text-slate-100 placeholder-slate-500 text-xs sm:text-sm outline-none focus:border-amber-500/50"
+            />
+          </div>
+
+          {/* Language Selector */}
+          <div className="flex items-center gap-2 self-start sm:self-auto shrink-0 bg-slate-950 p-1 rounded-xl border border-slate-800">
+            <div className="flex items-center gap-1.5 px-2 text-xs font-semibold text-slate-400">
+              <Languages className="w-3.5 h-3.5 text-amber-400" />
+              <span>Ataques:</span>
+            </div>
+            <button
+              onClick={() => setMoveLang('both')}
+              className={`px-2.5 py-1 rounded-lg text-xs font-bold transition-all ${
+                moveLang === 'both'
+                  ? 'bg-amber-500 text-slate-950 shadow-sm'
+                  : 'text-slate-400 hover:text-slate-200'
+              }`}
+              title="Mostrar nombres de ataques en español y en inglés simultáneamente"
+            >
+              ES + EN
+            </button>
+            <button
+              onClick={() => setMoveLang('es')}
+              className={`px-2.5 py-1 rounded-lg text-xs font-bold transition-all ${
+                moveLang === 'es'
+                  ? 'bg-amber-500 text-slate-950 shadow-sm'
+                  : 'text-slate-400 hover:text-slate-200'
+              }`}
+              title="Mostrar ataques solo en español"
+            >
+              Solo ES
+            </button>
+            <button
+              onClick={() => setMoveLang('en')}
+              className={`px-2.5 py-1 rounded-lg text-xs font-bold transition-all ${
+                moveLang === 'en'
+                  ? 'bg-amber-500 text-slate-950 shadow-sm'
+                  : 'text-slate-400 hover:text-slate-200'
+              }`}
+              title="Mostrar ataques solo en inglés"
+            >
+              Solo EN
+            </button>
+          </div>
+        </div>
       </div>
 
       {/* Trainers Cards List */}
@@ -139,32 +197,31 @@ export const GymsPage: React.FC = () => {
             <section
               key={trainer.id}
               id={trainer.id}
-              className="p-5 sm:p-6 rounded-2xl bg-slate-900/40 border border-slate-800/80 hover:border-slate-700 transition-all flex flex-col gap-5 shadow-lg"
+              className="p-5 sm:p-6 rounded-3xl bg-slate-900/40 border border-slate-800/80 hover:border-slate-700 transition-all shadow-lg flex flex-col gap-5"
             >
-              {/* Header of Battle */}
+              {/* Trainer Header */}
               <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pb-4 border-b border-slate-800/60">
                 <div className="flex items-center gap-4">
-                  {/* Trainer Portrait */}
-                  <div className="w-16 h-16 sm:w-20 sm:h-20 rounded-2xl bg-gradient-to-tr from-slate-950 to-slate-900 border border-slate-800 p-1 flex items-center justify-center shrink-0 shadow-inner overflow-hidden">
+                  {/* Authentic Trainer Portrait Thumbnail */}
+                  <div className="w-14 h-14 sm:w-16 sm:h-16 rounded-2xl bg-gradient-to-tr from-amber-500/20 to-orange-500/20 border border-amber-500/30 p-1 flex items-center justify-center shrink-0 shadow-inner group">
                     {trainerImgFile ? (
                       <img
                         src={trainerImgFile}
                         alt={trainer.name}
-                        className="w-full h-full object-contain filter drop-shadow-md"
+                        loading="lazy"
+                        className="w-full h-full object-contain filter drop-shadow group-hover:scale-110 transition-transform"
                         onError={(e) => {
                           (e.target as HTMLElement).style.display = 'none';
                         }}
                       />
                     ) : (
-                      <span className="font-extrabold text-amber-400 text-lg">
-                        {trainer.region === 'Kanto' ? 'K' : 'J'}
-                      </span>
+                      <Swords className="w-7 h-7 text-amber-400" />
                     )}
                   </div>
 
                   <div>
                     <div className="flex items-center gap-2 flex-wrap">
-                      <h2 className="text-lg sm:text-xl font-bold text-white tracking-tight">
+                      <h2 className="text-xl sm:text-2xl font-black text-white tracking-tight">
                         {trainer.name}
                       </h2>
                       {trainer.badge && (
@@ -208,12 +265,12 @@ export const GymsPage: React.FC = () => {
                     return (
                       <div
                         key={`${trainer.id}-${pk.species}-${idx}`}
-                        className="p-3.5 rounded-xl bg-slate-950/70 border border-slate-800/80 hover:border-slate-700 transition-all flex items-start gap-3"
+                        className="p-3.5 rounded-2xl bg-slate-950/70 border border-slate-800/80 hover:border-slate-700 transition-all flex items-start gap-3"
                       >
                         {/* Pokemon Sprite with direct link to Pokedex */}
                         <NavLink
                           to={`/pokedex/${dexNum}`}
-                          className="w-14 h-14 shrink-0 rounded-lg bg-slate-900/80 border border-slate-800 p-1 flex items-center justify-center hover:border-amber-500/40 hover:scale-105 transition-all group"
+                          className="w-14 h-14 shrink-0 rounded-xl bg-slate-900/80 border border-slate-800 p-1 flex items-center justify-center hover:border-amber-500/40 hover:scale-105 transition-all group"
                           title={`Ver ficha de ${pk.species}`}
                         >
                           <img
@@ -250,22 +307,43 @@ export const GymsPage: React.FC = () => {
                             </span>
                           </div>
 
-                          {/* Attacks */}
-                          <div className="grid grid-cols-2 gap-1 mb-1">
-                            {pk.attacks.map((atk, aIdx) => (
-                              <span
-                                key={aIdx}
-                                className="text-[10px] px-1.5 py-0.5 rounded bg-slate-900 border border-slate-800/80 text-slate-300 font-mono truncate"
-                                title={atk}
-                              >
-                                {atk}
-                              </span>
-                            ))}
+                          {/* Attacks in Spanish and English */}
+                          <div className="grid grid-cols-2 gap-1.5 mb-1">
+                            {pk.attacks.map((atk, aIdx) => {
+                              const { es, en } = getMoveTranslation(atk);
+
+                              return (
+                                <div
+                                  key={aIdx}
+                                  className="px-2 py-1 rounded-lg bg-slate-900/90 border border-slate-800/90 hover:border-amber-500/30 transition-colors flex flex-col justify-center min-w-0"
+                                  title={`${es} (${en})`}
+                                >
+                                  {moveLang === 'both' ? (
+                                    <>
+                                      <span className="text-[11px] font-bold text-slate-100 truncate leading-tight">
+                                        {es}
+                                      </span>
+                                      <span className="text-[9px] text-slate-400 font-mono truncate leading-tight">
+                                        {en}
+                                      </span>
+                                    </>
+                                  ) : moveLang === 'es' ? (
+                                    <span className="text-[11px] font-bold text-slate-100 truncate leading-tight">
+                                      {es}
+                                    </span>
+                                  ) : (
+                                    <span className="text-[11px] font-mono text-slate-200 truncate leading-tight">
+                                      {en}
+                                    </span>
+                                  )}
+                                </div>
+                              );
+                            })}
                           </div>
 
                           {/* Note if any */}
                           {pk.notes && (
-                            <div className="mt-1.5 p-1.5 rounded bg-amber-500/10 border border-amber-500/20 text-[10px] text-amber-300 flex items-start gap-1">
+                            <div className="mt-1.5 p-1.5 rounded-lg bg-amber-500/10 border border-amber-500/20 text-[10px] text-amber-300 flex items-start gap-1">
                               <AlertCircle className="w-3 h-3 shrink-0 mt-0.5 text-amber-400" />
                               <span>{pk.notes}</span>
                             </div>
