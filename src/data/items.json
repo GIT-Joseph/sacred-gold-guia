@@ -502,7 +502,7 @@
       "category": "Objeto Evolutivo",
       "isExclusiveHack": true,
       "location": "Te lo da el Anciano de la Torre Bellsprout y se encuentra en la Ruta 42.",
-      "image": "images/items/obj_p4_img9_18x18.png"
+      "image": "images/items/orbe_albor.png"
     },
     {
       "id": "mineral-helado",
@@ -510,7 +510,7 @@
       "category": "Objeto Evolutivo",
       "isExclusiveHack": true,
       "location": "Te lo da el Anciano de la Torre Bellsprout y se encuentra en la Ruta Helada.",
-      "image": "images/items/obj_p4_img10_26x24.png"
+      "image": "images/items/mineral_helado.png"
     },
     {
       "id": "orbe-uni-n",
@@ -518,7 +518,7 @@
       "category": "Objeto Evolutivo",
       "isExclusiveHack": true,
       "location": "Te lo dan cuando completas cualquier intercambio in-game.",
-      "image": "images/items/obj_p4_img11_19x22.png"
+      "image": "images/items/orbe_union.png"
     },
     {
       "id": "escama-marina",
@@ -526,7 +526,7 @@
       "category": "Objeto Evolutivo",
       "isExclusiveHack": false,
       "location": "(Con el Zahorí) Hay en la Ruta 47; también cerca de la entrada de la Torre Oculta.",
-      "image": "images/items/obj_p4_img12_24x24.png"
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/deep-sea-scale.png"
     },
     {
       "id": "diente-marino",
@@ -534,7 +534,7 @@
       "category": "Objeto Evolutivo",
       "isExclusiveHack": false,
       "location": "(Con el Zahorí) Hay en la Ruta 47; cerca de la salida de la Cueva Acantilado.",
-      "image": "images/items/obj_p4_img13_24x24.png"
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/deep-sea-tooth.png"
     },
     {
       "id": "escamadrag-n",
@@ -542,7 +542,7 @@
       "category": "Objeto Evolutivo",
       "isExclusiveHack": false,
       "location": "Te lo regalan en el Centro PKMN de Ciudad Endrino.",
-      "image": "images/items/obj_p4_img14_24x24.png"
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dragon-scale.png"
     },
     {
       "id": "discoxtra-o",
@@ -550,7 +550,7 @@
       "category": "Objeto Evolutivo",
       "isExclusiveHack": false,
       "location": "En la Guarida Rocket.",
-      "image": "images/items/obj_p4_img15_24x24.png"
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dubious-disc.png"
     },
     {
       "id": "electrizador",
@@ -558,7 +558,7 @@
       "category": "Objeto Evolutivo",
       "isExclusiveHack": false,
       "location": "Se encuentra en la Ruta 44.",
-      "image": "images/items/obj_p4_img16_24x24.png"
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/electirizer.png"
     },
     {
       "id": "roca-del-rey",
@@ -566,7 +566,7 @@
       "category": "Objeto Evolutivo",
       "isExclusiveHack": false,
       "location": "Te lo dan en el Centro PKMN de Pueblo Caoba.",
-      "image": "images/items/obj_p4_img17_24x24.png"
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/kings-rock.png"
     },
     {
       "id": "magmatizador",
@@ -574,7 +574,7 @@
       "category": "Objeto Evolutivo",
       "isExclusiveHack": false,
       "location": "Se encuentra en la planta superior de la Ruta Helada.",
-      "image": "images/items/obj_p4_img18_24x24.png"
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/magmarizer.png"
     },
     {
       "id": "revestimiento-met-lico",
@@ -582,7 +582,7 @@
       "category": "Objeto Evolutivo",
       "isExclusiveHack": false,
       "location": "Te la dan en una casa de Ciudad Olivo.",
-      "image": "images/items/obj_p4_img19_24x24.png"
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/metal-coat.png"
     },
     {
       "id": "piedra-oval",
@@ -590,7 +590,7 @@
       "category": "Objeto Evolutivo",
       "isExclusiveHack": false,
       "location": "Se encuentra en la Ruta 34.",
-      "image": "images/items/obj_p4_img20_24x24.png"
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/oval-stone.png"
     },
     {
       "id": "protector",
@@ -598,7 +598,7 @@
       "category": "Objeto Evolutivo",
       "isExclusiveHack": false,
       "location": "En la primera sala de la Calle Victoria.",
-      "image": "images/items/obj_p4_img21_24x24.png"
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/protector.png"
     },
     {
       "id": "garrafilada",
@@ -606,7 +606,7 @@
       "category": "Objeto Evolutivo",
       "isExclusiveHack": false,
       "location": "Te lo dan en una casa de Ciudad Orquídea.",
-      "image": "images/items/obj_p4_img22_24x24.png"
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/razor-claw.png"
     },
     {
       "id": "comillagudo",
@@ -614,7 +614,7 @@
       "category": "Objeto Evolutivo",
       "isExclusiveHack": false,
       "location": "Te lo dan en una casa de Ciudad Orquídea.",
-      "image": "images/items/obj_p4_img23_24x24.png"
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/razor-fang.png"
     },
     {
       "id": "telaterrible",
@@ -622,7 +622,7 @@
       "category": "Objeto Evolutivo",
       "isExclusiveHack": false,
       "location": "Se encuentra en la Cueva Oscura, entrando por el lado de Ciudad Endrino.",
-      "image": "images/items/obj_p4_img24_24x24.png"
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/reaper-cloth.png"
     },
     {
       "id": "orbe-ocaso",
@@ -630,7 +630,7 @@
       "category": "Objeto Evolutivo",
       "isExclusiveHack": true,
       "location": "Te lo da el Anciano de la Torre Bellsprout y se encuentra tras una puerta de las",
-      "image": "images/items/obj_p4_img25_20x17.png"
+      "image": "images/items/orbe_ocaso.png"
     },
     {
       "id": "mejora",
@@ -638,7 +638,7 @@
       "category": "Objeto Evolutivo",
       "isExclusiveHack": false,
       "location": "Te lo regalan en las Ruinas Alfa por capturar 14 Unown diferentes y también te lo da un",
-      "image": "images/items/obj_p4_img26_24x24.png"
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/up-grade.png"
     },
     {
       "id": "mineral-voltaico",
@@ -646,7 +646,7 @@
       "category": "Objeto Evolutivo",
       "isExclusiveHack": true,
       "location": "Se encuentra en la Ruta 42, cerca de los árboles de bonguri, y en la Ruta 27,",
-      "image": "images/items/obj_p4_img27_26x24.png"
+      "image": "images/items/mineral_voltaico.png"
     },
     {
       "id": "mineral-forestal",
@@ -654,7 +654,7 @@
       "category": "Objeto Evolutivo",
       "isExclusiveHack": true,
       "location": "Te lo da el Anciano de la Torre Bellsprout y se encuentra en el Encinar.",
-      "image": "images/items/obj_p4_img28_23x23.png"
+      "image": "images/items/mineral_forestal.png"
     }
   ],
   "evolutionStones": [
@@ -664,7 +664,7 @@
       "category": "Piedra Evolutiva",
       "isExclusiveHack": false,
       "location": "En la Ruta 35, puede comprarse en Ciudad Endrino.",
-      "image": "images/items/obj_p4_img1_24x24.png"
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dawn-stone.png"
     },
     {
       "id": "piedra-noche",
@@ -672,7 +672,7 @@
       "category": "Piedra Evolutiva",
       "isExclusiveHack": false,
       "location": "En la segunda sala del Monte Mortero, puede comprarse en Ciudad Endrino.",
-      "image": "images/items/obj_p4_img1_24x24.png"
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dusk-stone.png"
     },
     {
       "id": "piedra-fuego",
@@ -680,7 +680,7 @@
       "category": "Piedra Evolutiva",
       "isExclusiveHack": false,
       "location": "Te lo da el Anciano de la Torre Bellsprout y puede comprarse en Ciudad Trigal.",
-      "image": "images/items/obj_p4_img1_24x24.png"
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/fire-stone.png"
     },
     {
       "id": "piedra-hoja",
@@ -688,7 +688,7 @@
       "category": "Piedra Evolutiva",
       "isExclusiveHack": false,
       "location": "Puede comprarse en Ciudad Trigal.",
-      "image": "images/items/obj_p4_img1_24x24.png"
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/leaf-stone.png"
     },
     {
       "id": "piedra-lunar",
@@ -696,7 +696,7 @@
       "category": "Piedra Evolutiva",
       "isExclusiveHack": false,
       "location": "Un hombre de Ciudad Oliva te da una cada día (por la noche).",
-      "image": "images/items/obj_p4_img1_24x24.png"
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/moon-stone.png"
     },
     {
       "id": "piedra-d-a",
@@ -704,7 +704,7 @@
       "category": "Piedra Evolutiva",
       "isExclusiveHack": false,
       "location": "En la entrada del Frente Batalla, puede comprarse en Ciudad Endrino.",
-      "image": "images/items/obj_p4_img1_24x24.png"
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/shiny-stone.png"
     },
     {
       "id": "piedra-solar",
@@ -712,7 +712,7 @@
       "category": "Piedra Evolutiva",
       "isExclusiveHack": false,
       "location": "Un hombre de Ciudad Oliva te da una cada día (por el día).",
-      "image": "images/items/obj_p4_img1_24x24.png"
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/sun-stone.png"
     },
     {
       "id": "piedratrueno",
@@ -720,7 +720,7 @@
       "category": "Piedra Evolutiva",
       "isExclusiveHack": false,
       "location": "Te lo da el Anciano de la Torre Bellsprout y puede comprarse en Ciudad Trigal.",
-      "image": "images/items/obj_p4_img1_24x24.png"
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/thunder-stone.png"
     },
     {
       "id": "piedra-agua",
@@ -728,7 +728,7 @@
       "category": "Piedra Evolutiva",
       "isExclusiveHack": false,
       "location": "Te lo da el Anciano de la Torre Bellsprout y puede comprarse en Ciudad Trigal.",
-      "image": "images/items/obj_p4_img1_24x24.png"
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/water-stone.png"
     }
   ],
   "keyItems": [
@@ -737,28 +737,28 @@
       "name": "Caña Vieja",
       "category": "Objeto Clave",
       "location": "Te la da el Guía de Ciudad Cerezo.",
-      "image": "images/items/obj_p5_img3_24x24.png"
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/old-rod.png"
     },
     {
       "id": "ca-a-buena",
       "name": "Caña Buena",
       "category": "Objeto Clave",
       "location": "Te la da un Pescador en el Café Olivo.",
-      "image": "images/items/obj_p5_img3_24x24.png"
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/good-rod.png"
     },
     {
       "id": "bicicleta",
       "name": "Bicicleta",
       "category": "Objeto Clave",
       "location": "Te la da tu Madre al empezar el juego.",
-      "image": "images/items/obj_p5_img3_24x24.png"
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/bicycle.png"
     },
     {
       "id": "lector-gb",
       "name": "Lector GB",
       "category": "Objeto Clave",
       "location": "Te lo da tu Madre al empezar el juego.",
-      "image": "images/items/obj_p5_img3_24x24.png"
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/gb-sounds.png"
     }
   ],
   "fossils": [
@@ -776,21 +776,21 @@
       "name": "Repartir Experiencia",
       "category": "Objeto Especial",
       "location": "Te lo da un Científico en el Centro PKMN de Ciudad Malva.",
-      "image": "images/items/obj_p5_img6_24x24.png"
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/exp-share.png"
     },
     {
       "id": "huevo-suerte",
       "name": "Huevo Suerte",
       "category": "Objeto Especial",
       "location": "Te lo da el Sr. Pokémon a cambio de una Escama Roja. También te darán uno en",
-      "image": "images/items/obj_p5_img6_24x24.png"
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/lucky-egg.png"
     },
     {
       "id": "hueso-grueso-bolaluminosa-etc",
       "name": "Hueso Grueso, Bolaluminosa, etc",
       "category": "Objeto Especial",
       "location": "En la Estación de Ciudad Trigal, hay una mujer que te dará",
-      "image": "images/items/obj_p5_img6_24x24.png"
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/thick-club.png"
     }
   ]
 }
